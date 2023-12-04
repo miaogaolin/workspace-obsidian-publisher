@@ -109,4 +109,3 @@ private void label1_MouseLeave(object sender, MouseEventArgs e)
             get { return _text; }  
             set { _text = value; }  
         }  
-```
