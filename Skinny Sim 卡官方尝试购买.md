@@ -12,12 +12,12 @@ share: "true"
 
 https://www.skinny.co.nz/
 
-![568dfdfbdb21a99e8755570556b32964.png](568dfdfbdb21a99e8755570556b32964.png)
+![568dfdfbdb21a99e8755570556b32964.png](./attachments/568dfdfbdb21a99e8755570556b32964.png)
 - 我使用的 ChatGPT 帮我翻译的英文地址
 - 邮编需要查询：https://www.youbianku.com/
 
 成功后会看到这个：
-![a8fd3d2347aa2c925146c79d603fdb27.png](a8fd3d2347aa2c925146c79d603fdb27.png)
+![a8fd3d2347aa2c925146c79d603fdb27.png](./attachments/a8fd3d2347aa2c925146c79d603fdb27.png)
 
 ### 遇到的问题
 我在第一次提交订单时没有出现任何结果，邮件也没有收到，于是又重新填写提交了一下，这下有了上图的 “All Done” 也有了邮件，但是我的扣款记录出现了两条。
