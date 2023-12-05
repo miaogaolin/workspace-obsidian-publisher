@@ -4,6 +4,7 @@ tags:
 canonicalURL: https://blog.csdn.net/sinat_32124195/article/details/49591553  
 title: WPF如何使用触发器  
 share: true  
+slug: wpf-trigger  
 ---  
   
 ## 一 属性触发器  
