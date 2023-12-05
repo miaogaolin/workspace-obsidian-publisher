@@ -1,5 +1,5 @@
 ---  
-Created: 2023-12-04 18:12  
+date: 2023-12-04 18:12  
 tags:   
 canonicalURL:   
 title: Skinny Sim 卡官方尝试购买  
