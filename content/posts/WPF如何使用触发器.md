@@ -1,5 +1,5 @@
 ---  
-Created: 2015-11-02 20:29:11  
+date: 2015-11-02 20:29:11  
 tags:   
 canonicalURL: https://blog.csdn.net/sinat_32124195/article/details/49591553  
 title: WPF如何使用触发器  
