@@ -1,6 +1,6 @@
 baseURL: "https://printlove.cn/"
 title: PrintLove
-paginate: 5
+paginate: 10
 theme: PaperMod
 languageCode: zh-cn
 
@@ -19,11 +19,11 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PrintLove
   description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  keywords: ["go", "golang", "guides", "open-source", "programming", "software"]
+  author: ["Evan Miao"]
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "January 2, 2006"
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
@@ -40,8 +40,10 @@ params:
   comments: false
   hidemeta: false
   hideSummary: true
+  hideDescription: true
   showtoc: true
   tocopen: false
+
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -69,24 +71,24 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! 我是苗木青 \U0001F44B"
-    Content: 一个他和她的自留地，先学习，再谈情。
+    Title: "Hi! Evan Miao \U0001F44B"
+    Content: "我是一名程序员 - **[进一步了解我](/about)**"
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://twitter.com/laomiao_"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/miaogaolin"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -94,8 +96,8 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/miaogaolin/content"
-    Text: "帮我修改" # edit text
+    URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
+    Text: "指出问题" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
@@ -117,18 +119,25 @@ languages:
     menu:
       main:
         - name: 所有文章
-          url: /archives
+          url: /archives/
           weight: 1
-        - name: 分类
-          url: categories
-          weight: 30
+        # - name: 标签
+        #   url: tags
+        #   weight: 2
+        - name: 系列
+          url: series
+          weith: 3
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
+
+taxonomies:
+  tag: tags
+  series: series
