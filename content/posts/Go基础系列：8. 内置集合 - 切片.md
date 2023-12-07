@@ -11,6 +11,7 @@ keywords:
 description: 一文搞定 Go 语言切片，并对比了数组与切片的区别  
 series:  
   - Go基础系列  
+slug: golang-slice  
 ---  
   
   
