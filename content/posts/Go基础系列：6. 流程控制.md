@@ -9,6 +9,9 @@ keywords:
 description: go语言if、for、switch语句使用，break、continue、goto、fallthrough关键字使用  
 series:  
   - Go基础系列  
+tags:  
+  - program_golang  
+slug: golang-if-for-switch  
 ---  
   
   
