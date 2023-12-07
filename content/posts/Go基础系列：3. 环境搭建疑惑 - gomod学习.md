@@ -13,7 +13,6 @@ series:
 slug: gomod  
 ---  
   
-  
 本篇是对大家在搭建环境时遇到的 gomod 问题产生的疑惑进行讲解。  
   
 ## 什么是gomod  
