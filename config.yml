@@ -35,6 +35,8 @@ params:
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
+  # 是否展示 uv、pv
+  ViewCount: true 
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
