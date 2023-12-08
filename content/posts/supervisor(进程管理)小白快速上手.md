@@ -1,10 +1,10 @@
 ---  
-date: "2019-07-12 09:58:16\r +8000"  
+date: 2019-07-12 09:58:16 +8000  
 tags:   
 title: supervisor(进程管理)小白快速上手  
 slug: supervisor  
 share: true  
-canonicalURL:   
+canonicalURL: https://www.jianshu.com/p/e86d21e8864e  
 keywords:   
 description:   
 series:   
