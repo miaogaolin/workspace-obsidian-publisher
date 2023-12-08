@@ -1,11 +1,10 @@
 ---  
 date: 2017-09-05 21:17:35 +8000  
-tags:  
-  - VirtualBox  
+tags:   
 title: Vagrant安装与使用  
 slug: vagrant-install  
 share: true  
-canonicalURL:   
+canonicalURL: https://www.jianshu.com/p/30c347c31fe0  
 keywords:   
 description:   
 series:   
@@ -110,7 +109,7 @@ vagrant reload --provision
   
 解决办法：  
 * [安裝 Hyper-V](https://docs.microsoft.com/zh-tw/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v)  
-* [#VirtualBox Won’t Run)](https://discuss.erpnext.com/t/virtualbox-wont-run-raw-mode-unavailable-courtesy-of-hyper-v/34541)  
+* [VirtualBox Won’t Run)](https://discuss.erpnext.com/t/virtualbox-wont-run-raw-mode-unavailable-courtesy-of-hyper-v/34541)  
   
 查看以上两个文档最终解决办法是关闭Hyper-V，命令如下（使用管理员身份打开cmd）  
 ```  
