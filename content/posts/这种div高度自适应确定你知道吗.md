@@ -10,7 +10,7 @@ description:
 series:   
 ---  
   
-# 随子元素div高度自适应  
+## 随子元素div高度自适应  
   
 如何下面的child1和child2浮动，parent高度就会为0，前提child1和child2都有高度，如果你想parent的高度自适应，请继续阅读  
   
@@ -23,13 +23,13 @@ series:
 </body>  
 ```  
 * 样式省略  
-## 方法1  
+### 方法1  
 ```css  
 .parent{  
 	overflow:hidden;  
 }  
 ```  
-## 方法2  
+### 方法2  
 * 会使用到伪元素：after,如果不懂请看[伪元素](http://www.jianshu.com/p/12f83956b231)  
 ```css  
 .parent:after{  
@@ -43,7 +43,7 @@ series:
   
 ***  
   
-# 根据div宽度的百分比调整div高度  
+## 根据div宽度的百分比调整div高度  
   
 假设我的div宽度会自动变化,但是我的高度只想设置成div宽度的一半,该如何实现呢?  
   

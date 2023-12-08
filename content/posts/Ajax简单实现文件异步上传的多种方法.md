@@ -10,7 +10,7 @@ description:
 series:   
 ---  
   
-# 1. 认识FormData对象  
+## 1. 认识FormData对象  
 FormData是Html5新加进来的一个类,可以模拟表单数据  
   
   
@@ -18,7 +18,7 @@ FormData是Html5新加进来的一个类,可以模拟表单数据
 ---|---  
 FormData (optional HTMLFormElement form) | (可选) 一个HTML表单元素,可以包含任何形式的表单控件,包括文件输入框.  
   
-## 方法  
+### 方法  
   
 void append(DOMString name, DOMString value)  
   
@@ -33,7 +33,7 @@ void append(DOMString name, DOMString value)
 </form>  
   
 ```  
-# 2. 使用javascript简单实现  
+## 2. 使用javascript简单实现  
 ```javascript  
 function upload() {  
     var userName = document.myForm.userName.value;  
@@ -47,7 +47,7 @@ function upload() {
     request.send(fm);  
 }  
 ```  
-# 3.  使用Ajax实现  
+## 3.  使用Ajax实现  
   
   
 ```javascript  
@@ -76,7 +76,7 @@ $('#btn').click(function () {
 });  
 ```  
   
-# 4. ajaxfileupload.js插件实现Ajax文件上传  
+## 4. ajaxfileupload.js插件实现Ajax文件上传  
 ```javascript  
 function upload(){  
 $.ajaxFileUpload({  
