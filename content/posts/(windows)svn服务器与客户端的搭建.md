@@ -21,20 +21,20 @@ TortoiseSVN             客户端
 2） 在服务器端创建一个空仓库  
   
 要建立版本库,需要右键单击左边窗口的Repositores,如下图:  
-![Paste_Image.png](/images/20231208091289no2.webp)  
+![Paste_Image.png](/images/67eff45f5e396c9ad8966472d19e01ff.webp)  
 在弹出的右键菜单中选择Create New Repository或者新建->Repository:  
   
-![Paste_Image.png](/images/20231208091295.webp)  
+![Paste_Image.png](/images/87b369a34baaf9a7f878c2e360da74ba.webp)  
 进入下一步，如下图  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
 点击【下一步】，如下图：  
   
-![Paste_Image.png](/images/20231208091210.webp)  
+![Paste_Image.png](/images/71053e3298331446c4cea8094815dede.webp)  
   
 点击【create】，如下图：  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
 点击【Finish】即可完成基本创建。  
   
@@ -42,18 +42,18 @@ TortoiseSVN             客户端
   
  3.1 在VisualSVN Server Manager窗口的左侧右键单击用户组,选择Create User或者新建->User,如图:  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
 点击User后，进入如下图：  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
 填写Username和password后，点击ok按钮后，进入如下图：  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
 点击上面的【Add】按钮后，如下图  
   
-![Paste_Image.png](attachments/Paste_Image.png-1.webp)  
+![Paste_Image.png](/images/4eed15932091f69b36e814dfaf942295.webp)  
   
 增加longen0707到用户中(如果有多个用户，操作一样)。  
   
@@ -61,21 +61,21 @@ TortoiseSVN             客户端
   
 > 建立组可以在分配权限给一个组分配，省去了多个用户相同权限的频繁操作  
   
-![Paste_Image.png](/images/20231208091289no2.webp)  
+![Paste_Image.png](/images/67eff45f5e396c9ad8966472d19e01ff.webp)  
   
 点击【Group】按钮后，进入如下图：  
   
   
-![Paste_Image.png](/images/20231208091289no2.webp)  
+![Paste_Image.png](/images/67eff45f5e396c9ad8966472d19e01ff.webp)  
   
 在弹出窗口中填写Group name为Developers,然后点Add按钮,在弹出的窗口中选择Developer,加入到这个组,然后点Ok.  
 接下来我们需要给用户组设置权限，在MyRepository上单击右键,选择属性,如图:  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
 在弹出的对话框中,选择Security选项卡,点击Add按钮,选中longen0707,然后添加进来,权限设置为Read/Write,如下图:  
   
-![Paste_Image.png](/images/20231208091210.webp)  
+![Paste_Image.png](/images/71053e3298331446c4cea8094815dede.webp)  
   
 点击【确定】按钮即可。  
   
@@ -83,17 +83,17 @@ TortoiseSVN             客户端
   
 在现有的项目根目录中右键展开，选中import  
   
-![Paste_Image.png](/images/20231208091210.webp)  
+![Paste_Image.png](/images/71053e3298331446c4cea8094815dede.webp)  
   
 如下图：  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
 注意：url of repository的填写， 59.74.104.110是我局域网的ip,443是默认visualsvn_server的端口号，获取仓库路径的方法如下:  
   
 获取仓库路径， 在你所需要获得文件夹上右键:  
   
-![Paste_Image.png](/images/20231208091204.webp)  
+![Paste_Image.png](/images/292a936aa54c954fc941e4494472e913.webp)  
   
   
   
@@ -101,8 +101,8 @@ TortoiseSVN             客户端
   
 新建一个你要文件夹，保存你的项目，然后选择checkout检出  
   
-![Paste_Image.png](/images/20231208091210.webp)  
+![Paste_Image.png](/images/71053e3298331446c4cea8094815dede.webp)  
   
 下来，如下图，url填写服务器仓库路径：  
   
-![Paste_Image.png](/images/20231208091210.webp)
+![Paste_Image.png](/images/71053e3298331446c4cea8094815dede.webp)
