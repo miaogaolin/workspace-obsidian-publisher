@@ -4,7 +4,7 @@ tags:
 title: 那些经常使用的 CSS3属性  
 slug: css-property  
 share: true  
-canonicalURL:   
+canonicalURL: https://www.jianshu.com/p/536f01ce8a9c  
 keywords:   
 description:   
 series:   
