@@ -5,3 +5,13 @@
 - Vercel 
 
 希望使用 Obsidian 是一个自己可以 All In 的工具，不能像以前一样这个平台写一点、又换一个平台，这样陆陆续续的乱七八糟，又坚持不了多久放弃了。
+
+## 本地启动
+
+```bash
+# 下载主题
+git submodule update --init 
+
+# 启动
+hugo server
+```
