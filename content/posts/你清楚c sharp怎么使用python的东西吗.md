@@ -1,5 +1,5 @@
 ---  
-date: 2016-06-02 14:52:30 +8000  
+date: 2016-06-02 14:52:30+08:00  
 tags:   
 title: 你清楚 C# 怎么使用 Python 的东西吗  
 slug: csharp-python  

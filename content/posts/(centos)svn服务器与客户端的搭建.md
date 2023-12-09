@@ -1,5 +1,5 @@
 ---  
-date: 2016-09-19 17:44:29 +8000  
+date: 2016-09-19 17:44:29+08:00  
 tags:   
 title: (centos)svn服务器与客户端的搭建  
 slug: centos-svn-install  

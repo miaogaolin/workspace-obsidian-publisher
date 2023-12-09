@@ -1,5 +1,5 @@
 ---  
-date: 2016-09-17 23:49:35 +8000  
+date: 2016-09-17 23:49:35+08:00  
 tags:   
 title: (windows)svn服务器与客户端的搭建  
 slug: win-svn-install  
