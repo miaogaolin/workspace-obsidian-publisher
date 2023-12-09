@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-# googleAnalytics: UA-123-45
+googleAnalytics: 9Qpc8B088mjrQPtVx38X3LVnltbTV3m-Y7tz90nQ5qw
 
 minify:
   disableXML: true
@@ -18,10 +18,9 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PrintLove
-  description: "ExampleSite description"
-  keywords: ["go", "golang", "guides", "open-source", "programming", "software"]
+  description: "go语言学习免费教程、go语言微服务开发，以及程序猿的个人故事。"
+  keywords: ["printlove", "go", "golang", "go语言" , "微服务", "go教程"]
   author: ["Evan Miao"]
-  # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
@@ -72,8 +71,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! Evan Miao \U0001F44B"
-    Content: "我是一名程序员 - **[进一步了解我](/about)**"
+    Title: "Hi! I'm Evan Miao \U0001F44B"
+    Content: "一名想好好生活的程序员 - **[进一步了解我](/about)**"
 
   socialIcons:
     - name: twitter
@@ -132,15 +131,15 @@ languages:
           url: series
           weith: 3
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-pygmentsUseClasses: true
-markup:
-  highlight:
-    noClasses: false
-    anchorLineNos: true
-    codeFences: true
-    guessSyntax: true
-    lineNos: true
-    style: monokai
+# pygmentsUseClasses: true
+# markup:
+#   highlight:
+#     noClasses: false
+#     anchorLineNos: true
+#     codeFences: true
+#     guessSyntax: true
+#     lineNos: true
+#     style: monokai
 
 taxonomies:
   tag: tags
