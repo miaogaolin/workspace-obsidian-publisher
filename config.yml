@@ -46,7 +46,6 @@ params:
   showtoc: true
   tocopen: false
 
-
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -118,6 +117,9 @@ params:
 defaultContentLanguage: zh
 languages:
   zh:
+    permalinks:
+      # 默认会带路径会带 /posts 前缀
+      posts: /:slug/
     menu:
       main:
         - name: 所有文章

@@ -1,0 +1,8 @@
+{
+    "redirects": [
+        {
+            "source": "/tools/:path*",
+            "destination": "https://old.printlove.cn/tools/:path*"
+        }
+    ]
+}
