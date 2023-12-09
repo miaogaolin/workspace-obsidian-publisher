@@ -1,10 +1,10 @@
 ---
-date: 2023-12-08 13:32:00+08:00
+date: 2016-06-05 12:42:47+08:00
 tags: 
 title: php缓冲区与header函数之间的秘密
 slug: php-header
 share: true
-canonicalURL: 
+canonicalURL: https://www.jianshu.com/p/09262e2c9088
 keywords: 
 description: 
 series: 
