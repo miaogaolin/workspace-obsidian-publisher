@@ -18,10 +18,7 @@ lastmod:
   
 我家里有个不用的笔记本，所以用它来实现透明代理。  
   
-<aside>  
 💡  透明代理：只要连接上了家里的局域网，不管是 wifi 还是连接到路由器的宽带，都可以自动的实现科学上网，无需设置什么。  
-  
-</aside>  
   
 ## 准备  
   
@@ -46,10 +43,7 @@ CFW 软件全称 clash for windows，看到名字不要以为只能在 windows �
   
 **第二步**：解压，并进入目录运行 .`/cfw` ，这就运行起来了，但不能退出终端，有点不好。  
   
-<aside>  
 💡 不要在 root 下运行，会出现 —no-sandbox 的错误，找了好久也没找到解决办法，涉及 electron 和 chrome 相关的。  
-  
-</aside>  
   
 ## 加入桌面  
   
@@ -91,10 +85,7 @@ Type=Application
 - ip: Ubuntu 系统ip  
 - 端口：7890  
   
-<aside>  
 💡 如果不可以，可能是防火墙的问题导致端口不能访问，解决办法：[Ubuntu 开发所有端口](https://www.notion.so/Ubuntu-83f510195e89420aa23d99f7871564f7?pvs=21)  
-  
-</aside>  
   
 ## TUN  
   
