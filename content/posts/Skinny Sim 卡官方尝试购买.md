@@ -8,7 +8,7 @@ keywords:
   - skinny  
   - sim  
 slug: skinny-sim  
-cover:\n\timage: https://images.unsplash.com/photo-1603533262601-ce30bda5f45c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
+cover.image: https://images.unsplash.com/photo-1603533262601-ce30bda5f45c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
 ---  
   
 这是新西兰的 Sim 卡，总结下购买的渠道。  
