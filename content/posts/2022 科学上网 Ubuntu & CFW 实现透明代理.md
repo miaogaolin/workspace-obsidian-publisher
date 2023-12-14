@@ -26,8 +26,8 @@ lastmod:
 ## 准备  
   
 **第一点**：准备一台安装了 Ubuntu 桌面的电脑，连接上你的路由器，设置有线网络为静态 ip，如下图：  
-![Untitled.webp](Untitled.webp)  
-![Untitled 1.webp](Untitled%201.webp)  
+![729743d253d2fd4ff46ebaf3a1eb210b.webp](/images/729743d253d2fd4ff46ebaf3a1eb210b.webp)  
+![d263d98f67c5d04e19469b1ccbc313ce.webp](/images/d263d98f67c5d04e19469b1ccbc313ce.webp)  
   
 图解：  
   
@@ -42,7 +42,7 @@ CFW 软件全称 clash for windows，看到名字不要以为只能在 windows �
   
 **第一步**：[前往下载](https://github.com/Fndroid/clash_for_windows_pkg/releases)，选在下图红框软件。  
   
-![Untitled 2.webp](Untitled%202.webp)  
+![5074b6a8c4e39b73652038dc296f905e.webp](/images/5074b6a8c4e39b73652038dc296f905e.webp)  
   
 **第二步**：解压，并进入目录运行 .`/cfw` ，这就运行起来了，但不能退出终端，有点不好。  
   
@@ -68,17 +68,17 @@ Type=Application
 - Exec 代表刚才执行 `./cfw` 命令的路径。  
 - Icon 图提供给你。  
   
-![Untitled 3.webp](Untitled%203.webp)  
+![d23610fdc7ebf266cd6a31d51401479b.webp](/images/d23610fdc7ebf266cd6a31d51401479b.webp)  
   
 编辑好后，将该文件移动到 `~/.local/share/applications` ，完成！  
   
 ## 代理上网  
   
 **第一步**：导入 Profiles，粘贴 clash 订阅地址，点击 download，如果前面是绿色条代表选中。  
-![Profiles 界面](Untitled%204.webp)  
+![Profiles 界面](/images/937555ae82851d953bf7be80164c192a.webp)  
   
 **第二步**：下来进入 General，打开如下选项，剩下的先不要管。  
-![General 界面](Untitled%205.webp)  
+![General 界面](/images/a0e988e845688df3664b658d31b5464a.webp)  
   
 图解：  
   
@@ -109,21 +109,21 @@ sudo apt-get install -y nftables iproute2
 ```  
   
 **第二步**：点击上图 Service Mode 后的 Manage，再点击 install，我这个是已经安装好了，所以显示 Active。等一会，就把这个软件关闭重启，因为我测试时，Mac 下可以自动重启，但 Ubuntu 不行。  
-![Untitled 6.webp](Untitled%206.webp)  
+![f5ee3e3b600a290529b34681428dd6ac.webp](/images/f5ee3e3b600a290529b34681428dd6ac.webp)  
   
 **第三步**：重启后，就可以再次打开 Manage，看是否出现 Active，或者看 Service Mode 后的是否绿色地球图标。  
-![Untitled 7.webp](Untitled%207.webp)  
+![2e00df3d80b9996a29b350c9e167160c.webp](/images/2e00df3d80b9996a29b350c9e167160c.webp)  
   
 **第四步**：开启 TUN Mode，在 Connections 界面看看是否有 TUN 关键字，如果没有就等一会，因为担心没有请求。如果还不行，继续往下看解决办法。  
-![Untitled 8.webp](Untitled%208.webp)  
+![b3e2d22e25e75085413e7227ce159331.webp](/images/b3e2d22e25e75085413e7227ce159331.webp)  
   
 ### 2. 解决问题  
   
 解决 TUN 不生效问题，先看 TUN 虚拟网卡是否创建，运行 `ifconfig` 命令，出现如下图：  
-![Untitled 9.webp](Untitled%209.webp)  
+![eeda0f20b31f86e2c04842a033da4ce0.webp](/images/eeda0f20b31f86e2c04842a033da4ce0.webp)  
   
 或者运行 `route` 命令。  
-![Untitled 10.webp](Untitled%2010.webp)  
+![3c3c9ef5460f0066ab738fb002a1f6c4.webp](/images/3c3c9ef5460f0066ab738fb002a1f6c4.webp)  
   
 为啥会有两个呢，我也没搞懂，有就对了。倘若上图你没有出现，那我也不知道，你再查查，主要是我没有遇到过。  
   
@@ -136,7 +136,7 @@ cd resources/static/files/linux/common/service-installer
 ```  
   
 该目录下会出现一个 install.sh，打开后如下截图的命令没有执行成功。  
-![install.sh](Untitled%2011.webp)  
+![install.sh](/images/9bb3eadb5e82dd4c3caeb162a493832a.webp)  
   
 先查看 install、nft、ip 命令是否存在。  
   
@@ -174,7 +174,7 @@ sudo install -m 0644 scripts/99-clash.rules /usr/lib/udev/rules.d/99-clash.rules
 ## DHCP  
   
 我的是小米路由器，下来的配置你在自己的路由器上找找。  
-![DNS 和网关](Untitled%2012.webp)  
+![DNS 和网关](/images/d673747726714bdbc73944cb4fb03018.webp)  
   
 图中的 ip 地址就是 Ubuntu 系统的 ip。  
   
