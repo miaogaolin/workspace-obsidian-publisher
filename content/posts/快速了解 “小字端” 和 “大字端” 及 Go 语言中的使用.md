@@ -9,6 +9,8 @@ tags:
 description: 小字端、大字端、Go 语言中的应用  
 featured: false  
 slug: go-big-small  
+cover:  
+  image: https://images.unsplash.com/photo-1679676292735-0b93ac00dd3a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
 ---  
   
   
