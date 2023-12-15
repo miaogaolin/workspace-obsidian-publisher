@@ -101,9 +101,9 @@ params:
   cover:
     hidden: true # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hiddenInSingle: true # hide on single page
     # 在列表默认显示的图片
-    defaultImageInList: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
+    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
     URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
