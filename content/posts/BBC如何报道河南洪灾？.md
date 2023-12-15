@@ -7,6 +7,8 @@ series:
 description: 看BBC对河南洪灾的报道学英语  
 author: 爱放屁的大豆  
 slug: henan-flood  
+cover:  
+  image: https://images.unsplash.com/photo-1542908945-2d06f969cc61?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
 ---  
   
   
