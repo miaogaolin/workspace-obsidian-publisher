@@ -1,11 +1,11 @@
 ---  
-date: 2020-01-01T14:42:53+08:00  
+date: 2018-08-13T10:11:21+08:00  
 tags:  
   - app_docker  
 title: Windows 安装 Docker 并简单使用  
 slug: windows-docker  
 share: true  
-canonicalURL:   
+canonicalURL: https://www.jianshu.com/p/d684a507419c  
 keywords:   
 description:   
 series:   
@@ -20,7 +20,7 @@ cover:
   
 ```json  
 {  
-  "registry-mirrors": ["https://registry.docker-cn.com"]  
+	"registry-mirrors": ["https://registry.docker-cn.com"]  
 }  
 ```  
   
@@ -33,8 +33,7 @@ cover:
 ## 1. 登录出错  
   
 win10系统  
-  
-![https://upload-images.jianshu.io/upload_images/2031034-ac0f46a0cb0bbaed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240](/images/72fb278bf6da4c8891da648f18ac3d0f.webp)  
+![4215eff2e7da0393b0df7fabfcd5a075.webp](/images/4215eff2e7da0393b0df7fabfcd5a075.webp)  
   
 解决办法：打开防火墙  
   
