@@ -35,12 +35,10 @@
 
 .post-entry {
     position: relative;
-    margin-bottom: var(--gap);
     padding: var(--gap);
-    background: var(--entry);
     border-radius: var(--radius);
     transition: transform 0.1s;
-    border: 1px solid var(--border);
+    margin-bottom: 0;
 }
 
 .post-entry:active {
@@ -97,4 +95,15 @@
 .entry-cover a {
     color: var(--secondary);
     box-shadow: 0 1px 0 var(--primary);
+}
+
+
+.pagination {
+    margin-top: var(--gap);
+}
+
+@media screen and (min-width: 768px) {
+    article.post-entry {
+        width: 50%;
+    }
 }
