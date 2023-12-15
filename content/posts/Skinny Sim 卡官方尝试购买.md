@@ -12,6 +12,7 @@ cover:
   image: https://images.unsplash.com/photo-1603533262601-ce30bda5f45c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
 ---  
   
+  
 这是新西兰的 Sim 卡，总结下购买的渠道。  
   
 - [KakaSkinny ✨](https://kakaskinny.com/): 150 元，太贵了，先不考虑  
@@ -19,6 +20,7 @@ cover:
 - v2ex.com：有人分享购买，大约 70 元  
   
 ## 官网邮寄  
+如果你想看官方如何成功购买，那就不用继续看了，这只是我的一次试试没结果的尝试。  
   
 https://www.skinny.co.nz/  
   
