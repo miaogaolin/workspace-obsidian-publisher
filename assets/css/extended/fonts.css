@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "霞鹜文楷等宽";
+    src url("/fonts/LXGWWenKaiScreen.ttf") format("truetype");
+}
+
+body,
+.post-content code {
+    font-family: "霞鹜文楷等宽";
+}

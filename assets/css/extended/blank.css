@@ -1,0 +1,32 @@
+.post-single img {
+    margin: auto;
+}
+
+.post-single img,
+.post-single pre {
+    border-radius: 0.3em;
+}
+
+.article-container {
+    background-color: var(--entry);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: var(--radius);
+}
+
+
+/* 设置图片比例 */
+.article-container img {
+    aspect-ratio: 4 / 3;
+}
+
+article.post-entry {
+    background: none;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    article.post-entry {
+        width: 50%;
+    }
+}

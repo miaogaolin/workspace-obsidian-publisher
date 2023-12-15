@@ -5,7 +5,7 @@ theme: PaperMod
 languageCode: zh-cn
 
 enableRobotsTXT: true
-buildDrafts: false
+buildDrafts: true
 buildFuture: false
 buildExpired: false
 
@@ -15,6 +15,7 @@ minify:
   disableXML: true
   minifyOutput: true
 
+copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: PrintLove
@@ -28,6 +29,9 @@ params:
 
   ShowReadingTime: false
   ShowShareButtons: true
+  # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
+  ShareButtons:
+    - x
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
@@ -35,7 +39,7 @@ params:
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   # 是否展示 uv、pv
-  ViewCount: true 
+  ViewCount: false 
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
@@ -44,6 +48,10 @@ params:
   hideDescription: true
   showtoc: true
   tocopen: false
+  # 网站左上角的文字和图标配置
+  label:
+    text: 
+    iconSVG:
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -75,8 +83,8 @@ params:
     Content: "一名想好好生活的程序员 - **[进一步了解我](/about)**"
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/laomiao_"
+    - name: x
+      url: "https://x.com/laomiao_"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
@@ -92,8 +100,10 @@ params:
 
   cover:
     hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    # 在列表默认显示的图片
+    defaultImageInList: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
     URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
@@ -134,12 +144,12 @@ languages:
 # pygmentsUseClasses: true
 # markup:
 #   highlight:
-#     noClasses: false
+# #     noClasses: false
 #     anchorLineNos: true
 #     codeFences: true
 #     guessSyntax: true
-#     lineNos: true
-#     style: monokai
+    # lineNos: true
+    # style: monokai
 
 taxonomies:
   tag: tags
