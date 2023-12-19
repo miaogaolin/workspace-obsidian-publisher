@@ -70,7 +70,7 @@ func Tool(w http.ResponseWriter, r *http.Request)  {
   
 vercel 平台会将后面的请求传递给该 Tool 函数，这个函数名也随意，但函数参数必须按照该规则。  
   
-1. 在项目根目录创建 vercel.json 配置文件，负责路由，内容如下：  
+3. 在项目根目录创建 vercel.json 配置文件，负责路由，内容如下：  
   
 ```go  
 {  
@@ -85,7 +85,7 @@ vercel 平台会将后面的请求传递给该 Tool 函数，这个函数名也�
   
 - src：接口地址  
 - dest：将请求转交给 `tool.go` 文件处理。  
-1. 重新部署即可。  
+4. 重新部署即可。  
   
 **注意坑**：  
   
