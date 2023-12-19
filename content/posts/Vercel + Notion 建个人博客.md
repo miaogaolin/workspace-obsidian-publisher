@@ -132,7 +132,7 @@ module.exports = {
   
 ### 3. Import & Deploy  
   
-导入 Github 上 fork 后的项目，**import** 后再点击 **deploy，**下来需要耐心等会。  
+导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，下来需要耐心等会。  
   
 ![e7319f467206ad5f5647e074971c4479.webp](/images/e7319f467206ad5f5647e074971c4479.webp)  
   
