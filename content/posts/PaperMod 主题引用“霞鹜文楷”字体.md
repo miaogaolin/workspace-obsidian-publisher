@@ -21,7 +21,7 @@ author:
 ![cf1fc10b763df1f061cc4608337a6cc4.webp](/images/cf1fc10b763df1f061cc4608337a6cc4.webp)  
 有两种方法，一种是 [下载字体]([lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)) 并上传到自己的项目中引用，一种是使用现成的 CDN 引用，我直接选择了 CDN 方式。  
   
-下来替换默认主题的模板和样式：  
+下来替换主题的默认模板和样式，进入 Hugo 内容管理的仓库根目录：  
 1. 新建模板 layouts/partials/extend_head.html，设置内容：  
 ```html  
 <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'">  
