@@ -19,7 +19,7 @@ author:
   
   
 ![cf1fc10b763df1f061cc4608337a6cc4.webp](/images/cf1fc10b763df1f061cc4608337a6cc4.webp)  
-有两种方法，一种是[下载字体]([lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai))并上传到自己的项目中引用，一种是使用现成的 CDN 引用，我直接选择了 CDN 方式。  
+有两种方法，一种是 [下载字体]([lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai)) 并上传到自己的项目中引用，一种是使用现成的 CDN 引用，我直接选择了 CDN 方式。  
   
 下来替换默认主题的模板和样式：  
 1. 新建模板 layouts/partials/extend_head.html，设置内容：  
@@ -39,8 +39,9 @@ body,
 设置完成，不过再扩展下里面涉及到的知识点：  
 1. 异步加载 CSS，设置 link 标签属性  
 	- `media="print"` 在打印的时候加载该引用  
-	- `onload="this.media='all'"` 等页面加载完后在将 media 设置回去，即默认，这就会开始应用该 css，详细请看：[media types](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types)  
-2. 在该 cdn 引用的 css 文件中，会有这么一个设置：  
+	- `onload="this.media='all'"` 等页面加载完后在将 media 设置回去，即默认，这就会开始应用该 css  
+	- media 属性的详细用法请看：[media types](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types)  
+1. 在该 cdn 引用的 css 文件中，会有这么一个设置：  
 ``` css  
 @font-face {  
   font-display: swap;  
