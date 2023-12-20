@@ -1,9 +1,10 @@
 @font-face {
     font-family: "霞鹜文楷等宽";
+    font-display: swap;
     src: url("/fonts/LXGWWenKaiScreen.ttf") format("truetype");
 }
 
 body,
 .post-content code {
-    font-family: "霞鹜文楷等宽";
+    font-family: "霞鹜文楷等宽", "Roboto", "PingFang SC", "Microsoft Yahei", sans-serif;
 }
