@@ -32,7 +32,7 @@ author:
 ```css  
 body,  
 .post-content code {  
-    font-family: "LXGW WenKai Screen", "Roboto", "PingFang SC", "Microsoft Yahei", sans-serif;  
+  font-family: "LXGW WenKai Screen", "Roboto", "PingFang SC", "Microsoft Yahei", sans-serif;  
 }  
 ```  
   
