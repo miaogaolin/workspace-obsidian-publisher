@@ -2,7 +2,7 @@
 date: 2023-12-21T10:06:19+08:00  
 tags:  
   - app_obsidian  
-title: 使用 Obsidian 建个人博客  
+title: 使用 Obsidian 免费建个人博客  
 slug: obsidian-blog  
 share: true  
 canonicalURL:   
@@ -20,7 +20,6 @@ cover:
   image: https://images.unsplash.com/photo-1682687220211-c471118c9e92?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  
 author:   
 ---  
-  
   
 目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。  
 ## 相关工具  
