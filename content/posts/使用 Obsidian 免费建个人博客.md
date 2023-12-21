@@ -2,7 +2,7 @@
 date: 2023-12-21T10:06:19+08:00  
 tags:  
   - app_obsidian  
-title: 使用 Obsidian 建个人博客  
+title: 使用 Obsidian 免费建个人博客  
 slug: obsidian-blog  
 share: true  
 canonicalURL:   
