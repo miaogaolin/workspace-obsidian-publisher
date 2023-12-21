@@ -41,7 +41,7 @@ author:
 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
   
 我会根据使用过程，讲一讲我用到的配置，如果你对其它配置感兴趣，可以看看 [官网文档](https://obsidian-publisher.netlify.app/plugin/)。  
-#### Github config  
+### Github config  
 ![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)  
   
 注意：生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
