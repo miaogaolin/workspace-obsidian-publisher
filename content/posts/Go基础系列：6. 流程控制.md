@@ -12,7 +12,10 @@ series:
 tags:  
   - program_golang  
 slug: golang-if-for-switch  
+cover:  
+  image: https://images.unsplash.com/photo-1520601212700-3a8ae628fab0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyNXx8c3dpdGNofGVufDB8MHx8fDE3MDMzMDE5NzB8MA&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
   
   
 ## 学到什么  
