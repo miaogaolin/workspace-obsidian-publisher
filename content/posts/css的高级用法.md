@@ -8,6 +8,8 @@ canonicalURL: https://www.jianshu.com/p/eee2febb60bb
 keywords:   
 description:   
 series:   
+cover:  
+  image: /images/20231208091283.webp  
 ---  
   
 ##  模糊背景图片 (:before)  
