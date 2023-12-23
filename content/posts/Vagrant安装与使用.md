@@ -8,7 +8,10 @@ canonicalURL: https://www.jianshu.com/p/30c347c31fe0
 keywords:   
 description:   
 series:   
+cover:  
+  image: https://images.unsplash.com/photo-1618158809130-1f5c1cd63b35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxMHx8dmFncmFudHxlbnwwfDB8fHwxNzAzMzA1OTM0fDA&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
   
 ## 安装  
 环境：win10  
