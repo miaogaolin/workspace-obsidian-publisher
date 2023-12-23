@@ -8,7 +8,10 @@ canonicalURL: https://www.jianshu.com/p/55c4bb65d9e8
 keywords:   
 description:   
 series:   
+cover:  
+  image: https://images.unsplash.com/photo-1667064098336-8578c2db7354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxM3x8Y3JvbnxlbnwwfDB8fHwxNzAzMzA1OTYxfDA&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
   
 首先明白一点，thinkphp 中的计划任务不是真正意义上的，它是使用一个文件的修改时间差来比较是否执行，并且必须依赖网站的访问才能触发脚本  
   
