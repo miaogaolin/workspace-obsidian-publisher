@@ -20,3 +20,5 @@ url: "/about"
 - [潇洒哥老苗 - learnku](https://learnku.com/blog/printlove)
 - [老苗 - 简书](https://www.jianshu.com/u/3b1ed7d2dc84)
 - [反重力落叶 - CSDN](https://blog.csdn.net/sinat_32124195?type=blog)
+- 公众号：苗木青，之前叫 “潇洒哥和黑大帅”，希望什么时候重新开始
+- [潇洒哥老苗 - 知乎](https://www.zhihu.com/people/fan-zhong-li-luo-xie)

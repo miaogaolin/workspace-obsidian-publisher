@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "霞鹜文楷等宽";
-    src: url("/fonts/LXGWWenKaiScreen.ttf") format("truetype");
-}
-
 body,
 .post-content code {
-    font-family: "霞鹜文楷等宽";
+    font-family: "LXGW WenKai Screen", "Roboto", "PingFang SC", "Microsoft Yahei", sans-serif;
 }

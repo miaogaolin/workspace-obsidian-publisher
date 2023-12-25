@@ -9,7 +9,7 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: 9Qpc8B088mjrQPtVx38X3LVnltbTV3m-Y7tz90nQ5qw
+googleAnalytics: "G-VE0D4BXTS2"
 
 minify:
   disableXML: true
@@ -41,6 +41,8 @@ params:
   UseHugoToc: true
   # 是否展示 uv、pv
   ViewCount: false 
+  # 是否开启百度统计
+  BaiduAnalytics: "4bddc7ae6f2203e19017f349bdcc79c2"
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false

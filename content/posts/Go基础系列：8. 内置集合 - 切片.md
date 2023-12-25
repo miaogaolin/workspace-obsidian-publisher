@@ -12,7 +12,10 @@ description: 一文搞定 Go 语言切片，并对比了数组与切片的区别
 series:  
   - Go基础系列  
 slug: golang-slice  
+cover:  
+  image: https://images.unsplash.com/photo-1607292798226-fee8a80425f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw2MHx8c2V0fGVufDB8MHx8fDE3MDMzMDIxNDZ8MA&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
   
   
 ## 学到什么  

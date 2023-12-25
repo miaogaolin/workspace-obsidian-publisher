@@ -13,7 +13,10 @@ series:
   - Go基础系列  
 slug: golang-start  
 share: true  
+cover:  
+  image: https://images.unsplash.com/photo-1492052722242-2554d0e99e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyOHx8c3R1ZHl8ZW58MHwwfHx8MTcwMjg4MDAzMHww&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
   
 “Go 基础系列”是对 Go 语言基础的系列梳理文章。在开始这个系列之前，我先”坦白“下我的一个工作经历，再对这个系列说明几个问题。  
   

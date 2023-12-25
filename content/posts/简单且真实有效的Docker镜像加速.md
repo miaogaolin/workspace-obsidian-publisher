@@ -6,7 +6,11 @@ keywords:
   - docker加速  
 description: docker镜像加速,docker加速配置  
 slug: docker-speed  
+cover:  
+  image: https://images.unsplash.com/37/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o.jpg?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwzMHx8c3BlZWR8ZW58MHwwfHx8MTcwMzMwNjYwNXww&ixlib=rb-4.0.3&q=80&w=400  
 ---  
+  
+  
   
   
 ## 起因  
