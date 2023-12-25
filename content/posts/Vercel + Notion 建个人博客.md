@@ -10,9 +10,10 @@ description:
 series:   
 lastmod:   
 cover:  
-  image: /images/996741cf97f416033618608b201321b5.webp  
+  image: https://images.unsplash.com/photo-1663813251302-e5d2c7199e86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxNHx8bm90aW9ufGVufDB8MHx8fDE3MDM1MTUyOTd8MA&ixlib=rb-4.0.3&q=80&w=400  
 author:   
 ---  
+  
   
 大家好，我是 “潇洒哥老苗”。  
   
@@ -128,17 +129,17 @@ module.exports = {
   
 ### 2. 创建项目  
   
-![9440e3b08de5bbb28553916ac0cbaee5.webp](/images/9440e3b08de5bbb28553916ac0cbaee5.webp)  
+![3e7fc91ea06024fcd08e74eb783365ab.webp](/images/3e7fc91ea06024fcd08e74eb783365ab.webp)  
   
 ### 3. Import & Deploy  
   
 导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，下来需要耐心等会。  
   
-![e7319f467206ad5f5647e074971c4479.webp](/images/e7319f467206ad5f5647e074971c4479.webp)  
+![c1777889058222e03a61b87c005fad80.webp](/images/c1777889058222e03a61b87c005fad80.webp)  
   
 Import  
   
-![c897d7ffe1a0709fef41fe77563063c7.webp](/images/c897d7ffe1a0709fef41fe77563063c7.webp)  
+![9f1c6365a663e0f9c7b6ebac8c513a76.webp](/images/9f1c6365a663e0f9c7b6ebac8c513a76.webp)  
   
 Deploy  
   
@@ -146,20 +147,20 @@ Deploy
   
 完成后点击 Go to Dashboard > View Domains，再添加自己的域名。  
   
-![996741cf97f416033618608b201321b5.webp](/images/996741cf97f416033618608b201321b5.webp)  
+![2e7e301f17970785f4efddfc9213a4ce.webp](/images/2e7e301f17970785f4efddfc9213a4ce.webp)  
   
 Domain  
   
 添加完后，再解析自己的域名，我的域名在阿里云购买的，先复制上图中蓝色框的内容，这个是在 Vercel 站上给你分配的域名。这个域名不方便，所以用自己的。  
   
-![71c53800b9e18bb22e7787f373ddee41.webp](/images/71c53800b9e18bb22e7787f373ddee41.webp)  
+![ebc2ca5107e27f262798df00d428cbbd.webp](/images/ebc2ca5107e27f262798df00d428cbbd.webp)  
   
 **图解：**  
   
 - 记录类型：CNAME  
 - 记录值：填写自己的  
   
-![f9d00dcaa243c71281a24ae64054b9b7.webp](/images/f9d00dcaa243c71281a24ae64054b9b7.webp)  
+![c370b2dc6029ed604493b2ec1e1e6e9a.webp](/images/c370b2dc6029ed604493b2ec1e1e6e9a.webp)  
   
 ## 网站细节调整  
   
