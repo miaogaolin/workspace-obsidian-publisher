@@ -147,14 +147,18 @@ languages:
           weith: 3
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
-# markup:
-#   highlight:
-# #     noClasses: false
-#     anchorLineNos: true
-#     codeFences: true
-#     guessSyntax: true
-    # lineNos: true
-    # style: monokai
+markup:
+  goldmark:
+    extensions:
+      # 禁用 Hugo 将英文单引号转为 &rsquo
+      typographer: false
+# highlight:
+#   noClasses: false
+#   anchorLineNos: true
+#   codeFences: true
+#   guessSyntax: true
+#   lineNos: true
+#   style: monokai
 
 taxonomies:
   tag: tags
