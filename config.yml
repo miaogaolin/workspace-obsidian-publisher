@@ -136,15 +136,19 @@ languages:
       posts: /:slug/
     menu:
       main:
-        - name: 所有文章
-          url: /archives/
+        - name: 文章
+          url: archives
           weight: 1
         # - name: 标签
         #   url: tags
         #   weight: 2
         - name: 系列
           url: series
-          weith: 3
+          weight: 2
+        - name: 赞助
+          url: sponsor
+          weight: 3
+          
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 markup:
