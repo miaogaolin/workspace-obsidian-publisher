@@ -14,11 +14,27 @@
         },
         {
             "source": "/posts/gobasic/5-常量及运算符/",
-            "destination": "golang-const/"
+            "destination": "/golang-const/"
         },
         {
             "source": "/posts/me/",
             "destination": "/about"
+        },
+        {
+            "source": "/posts/gobasic/19/",
+            "destination": "/golang-unit-test/"
+        },
+        {
+            "source": "/posts/gobasic/16-error/",
+            "destination": "/golang-error/"
+        },
+        {
+            "source": "/posts/go/webhook/",
+            "destination": "/go-webhook/"
+        },
+        {
+            "source": "/posts/gobasic/11-package/",
+            "destination": "/golang-package/"
         }
     ]
 }
