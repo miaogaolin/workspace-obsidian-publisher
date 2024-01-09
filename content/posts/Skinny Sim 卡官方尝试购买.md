@@ -36,4 +36,8 @@ https://www.skinny.co.nz/
 我通过邮件  [support@skinny.co.nz](mailto:support@skinny.co.nz) 联系客服说明我的诉求，正在等结果。  
   
 ### 歇菜  
-官方不支持国际邮寄，所以通过邮件告诉客服取消订单，退款。
+官方不支持国际邮寄，所以通过邮件告诉客服取消订单，退款。  
+> 官方邮件回复：  
+> Please note we are unable to ship orders internationally or to P.O. boxes  
+  
+我是用的是招商信用卡，支付和退款的外币都以人民币汇率计算，退款时，因为人民币贬值吧，还给我多退了一丢丢钱。
