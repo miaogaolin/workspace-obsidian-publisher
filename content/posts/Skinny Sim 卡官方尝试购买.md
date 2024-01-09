@@ -22,6 +22,7 @@ cover:
 如果你想看官方如何成功购买，那就不用继续看了，这只是一次没结果的尝试。  
   
 https://www.skinny.co.nz/  
+![Pasted image 20240109210035.webp](Pasted%20image%2020240109210035.webp)  
   
 ![订单提交](/images/1f99e23dbee625c0cc796f17163cc5d3.png)  
 - 我使用的 ChatGPT 帮我翻译的英文地址  
