@@ -24,7 +24,7 @@ author:
 目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。  
 ## 相关工具  
 1. Obsidian + Github Publisher 插件  
-2. Hugo + Paper Mod 主题  
+2. Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo  
 3. Github  
 4. Vercel  
   
@@ -41,17 +41,16 @@ author:
   
 我会根据使用过程，讲一讲我用到的配置，如果你对其它配置感兴趣，可以看看 [官网文档](https://obsidian-publisher.netlify.app/plugin/)。  
 ### Github config  
-![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)  
+![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)   
   
 注意：生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
 ### Upload config  
 ![53917e2e2c04940aac42ceb567ccc769.webp](/images/53917e2e2c04940aac42ceb567ccc769.webp)  
-Fixed Folder，表示将所有的文章上传到 content/posts 目录下。  
-  
+Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
 ![20231227164241.webp](/images/20231227164241.webp)  
-Property key，可以通过文章的属性设置上传的目录，例如我这配置：  
-- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`  
-- 如果 dir 属性没有设置则默认上传到 content/posts 目录下  
+Property key，可以通过文章的属性设置上传的目录，例如我这配置：    
+- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`    
+- 如果 dir 属性没有设置则默认上传到 content/posts 目录下    
 ### Text & link converters  
 这块配置影响上传文章后的内容结构。  
 ![caef122d9c017944179ec66c06230a0d.png](/images/caef122d9c017944179ec66c06230a0d.png)  
