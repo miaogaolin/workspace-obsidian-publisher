@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on PrintLove</title>
-    <link>https://www.gby.ai/tags/</link>
-    <description>Recent content in Tags on PrintLove</description>
+    <title>Tags on GbyAI</title>
+    <link>https://gby.ai/tags/</link>
+    <description>Recent content in Tags on GbyAI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://www.gby.ai/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://gby.ai/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>app_obsidian</title>
-      <link>https://www.gby.ai/tags/app_obsidian/</link>
+      <link>https://gby.ai/tags/app_obsidian/</link>
       <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
       
-      <guid>https://www.gby.ai/tags/app_obsidian/</guid>
+      <guid>https://gby.ai/tags/app_obsidian/</guid>
       <description></description>
     </item>
     

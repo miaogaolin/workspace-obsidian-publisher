@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>PrintLove</title>
-    <link>https://www.gby.ai/</link>
-    <description>Recent content on PrintLove</description>
+    <title>GbyAI</title>
+    <link>https://gby.ai/</link>
+    <description>Recent content on GbyAI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://www.gby.ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://gby.ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>赞助</title>
-      <link>https://www.gby.ai/sponsor/</link>
+      <link>https://gby.ai/sponsor/</link>
       <pubDate>Wed, 27 Dec 2023 14:38:19 +0800</pubDate>
       
-      <guid>https://www.gby.ai/sponsor/</guid>
+      <guid>https://gby.ai/sponsor/</guid>
       <description>非常感谢每一个赞助者，不管赞助多少，都让我一点点明白我的创造与分享真的有用，也更加给予了我坚持的动力。
 微信扫码
 如果遇到了什么问题，可以通过最下方的方式联系我，我很乐意和每一位朋友的沟通。</description>
@@ -21,10 +21,10 @@
     
     <item>
       <title>使用 Obsidian 免费建个人博客</title>
-      <link>https://www.gby.ai/obsidian-blog/</link>
+      <link>https://gby.ai/obsidian-blog/</link>
       <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
       
-      <guid>https://www.gby.ai/obsidian-blog/</guid>
+      <guid>https://gby.ai/obsidian-blog/</guid>
       <description>相关工具 Obsidian + Github Publisher 插件 Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo Github Vercel 具体步骤继续往下看。
 Hugo + PaperMod 使用 hugo 初始化一个网站，并配置好你喜欢的主题，并发布到 Github 上，这块具体怎么弄就不展开介绍了。
 可以参考：
@@ -37,10 +37,10 @@ Upload config Fixed Folder，表示将所有的文章上传到 content/posts 目
     
     <item>
       <title>PaperMod 主题引用“霞鹜文楷”字体</title>
-      <link>https://www.gby.ai/lxgw-font/</link>
+      <link>https://gby.ai/lxgw-font/</link>
       <pubDate>Wed, 20 Dec 2023 15:39:56 +0800</pubDate>
       
-      <guid>https://www.gby.ai/lxgw-font/</guid>
+      <guid>https://gby.ai/lxgw-font/</guid>
       <description>有两种方法，一种是 下载字体 并上传到自己的项目中引用，一种是使用现成的 CDN 引用，我直接选择了 CDN 方式。
 下来替换主题的默认模板和样式，进入 Hugo 内容管理的仓库根目录：
 新建模板 layouts/partials/extend_head.html，设置内容： &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css&amp;#34; media=&amp;#34;print&amp;#34; onload=&amp;#34;this.media=&amp;#39;all&amp;#39;&amp;#34;&amp;gt; 这是七牛云的 CDN，更多的引用方式可以看看这个项目：chawyehsu/lxgw-wenkai-webfont
@@ -51,10 +51,10 @@ swap 如果想使用的字体没有，则直接使用备用字体，等字体下
     
     <item>
       <title>关于我</title>
-      <link>https://www.gby.ai/about/</link>
+      <link>https://gby.ai/about/</link>
       <pubDate>Tue, 19 Dec 2023 13:48:03 +0800</pubDate>
       
-      <guid>https://www.gby.ai/about/</guid>
+      <guid>https://gby.ai/about/</guid>
       <description> 博客的死掉不是停止更新，而是无法访问 —— Randy Lu
 因为这句话，让我重新认识写博客的态度，为的不是马不停蹄，而是 “我一直在”。
 你好，I&#39;m Evan Miao，之前的博客也称呼过老苗、潇洒哥老苗，希望我的创作给来这里的朋友带来一丝丝的帮助。
@@ -62,6 +62,7 @@ swap 如果想使用的字体没有，则直接使用备用字体，等字体下
 我的 “尸体” 以前在很多平台写文章时都坚持过一段时间，回头去看看这些还有一丢丢的失落，把这些遗忘的地方再这留个标记。
 潇洒哥老苗 - learnku 老苗 - 简书 反重力落叶 - CSDN 公众号：苗木青，之前叫 “潇洒哥和黑大帅”，希望什么时候重新开始 潇洒哥老苗 - 知乎 </description>
     </item>
+    
     
     
   </channel>

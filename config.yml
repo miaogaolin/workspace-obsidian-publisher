@@ -1,5 +1,5 @@
-baseURL: "https://www.gby.ai/"
-title: PrintLove
+baseURL: "https://gby.ai/"
+title: GbyAI
 paginate: 10
 theme: PaperMod
 languageCode: zh-cn
@@ -9,7 +9,7 @@ buildDrafts: true
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: "G-VE0D4BXTS2"
+# googleAnalytics: ""
 
 minify:
   disableXML: true
@@ -18,10 +18,10 @@ minify:
 copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: PrintLove
-  description: "go语言学习免费教程、go语言微服务开发，以及程序猿的个人故事。"
-  keywords: ["printlove", "go", "golang", "go语言" , "微服务", "go教程"]
-  author: ["Evan Miao"]
+  title: GbyAI
+  description: "探索AIGC，了解深层的agent落地，探索prompt的实际应用，最新的AI方面消息传递"
+  keywords: ["AIGC", "agent", "prompt", "news"]
+  author: ["hellloveyy"]
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
@@ -32,6 +32,7 @@ params:
   # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
   ShareButtons:
     - x
+    - telegram
     - email
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
@@ -82,16 +83,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi! I'm Evan Miao \U0001F44B"
-    Content: "一名想热爱生活的程序员 - **[进一步了解我](/about)**"
+    Title: "Hi! I'm hellloveyy \U0001F44B"
+    Content: "一名全身心投入 AIGC 的学徒 - **[进一步了解我](/about)**"
 
   socialIcons:
-    - name: x
-      url: "https://x.com/laomiao_"
-    # - name: stackoverflow
-    #   url: "https://stackoverflow.com"
+    # - name: wechat
+      # url: "hellloveyy"
+    - name: email
+      url: "mailto:hellloveyy@gmail.com"
     - name: github
-      url: "https://github.com/miaogaolin"
+      url: "https://github.com/hellloveyy"
     - name: rss
       url: "/index.xml"
 
@@ -111,12 +112,18 @@ params:
     defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
-    URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"
+    URL: "https://github.com/hellloveyy/obsidian-GbyAi/tree/main/content"
     Text: "指出问题" # edit text
     appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
+  outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -125,7 +132,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content", "tags"]
 
 # 选择languages字段的哪个语言，默认 en
 defaultContentLanguage: zh
@@ -136,18 +143,21 @@ languages:
       posts: /:slug/
     menu:
       main:
+        - name: 搜索
+          url: search
+          weight: 1
         - name: 文章
           url: archives
-          weight: 1
+          weight: 2
         # - name: 标签
         #   url: tags
         #   weight: 2
         - name: 系列
           url: series
-          weight: 2
+          weight: 3
         - name: 赞助
           url: sponsor
-          weight: 3
+          weight: 4
           
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true

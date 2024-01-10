@@ -13,7 +13,7 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "static/apple-touch-icon.png"
+                "file": "static/favicon-16x16.png"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/apple-touch-icon.png",
+                "file": "static/favicon-16x16.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/apple-touch-icon.png",
+                "file": "static/favicon-16x16.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/apple-touch-icon.png"
+                "file": "static/favicon-16x16.png"
               }
             }
           }
@@ -146,15 +146,28 @@
   },
   "active": "64cf32dc74f8c1fe",
   "lastOpenFiles": [
-    "static/images/测试AI-20240110142830164.webp",
+    "public/search/index.html",
+    "public/search",
+    "public/assets/js/search.0e9df42568296faef39c5e55c0fddc2ae7ffc301da16a3f462e057bcabf13a3d.js",
+    "public/images/post-20240110194409858.webp",
+    "public/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
+    "static/favicon-32x32.png",
+    "static/safari_pinned_tab.png",
+    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
+    "content/posts/使用 Obsidian 免费建个人博客.md",
+    "content/search.md",
+    "content/posts/未命名.md",
+    "content/archives.md",
+    "archetypes/post.md",
+    "content/关于我.md",
+    "static/images/sponsor.webp",
+    "static/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
+    "static/images/post-20240110194409858.webp",
     "static/apple-touch-icon.png",
+    "static/images/测试AI-20240110142830164.webp",
     "archetypes/default.md",
     "content/posts/post.md",
-    "archetypes/post.md",
-    "content/posts/使用 Obsidian 免费建个人博客.md",
-    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "static/images/测试AI-20240110180800972.webp",
-    "static/images/测试AI-20240110151536606.webp",
     "public/page/1/index.html",
     "public/robots.txt",
     "public/index.xml",
@@ -163,19 +176,10 @@
     "public/tags/index.xml",
     "public/series/index.xml",
     "public/404.html",
-    "public/sitemap.xml",
-    "public/obsidian-blog/index.html",
-    "public/images/sponsor.webp",
-    "public/safari_pinned_tab.png",
-    "public/favicon-32x32.png",
-    "public/favicon-16x16.png",
-    "public/apple-touch-icon.png",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",
-    "static/images/sponsor.webp",
     "content/posts/WPF如何使用触发器.md",
-    "static/images/f9d00dcaa243c71281a24ae64054b9b7.webp",
     "content/posts/Golang在线工具迁入Vercel.md",
     "content/posts/“番茄工作法”你确定了解吗？.md",
     "content/posts/跟我学习php数组常用函数-上篇.md",
@@ -187,10 +191,6 @@
     "content/posts/C Sharp调用Python语言.md",
     "content/posts/自组山地车笔记.md",
     "content/posts/BBC如何报道河南洪灾？.md",
-    "content/posts/css的高级用法.md",
-    "content/posts/Ajax简单实现文件异步上传的多种方法.md",
-    "content/posts/Skinny Sim 卡官方尝试购买.md",
-    "content/posts/Vagrant安装与使用.md",
-    "content/关于我.md"
+    "content/posts/css的高级用法.md"
   ]
 }

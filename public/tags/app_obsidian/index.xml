@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>app_obsidian on PrintLove</title>
-    <link>https://www.gby.ai/tags/app_obsidian/</link>
-    <description>Recent content in app_obsidian on PrintLove</description>
+    <title>app_obsidian on GbyAI</title>
+    <link>https://gby.ai/tags/app_obsidian/</link>
+    <description>Recent content in app_obsidian on GbyAI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://www.gby.ai/tags/app_obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate><atom:link href="https://gby.ai/tags/app_obsidian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Obsidian 免费建个人博客</title>
-      <link>https://www.gby.ai/obsidian-blog/</link>
+      <link>https://gby.ai/obsidian-blog/</link>
       <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
       
-      <guid>https://www.gby.ai/obsidian-blog/</guid>
+      <guid>https://gby.ai/obsidian-blog/</guid>
       <description>相关工具 Obsidian + Github Publisher 插件 Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo Github Vercel 具体步骤继续往下看。
 Hugo + PaperMod 使用 hugo 初始化一个网站，并配置好你喜欢的主题，并发布到 Github 上，这块具体怎么弄就不展开介绍了。
 可以参考：

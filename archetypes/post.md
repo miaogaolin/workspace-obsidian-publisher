@@ -13,7 +13,6 @@ series:  # 系列文章
 lastmod: # 文章最后更新的时间  
 lang: "cn" # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等  
 cover:  
-  image: https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  # 文章封面图片地址 
+  image: /images/post-20240110194409858.webp  # 文章封面图片地址 
 author: fork
 ---  
-
