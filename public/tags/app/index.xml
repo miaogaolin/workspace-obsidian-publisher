@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>app on PrintLove</title>
+    <link>https://www.printlove.cn/tags/app/</link>
+    <description>Recent content in app on PrintLove</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Thu, 27 Jan 2022 15:25:26 +0800</lastBuildDate><atom:link href="https://www.printlove.cn/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 科学上网 Ubuntu &amp; CFW 实现透明代理</title>
+      <link>https://www.printlove.cn/ubuntu-cfw/</link>
+      <pubDate>Thu, 27 Jan 2022 15:25:26 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/ubuntu-cfw/</guid>
+      <description>这篇文章是我折腾 3 天的结果，在这方面也是初学者，如果有问题，可以一块讨论。
+目标 我家里有个不用的笔记本，所以用它来实现透明代理。
+💡 透明代理：只要连接上了家里的局域网，不管是 wifi 还是连接到路由器的宽带，都可以自动的实现科学上网，无需设置什么。
+准备 第一点：准备一台安装了 Ubuntu 桌面的电脑，连接上你的路由器，设置有线网络为静态 ip，如下图：
+图解：
+192.168.31.1 是我的路由器地址。 192.168.31.193 是我设置的 Ubuntu 的静态 ip，这个随意。 第二点：路由器需要支持 DHCP，需要后面设置 DNS 和网关，现在暂时不需要。
+安装 CFW CFW 软件全称 clash for windows，看到名字不要以为只能在 windows 上安装，支持 mac/linux/windows，现在开始下载。
+第一步：前往下载，选在下图红框软件。
+第二步：解压，并进入目录运行 ./cfw ，这就运行起来了，但不能退出终端，有点不好。
+💡 不要在 root 下运行，会出现 —no-sandbox 的错误，找了好久也没找到解决办法，涉及 electron 和 chrome 相关的。
+加入桌面 现在讲 CFW 这个软件加入 Ubuntu 的软件中心，打开终端，新建一个 clash.desktop 文件，写入下面信息。
+[Desktop Entry] Name=clash for windows Icon=/home/miaogaolin/cfw/logo.png Exec=/home/miaogaolin/cfw/cfw Type=Application 重点解释：
+Exec 代表刚才执行 ./cfw 命令的路径。 Icon 图提供给你。 编辑好后，将该文件移动到 ~/.</description>
+    </item>
+    
+  </channel>
+</rss>

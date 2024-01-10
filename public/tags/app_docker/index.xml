@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>app_docker on PrintLove</title>
+    <link>https://www.printlove.cn/tags/app_docker/</link>
+    <description>Recent content in app_docker on PrintLove</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Mon, 13 Aug 2018 10:11:21 +0800</lastBuildDate><atom:link href="https://www.printlove.cn/tags/app_docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows 安装 Docker 并简单使用</title>
+      <link>https://www.printlove.cn/windows-docker/</link>
+      <pubDate>Mon, 13 Aug 2018 10:11:21 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/windows-docker/</guid>
+      <description>初次安装后，首先更换docker镜像地址，打开daemon.json，配置：
+win10配置文件路径，~/docker/daemon.json { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://registry.docker-cn.com&amp;#34;] } 或者
+右键点击docer运行图标，选择setting &amp;gt;&amp;gt; 右侧Daemon
+1. 登录出错 win10系统
+解决办法：打开防火墙
+2. 查看所有镜像 docker image lsdocker images3. 查看所有容器 docker container ls -all4. 镜像与容器的关系 镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的 类 和 实例 一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。
+5. 删除镜像和容器 docker rmi &amp;lt;镜像名|镜像ID&amp;gt;rm &amp;lt;容器名|容器ID&amp;gt;docker rm `docker ps -aq` # 删除所有容器6. 启动与暂停容器 docker start &amp;lt;容器名|容器ID&amp;gt;docker stop &amp;lt;容器名|容器ID&amp;gt;7. 查看容器详细信息 docker inspect &amp;lt;容器ID|容器名&amp;gt;结果类似于json数据，可以通过| grep来过滤需要的信息
+8. 运行并进去容器 docker run [--name &amp;lt;容器名&amp;gt;] -itd centos bash如果有错误提示，有可能会在命令前加winpty</description>
+    </item>
+    
+  </channel>
+</rss>

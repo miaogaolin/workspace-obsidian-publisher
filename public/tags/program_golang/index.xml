@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>program_golang on PrintLove</title>
+    <link>https://www.printlove.cn/tags/program_golang/</link>
+    <description>Recent content in program_golang on PrintLove</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.printlove.cn/tags/program_golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go基础系列：19. 单元测试</title>
+      <link>https://www.printlove.cn/golang-unit-test/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-unit-test/</guid>
+      <description>Go 语言中如何进行单元测试，代码覆盖率的作用及不同模式，testify 包的使用</description>
+    </item>
+    
+    <item>
+      <title>Google：12 条 Golang 最佳实践</title>
+      <link>https://www.printlove.cn/go-bestpractices/</link>
+      <pubDate>Wed, 27 Oct 2021 11:14:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/go-bestpractices/</guid>
+      <description>12 条 Golang 最佳实践，并在原文基础上增加了解读与补充</description>
+    </item>
+    
+    <item>
+      <title>快速了解 “小字端” 和 “大字端” 及 Go 语言中的使用</title>
+      <link>https://www.printlove.cn/go-big-small/</link>
+      <pubDate>Tue, 26 Oct 2021 11:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/go-big-small/</guid>
+      <description>小字端、大字端、Go 语言中的应用</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：16. 错误与异常</title>
+      <link>https://www.printlove.cn/golang-error/</link>
+      <pubDate>Wed, 29 Sep 2021 10:10:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-error/</guid>
+      <description>学到什么 什么是错误？ 如何创建错误？ 如何处理错误？ errors 包的使用？ 什么是异常？ 如何处理异常？ defer 关键字的作用？ recover 函数的使用？ 什么是错误 在写代码时，不是所有情况都能处理，对于不能处理的逻辑，就需要使用错误机制告诉上层调用者。
+在 Go 语言中，错误是被作为一个接口类型对待，它不像其它语言一样使用 try/catch 去捕捉，只需在函数或方法之间使用一个错误类型变量去传递。
+创建错误 这里所说的创建错误，实际上就是去实现错误接口，接口如下：
+type error interface { Error() string } 该接口是 Go 标准包内置的，所有创建的错误类型都需要实现此接口，怎么去实现接口，不懂的看看上篇文章 Golang接口。
+1. errors.New Go 语言中内置了一个处理错误的标准包，你不需要自己去实现 error 接口，它有函数帮你处理，如下：
+import &amp;#34;errors&amp;#34; var ErrNotFound = errors.New(&amp;#34;not found&amp;#34;) 导入 errors 包，调用 New 函数创建了一个错误并保存到 ErrNotFound 变量，该错误信息为 not found 。
+2. fmt.Errorf fmt 标准包内也有一个创建错误的函数 Errorf ，该函数可以使用占位符设置错误信息，比 errors.New 函数更灵活。
+import &amp;#34;fmt&amp;#34; var ErrHuman = fmt.Errorf(&amp;#34;%s不符合我们人类要求&amp;#34;, &amp;#34;老苗&amp;#34;) 3.</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：15. 接口</title>
+      <link>https://www.printlove.cn/golang-interface/</link>
+      <pubDate>Sat, 18 Sep 2021 17:51:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-interface/</guid>
+      <description>什么是接口？如何定义接口？如何使用接口？如何嵌入接口？接口与接口之间如何赋值？如何推断接口的实际类型？如何使用空接口？</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：11. 包</title>
+      <link>https://www.printlove.cn/golang-package/</link>
+      <pubDate>Wed, 01 Sep 2021 17:35:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-package/</guid>
+      <description>学习 Go 语言中包的声明、导入、使用、和包之间的加载顺序等等</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：9. 内置集合 - map</title>
+      <link>https://www.printlove.cn/golang-map/</link>
+      <pubDate>Fri, 16 Jul 2021 17:21:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-map/</guid>
+      <description>go语言map的创建、遍历、删除键等知识讲解</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：6. 流程控制</title>
+      <link>https://www.printlove.cn/golang-if-for-switch/</link>
+      <pubDate>Mon, 12 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-if-for-switch/</guid>
+      <description>go语言if、for、switch语句使用，break、continue、goto、fallthrough关键字使用</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：2. 环境搭建</title>
+      <link>https://www.printlove.cn/golang-install/</link>
+      <pubDate>Thu, 08 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-install/</guid>
+      <description>windows、linux、mac的环境搭建，编辑器goland配置</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：1. 学习前导</title>
+      <link>https://www.printlove.cn/golang-start/</link>
+      <pubDate>Wed, 07 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-start/</guid>
+      <description>程序猿工作经历，掏心窝子学习Go语言</description>
+    </item>
+    
+  </channel>
+</rss>

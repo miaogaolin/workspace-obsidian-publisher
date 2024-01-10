@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on PrintLove</title>
+    <link>https://www.printlove.cn/posts/</link>
+    <description>Recent content in Posts on PrintLove</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.printlove.cn/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>111test</title>
+      <link>https://www.printlove.cn/111test/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.printlove.cn/111test/</guid>
+      <description>1111</description>
+    </item>
+    
+    <item>
+      <title>使用 Obsidian 免费建个人博客</title>
+      <link>https://www.printlove.cn/obsidian-blog/</link>
+      <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/obsidian-blog/</guid>
+      <description>目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 Vercel + Notion 建个人博客 。
+相关工具 Obsidian + Github Publisher 插件 Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo Github Vercel 具体步骤继续往下看。
+Hugo + PaperMod 使用 hugo 初始化一个网站，并配置好你喜欢的主题，并发布到 Github 上，这块具体怎么弄就不展开介绍了。
+可以参考：
+官方主题文档：PaperMod 我的仓库：miaogaolin/workspace-obsidian-publisher 稍微改了点官方主题 Github Publisher 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。
+我会根据使用过程，讲一讲我用到的配置，如果你对其它配置感兴趣，可以看看 官网文档。
+Github config 注意：生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。
+Upload config Fixed Folder，表示将所有的文章上传到 content/posts 目录下。 Property key，可以通过文章的属性设置上传的目录，例如我这配置：
+通过 dir 属性获取上传的目录，最终的上传路径为 content/{dir} 如果 dir 属性没有设置则默认上传到 content/posts 目录下 Text &amp;amp; link converters 这块配置影响上传文章后的内容结构。</description>
+    </item>
+    
+    <item>
+      <title>PaperMod 主题引用“霞鹜文楷”字体</title>
+      <link>https://www.printlove.cn/lxgw-font/</link>
+      <pubDate>Wed, 20 Dec 2023 15:39:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/lxgw-font/</guid>
+      <description>有两种方法，一种是 下载字体 并上传到自己的项目中引用，一种是使用现成的 CDN 引用，我直接选择了 CDN 方式。
+下来替换主题的默认模板和样式，进入 Hugo 内容管理的仓库根目录：
+新建模板 layouts/partials/extend_head.html，设置内容： &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css&amp;#34; media=&amp;#34;print&amp;#34; onload=&amp;#34;this.media=&amp;#39;all&amp;#39;&amp;#34;&amp;gt; 这是七牛云的 CDN，更多的引用方式可以看看这个项目：chawyehsu/lxgw-wenkai-webfont
+全局引用字体，新建 assets/css/extended/fonts.css，设置内容： body, .post-content code { font-family: &amp;#34;LXGW WenKai Screen&amp;#34;, &amp;#34;Roboto&amp;#34;, &amp;#34;PingFang SC&amp;#34;, &amp;#34;Microsoft Yahei&amp;#34;, sans-serif; } 设置完成，不过再扩展下里面涉及到的知识点：
+异步加载 CSS，设置 link 标签属性 media=&amp;quot;print&amp;quot; 在打印的时候加载该引用 onload=&amp;quot;this.media=&#39;all&#39;&amp;quot; 等页面加载完后在将 media 设置回去，即默认，这就会开始应用该 css media 属性的详细用法请看：media types 在该 cdn 引用的 css 文件中，会有这么一个设置： @font-face { font-display: swap; } font-display 表示加载 font-family 后面字体的规则：
+swap 如果想使用的字体没有，则直接使用备用字体，等字体下载完成再交换渲染 auto 这是默认，一般会先文本空白等字体下载</description>
+    </item>
+    
+    <item>
+      <title>在农村混着也挺好</title>
+      <link>https://www.printlove.cn/1702954489/</link>
+      <pubDate>Mon, 18 Dec 2023 16:36:49 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/1702954489/</guid>
+      <description>因为要考试了，回老家农村待着。
+这几天我感觉非常舒服，太阳温暖，花儿美丽，菜园丰盛，妈妈可爱……一切都这么惬意，节奏缓慢。
+刚回家的时候，爸爸就在亲戚那里拉了半头粮食猪回家，肉很香捏，煮好切成肉片居然还会有五彩的光芒（表示新鲜）。妈妈用这肉做了腊肉香肠，这个味道哪里也买不到。
+没几天，我的生日到了，少不了出去嗨一顿的。吃完青花椒鱼我们就去一个广场逛街了，里面很多摊贩，人最多的地方是买圈套大鹅的地方。我爸爸没到之前看见别人牵着套到的几只鹅回家，跃跃欲试，到了之后观察了半天，觉得几率太小，遂放弃。即使我撺掇了好几次也没有用，老汉儿还是理智人物呢哈哈哈哈哈！
+好喜欢这样的日子呀，见惯了城市的高楼大厦，还是爱着农村的小青瓦房。</description>
+    </item>
+    
+    <item>
+      <title>Skinny Sim 卡官方尝试购买</title>
+      <link>https://www.printlove.cn/skinny-sim/</link>
+      <pubDate>Mon, 04 Dec 2023 18:12:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/skinny-sim/</guid>
+      <description>这是新西兰的 Sim 卡，简单总结下我遇到的购买渠道：
+KakaSkinny ✨: 150 元，太贵了，先不考虑 官网邮寄：2 NZD$ v2ex.com：有人分享购买，大约 70 元 官网邮寄 如果你想看官方如何成功购买，那就不用继续看了，这只是一次没结果的尝试。
+https://www.skinny.co.nz/
+我使用的 ChatGPT 帮我翻译的英文地址 邮编需要查询：https://www.youbianku.com/ 成功后会看到这个：
+遇到的问题 我在第一次提交订单时没有出现任何结果，邮件也没有收到，于是又重新填写提交了一下，这下有了上图的 “All Done” 也有了邮件，但是我的扣款记录出现了两条。
+我通过邮件 support@skinny.co.nz 联系客服说明我的诉求，正在等结果。
+歇菜 官方不支持国际邮寄，所以通过邮件告诉客服取消订单，退款。
+官方邮件回复：
+Please note we are unable to ship orders internationally or to P.O. boxes
+我是用的是招商信用卡，支付和退款的外币都以人民币汇率计算，退款时，因为人民币贬值吧，还给我多退了一丢丢钱。</description>
+    </item>
+    
+    <item>
+      <title>第一次拿到群晖设置的东西</title>
+      <link>https://www.printlove.cn/synology-new/</link>
+      <pubDate>Mon, 06 Nov 2023 17:23:55 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/synology-new/</guid>
+      <description>群晖对于刚拿到的新手，还是稍微有那么一丢丢的茫然，毕竟还不像国产 NAS 那样傻瓜。
+下来我根据我使用的过程总结下必要的设置。
+群晖管家 APP “群晖管家”这是第一步手机要装的东西，说明书上就会告诉你，功能：
+安装群晖系统 给新手提供了手机端常用套件的下载入口 用户管理 等等 访问 NAS 后台 看看官方文档，有详细的教程：如何通过 Web Assistant 或 Synology Assistant 找到我的Synology NAS ？
+我自己不知道上面的简单方式，就这样搞了，NAS 的后台我是通过浏览器 IP + 端口 来访问，默认的端口是 5000，IP 的话在自己的路由器管理设备里查看到的。
+安装套件 可以理解为你想用的 APP，需要进入 NAS 后台。
+Synology Photos 手机端和 Web 端都需要安装，用来方便查看自己的图片，具体功能如下：
+手机端：
+同步手机的照片，可以选择最新文件同步或全量同步 手机端同步后可选择删除本地设备的照片 可切换个人空间和共享空间的照片 自动识别人物，也可手动将多个人的分类合并
+系统端： 系统端管理员可设置多人管理的共享目录 需要回收站功能，需要在控制面板的共享目录文件夹里开启 问题：
+若有特定人物未出現於人物相簿，該如何處理？ - Synology 知識中心 如果按照这个套件太慢，可以直接在官网下载安装包，然后进行手动按照：下载中心 Synology Drive Web 端和手机端都可以安装，用来管理 NAS 中的文件，就是类似 Onedrive 的替代品。
+PC 端有需求可下载客户端。
+Download
+Cloud Sync 仅 Web 端，将 NAS 中指定的文件和云盘进行定时同步，主要功能：</description>
+    </item>
+    
+    <item>
+      <title>自组山地车笔记</title>
+      <link>https://www.printlove.cn/bike/</link>
+      <pubDate>Sun, 20 Nov 2022 21:36:29 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/bike/</guid>
+      <description>做的几个相关视频，比较粗糙
+花费 包含工具总计：1993.94 人民币，详情如下表。
+项目 名称 价格 类型 备注(默认淘宝) 车架 hoobike 27.5*16寸 468 零件 闲鱼全新 前叉 MOSSO 硬叉 258 零件 送花心 把横 非凡 56 零件 把立 同上 0 零件 坐管 同上 0 零件 坐管夹 景晔 16.8 零件 碗组 乐百客 44-55mm 35 零件 PDD 轮组 喜德盛英雄600 150 零件 闲鱼二手 外胎 朝阳黄边 H5224(52) 105 零件 内胎 建大27.5*1.9/2.125 （18） 31 零件 减免 5 元 刹车 禧玛诺mt200 油压碟刹 200 零件 碟片 G3 两张，同上 0 零件 曲柄 racework 中空中轴 135 零件 牙盘 hassns 正负齿 38 T 24.</description>
+    </item>
+    
+    <item>
+      <title>Golang在线工具迁入Vercel</title>
+      <link>https://www.printlove.cn/tools-vercel/</link>
+      <pubDate>Sun, 27 Feb 2022 13:44:53 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/tools-vercel/</guid>
+      <description>2023/12/19 由于网站主题更换，为了使在线工具切换主题也能访问，就将 https://printlove.cn/tools/ 路径做了跳转。
+不知道还有朋友在使用 https://printlove.cn/tools/ 这几个工具没，因为访问人数不多，我就给将网站停用了，真实原因是还要花钱续服务器，所以就...
+在停用的几天，有 1 个朋友说挺好用的，但网站停了。为了不让这位朋友寒心，网站就重新启用了。
+这次不再购买服务器，选择了 Vercel 平台管理我的网站，原因如下：
+支撑 hugo 工具 支持部署 Go 代码，还支持 Node.js、Python、Ruby 免费 如果你对免费部署一个网站感兴趣，可以看看我的这篇 Vercel + Notion 建个人博客。
+Hugo 部署 printlove.cn 网站内容是通过 Hugo 工具生成的，所以先解决此问题。
+步骤如下：
+使用 Github 登录 Vercel 平台。 导入 printlove 仓库，如果是本地代码部署，待会会讲。 配置部署 如果在开始部署时，出现了报错，那就需要指定 hugo 的版本。我的项目是遇到了，原因是 vercel 默认的版本存在 Bug。
+通过设置环境变量指定版本：
+Go 代码部署 完成了静态网页的部署，下来就要搞 API 接口代码。
+其中除了 json 转 Go Struct 工具外，其它的工具都是使用 Go 代码实现，开始整。
+在项目根目录下创建 api 目录。 在目录下创建 tool.go 文件，这个文件名称随意，内容如下： package api import ( &amp;#34;net/http&amp;#34; ) func Tool(w http.</description>
+    </item>
+    
+    <item>
+      <title>2022 科学上网 Ubuntu &amp; CFW 实现透明代理</title>
+      <link>https://www.printlove.cn/ubuntu-cfw/</link>
+      <pubDate>Thu, 27 Jan 2022 15:25:26 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/ubuntu-cfw/</guid>
+      <description>这篇文章是我折腾 3 天的结果，在这方面也是初学者，如果有问题，可以一块讨论。
+目标 我家里有个不用的笔记本，所以用它来实现透明代理。
+💡 透明代理：只要连接上了家里的局域网，不管是 wifi 还是连接到路由器的宽带，都可以自动的实现科学上网，无需设置什么。
+准备 第一点：准备一台安装了 Ubuntu 桌面的电脑，连接上你的路由器，设置有线网络为静态 ip，如下图：
+图解：
+192.168.31.1 是我的路由器地址。 192.168.31.193 是我设置的 Ubuntu 的静态 ip，这个随意。 第二点：路由器需要支持 DHCP，需要后面设置 DNS 和网关，现在暂时不需要。
+安装 CFW CFW 软件全称 clash for windows，看到名字不要以为只能在 windows 上安装，支持 mac/linux/windows，现在开始下载。
+第一步：前往下载，选在下图红框软件。
+第二步：解压，并进入目录运行 ./cfw ，这就运行起来了，但不能退出终端，有点不好。
+💡 不要在 root 下运行，会出现 —no-sandbox 的错误，找了好久也没找到解决办法，涉及 electron 和 chrome 相关的。
+加入桌面 现在讲 CFW 这个软件加入 Ubuntu 的软件中心，打开终端，新建一个 clash.desktop 文件，写入下面信息。
+[Desktop Entry] Name=clash for windows Icon=/home/miaogaolin/cfw/logo.png Exec=/home/miaogaolin/cfw/cfw Type=Application 重点解释：
+Exec 代表刚才执行 ./cfw 命令的路径。 Icon 图提供给你。 编辑好后，将该文件移动到 ~/.</description>
+    </item>
+    
+    <item>
+      <title>Vercel 解决静态网站接口跨域</title>
+      <link>https://www.printlove.cn/vercel-cross/</link>
+      <pubDate>Sun, 19 Dec 2021 21:20:31 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/vercel-cross/</guid>
+      <description>当你的站是一个静态网站时，并且网站中有接口请求时，可能会出现跨域问题。那解决该问题的大部分的办法就是使用一个服务器做代理转发。
+所以说到这就知道，还需要一个服务器，即：要花钱。那有什么办法吗？
+说出来了当然有。
+前提 使用 vercel 托管你的静态网站。
+开始配置 1. vercel.json 在你的项目根目录创建一个 vercel.json 文件，内容如下：
+{ &amp;#34;rewrites&amp;#34;: [ { &amp;#34;source&amp;#34;: &amp;#34;/notion-api/(.*)&amp;#34;, &amp;#34;destination&amp;#34;: &amp;#34;/api/proxy&amp;#34; } ] } •source：不直接请求接口地址，而是按照 source 格式的方式访问，该格式自己定义。•destination：将 source 匹配到的 url 转发到 destination 地址上。
+2. destination 这个地址是在 vercel 上启动一个常驻服务生成的。
+在项目根目录创建一个 api/proxy.js 路径的文件，按照这个路径要求来，该文件的内容如下：
+// req：请求 // res：响应 module.exports = (req, res) =&amp;gt; { // ... } 然后在这个函数体内可以自己编写请求的转发。
+看看我的写过的一个例子，用来转发 Notion API 接口。
+完整例子：
+const request = require(&amp;#39;request&amp;#39;); module.exports = (req, res) =&amp;gt; { // proxy middleware options let prefix = &amp;#34;/notion-api&amp;#34; if (!</description>
+    </item>
+    
+    <item>
+      <title>Vercel &#43; Notion 建个人博客</title>
+      <link>https://www.printlove.cn/vercel-notion/</link>
+      <pubDate>Fri, 17 Dec 2021 11:58:02 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/vercel-notion/</guid>
+      <description>大家好，我是 “潇洒哥老苗”。
+今天我带大家创建一个站，不需要购买服务器，只需要掏钱买个自己喜欢的域名即可。
+涉及 Vercel：免费静态网站托管 Notion：内容后台 CloudFlare：CDN 加速 域名 nextjs-notion-starter-kit：以 Notion 为后台的网站 nextjs-notion-starter-kit 地址：https://github.com/transitive-bullshit/nextjs-notion-starter-kit
+1. fork 打开该网址，然后 fork 该项目。
+2. 修改项目名(可选) 如果 fork 后的项目名不喜欢，可以修改自己喜欢的。
+3. 修改配置 在项目根目录打开 site.config.js 文件，点击修改，如下：
+编辑文件
+然后修改几处内容，刚开始只需要看有中文描述的几处。
+module.exports = { // where it all starts -- the site&amp;#39;s root Notion page (required) // Notion 根页面的 ID rootNotionPageId: &amp;#39;c811c01b7d824f5ba966f688ee37652b&amp;#39;, // if you want to restrict pages to a single notion workspace (optional) // (this should be a Notion ID; see the docs for how to extract this) rootNotionSpaceId: null, // basic site info (required) name: &amp;#39;老苗&amp;#39;, // 站名 domain: &amp;#39;laomiao.</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：19. 单元测试</title>
+      <link>https://www.printlove.cn/golang-unit-test/</link>
+      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-unit-test/</guid>
+      <description>Go 语言中如何进行单元测试，代码覆盖率的作用及不同模式，testify 包的使用</description>
+    </item>
+    
+    <item>
+      <title>深入微服务：3. Protobuf 为啥比 JSON、XML 牛？</title>
+      <link>https://www.printlove.cn/protobuf/</link>
+      <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.printlove.cn/protobuf/</guid>
+      <description>Protobuf 的实现原理，并说明 JSON、XML 的不同支持</description>
+    </item>
+    
+    <item>
+      <title>深入微服务：2. 研究 Protobuf 时发现一个挺好的算法 — ZigZag</title>
+      <link>https://www.printlove.cn/zigzag/</link>
+      <pubDate>Mon, 08 Nov 2021 17:45:01 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/zigzag/</guid>
+      <description>Protobuf 底层使用的压缩算法，并使用 Go 语言实现</description>
+    </item>
+    
+    <item>
+      <title>深入微服务：1. 开篇 gRPC 环境&amp;启动</title>
+      <link>https://www.printlove.cn/grpc-start/</link>
+      <pubDate>Mon, 08 Nov 2021 16:48:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/grpc-start/</guid>
+      <description>gRPC 的环境搭建及入门使用</description>
+    </item>
+    
+    <item>
+      <title>我用 Go 语言解决 Github Webhook</title>
+      <link>https://www.printlove.cn/go-webhook/</link>
+      <pubDate>Mon, 01 Nov 2021 17:51:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/go-webhook/</guid>
+      <description>使用 webhook 工具快速完成 Github 钩子的配置</description>
+    </item>
+    
+    <item>
+      <title>Google：12 条 Golang 最佳实践</title>
+      <link>https://www.printlove.cn/go-bestpractices/</link>
+      <pubDate>Wed, 27 Oct 2021 11:14:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/go-bestpractices/</guid>
+      <description>12 条 Golang 最佳实践，并在原文基础上增加了解读与补充</description>
+    </item>
+    
+    <item>
+      <title>快速了解 “小字端” 和 “大字端” 及 Go 语言中的使用</title>
+      <link>https://www.printlove.cn/go-big-small/</link>
+      <pubDate>Tue, 26 Oct 2021 11:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/go-big-small/</guid>
+      <description>小字端、大字端、Go 语言中的应用</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：18. 并发</title>
+      <link>https://www.printlove.cn/golang-concurrency/</link>
+      <pubDate>Fri, 22 Oct 2021 10:12:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-concurrency/</guid>
+      <description>并发与并行的区别，什么是Goroutine，什么是通道，select语句使用等等</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：17. 详解 20 个占位符</title>
+      <link>https://www.printlove.cn/golang-format/</link>
+      <pubDate>Thu, 30 Sep 2021 18:12:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-format/</guid>
+      <description>Go 语言中 20 个占位符的想详细讲解，还有几个标记符号的用法</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：16. 错误与异常</title>
+      <link>https://www.printlove.cn/golang-error/</link>
+      <pubDate>Wed, 29 Sep 2021 10:10:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-error/</guid>
+      <description>学到什么 什么是错误？ 如何创建错误？ 如何处理错误？ errors 包的使用？ 什么是异常？ 如何处理异常？ defer 关键字的作用？ recover 函数的使用？ 什么是错误 在写代码时，不是所有情况都能处理，对于不能处理的逻辑，就需要使用错误机制告诉上层调用者。
+在 Go 语言中，错误是被作为一个接口类型对待，它不像其它语言一样使用 try/catch 去捕捉，只需在函数或方法之间使用一个错误类型变量去传递。
+创建错误 这里所说的创建错误，实际上就是去实现错误接口，接口如下：
+type error interface { Error() string } 该接口是 Go 标准包内置的，所有创建的错误类型都需要实现此接口，怎么去实现接口，不懂的看看上篇文章 Golang接口。
+1. errors.New Go 语言中内置了一个处理错误的标准包，你不需要自己去实现 error 接口，它有函数帮你处理，如下：
+import &amp;#34;errors&amp;#34; var ErrNotFound = errors.New(&amp;#34;not found&amp;#34;) 导入 errors 包，调用 New 函数创建了一个错误并保存到 ErrNotFound 变量，该错误信息为 not found 。
+2. fmt.Errorf fmt 标准包内也有一个创建错误的函数 Errorf ，该函数可以使用占位符设置错误信息，比 errors.New 函数更灵活。
+import &amp;#34;fmt&amp;#34; var ErrHuman = fmt.Errorf(&amp;#34;%s不符合我们人类要求&amp;#34;, &amp;#34;老苗&amp;#34;) 3.</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：15. 接口</title>
+      <link>https://www.printlove.cn/golang-interface/</link>
+      <pubDate>Sat, 18 Sep 2021 17:51:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-interface/</guid>
+      <description>什么是接口？如何定义接口？如何使用接口？如何嵌入接口？接口与接口之间如何赋值？如何推断接口的实际类型？如何使用空接口？</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：14. 指针类型</title>
+      <link>https://www.printlove.cn/golang-pointer/</link>
+      <pubDate>Wed, 15 Sep 2021 18:24:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-pointer/</guid>
+      <description>什么是指针？什么什么是指针类型？如何使用和创建指针类型变量？如何从指针变量中取值？如何传递指针？</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：13. 自定义类型和结构体 - 方法</title>
+      <link>https://www.printlove.cn/golang-method/</link>
+      <pubDate>Fri, 10 Sep 2021 11:30:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-method/</guid>
+      <description>自定义类型和结构体如何携带方法？什么是值接收者？什么是指针接收者？等等等</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：12. 自定义类型和结构体 - 定义</title>
+      <link>https://www.printlove.cn/golang-struct/</link>
+      <pubDate>Tue, 07 Sep 2021 18:30:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-struct/</guid>
+      <description>自定义类型、结构体定义、匿名结构体、类型别名</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：11. 包</title>
+      <link>https://www.printlove.cn/golang-package/</link>
+      <pubDate>Wed, 01 Sep 2021 17:35:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-package/</guid>
+      <description>学习 Go 语言中包的声明、导入、使用、和包之间的加载顺序等等</description>
+    </item>
+    
+    <item>
+      <title>中国打击隐藏摄像机和秘密拍摄</title>
+      <link>https://www.printlove.cn/secret-camera/</link>
+      <pubDate>Fri, 20 Aug 2021 23:35:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/secret-camera/</guid>
+      <description>中国打击隐藏摄像机和秘密拍摄</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：10. 函数</title>
+      <link>https://www.printlove.cn/golang-func/</link>
+      <pubDate>Fri, 06 Aug 2021 17:15:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-func/</guid>
+      <description>一文搞懂 Go 语言中的函数，系统整理了 15 个内置函数</description>
+    </item>
+    
+    <item>
+      <title>BBC如何报道河南洪灾？</title>
+      <link>https://www.printlove.cn/henan-flood/</link>
+      <pubDate>Sat, 24 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/henan-flood/</guid>
+      <description>看BBC对河南洪灾的报道学英语</description>
+    </item>
+    
+    <item>
+      <title>使用了WSL2后，Docker 太慢，如何解决？</title>
+      <link>https://www.printlove.cn/docker-wsl2/</link>
+      <pubDate>Fri, 23 Jul 2021 10:25:45 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/docker-wsl2/</guid>
+      <description>docker开启了WSL2，运行时太慢、Vscode 配置 WSL</description>
+    </item>
+    
+    <item>
+      <title>简单且真实有效的Docker镜像加速</title>
+      <link>https://www.printlove.cn/docker-speed/</link>
+      <pubDate>Wed, 21 Jul 2021 17:39:52 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/docker-speed/</guid>
+      <description>docker镜像加速,docker加速配置</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：9. 内置集合 - map</title>
+      <link>https://www.printlove.cn/golang-map/</link>
+      <pubDate>Fri, 16 Jul 2021 17:21:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-map/</guid>
+      <description>go语言map的创建、遍历、删除键等知识讲解</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：8. 内置集合 - 切片</title>
+      <link>https://www.printlove.cn/golang-slice/</link>
+      <pubDate>Thu, 15 Jul 2021 16:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-slice/</guid>
+      <description>一文搞定 Go 语言切片，并对比了数组与切片的区别</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：7. 内置集合 - 数组</title>
+      <link>https://www.printlove.cn/golang-array/</link>
+      <pubDate>Wed, 14 Jul 2021 16:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-array/</guid>
+      <description>go语言中数组的用法，go语言中通道、map、数组和切片的遍历</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：6. 流程控制</title>
+      <link>https://www.printlove.cn/golang-if-for-switch/</link>
+      <pubDate>Mon, 12 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-if-for-switch/</guid>
+      <description>go语言if、for、switch语句使用，break、continue、goto、fallthrough关键字使用</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：5. 常量及运算符</title>
+      <link>https://www.printlove.cn/golang-const/</link>
+      <pubDate>Sun, 11 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-const/</guid>
+      <description>go语言常量的使用和其它语言的不同之处，go语言的运算符优先级，go语言运算符结合性</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：4. 变量及数据类型</title>
+      <link>https://www.printlove.cn/golang-var/</link>
+      <pubDate>Sat, 10 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-var/</guid>
+      <description>go语言变量，go语言数据类型</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：3. 环境搭建疑惑 - gomod学习</title>
+      <link>https://www.printlove.cn/gomod/</link>
+      <pubDate>Fri, 09 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/gomod/</guid>
+      <description>gomod如何使用，不同配置的含义，gomod命令的作用</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：2. 环境搭建</title>
+      <link>https://www.printlove.cn/golang-install/</link>
+      <pubDate>Thu, 08 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-install/</guid>
+      <description>windows、linux、mac的环境搭建，编辑器goland配置</description>
+    </item>
+    
+    <item>
+      <title>Go基础系列：1. 学习前导</title>
+      <link>https://www.printlove.cn/golang-start/</link>
+      <pubDate>Wed, 07 Jul 2021 18:18:56 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/golang-start/</guid>
+      <description>程序猿工作经历，掏心窝子学习Go语言</description>
+    </item>
+    
+    <item>
+      <title>“番茄工作法”你确定了解吗？</title>
+      <link>https://www.printlove.cn/tomato/</link>
+      <pubDate>Fri, 26 Feb 2021 11:35:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/tomato/</guid>
+      <description>在看这篇文章时，你应该从其它地方都听过这种方法。但我不想像其他人一样长篇大论，从最简单的开始，动起来再根据实际情况调整。
+“番茄工作法”是弗朗西斯科·西里洛自己工作（包括学习）所总结下的一套简单高效的学习方式。
+简单说：每当有要学习的任务时，开启一个 25 分钟的番茄钟（时间段），在这个时间内进入好整以暇、正襟危坐的姿势，尽量不被其它事所打扰（如果打扰，文章后会说明此情况如何处理）。完成后休息 5 分钟。接着再投入下一个 25 分钟。
+活动清单 将自己的工作计划、学习计划写入活动清单，这个不限制什么时候完成。如果有特殊计划的可以标注好截至日期。考虑每个计划所需的番茄钟。番茄钟是不能分割的，不存在小数番茄钟。如果小于 25 分钟，可以先标注为 0 番茄钟。
+今日待办 每天早上或前一晚考虑第二天的计划，从活动清单中选择。今日待办最好想清楚，最好今日完成。把番茄钟为 0 的计划根据时间合并成完整的一个或多个番茄钟。定好今日需要的番茄钟数量。每完成 1 番茄钟，画一个×。
+番茄钟中断 1. 内部中断 自己想做的其它事。比如，想玩微信、访问淘宝、打个电话，等等。为了保证工作质量，请完成后再做。在当前这个番茄钟任务后标记一下，我推荐一个撇号。如果今日要完成就写入今日计划外紧急，不着急就加入活动清单。
+2. 外部中断 同事和你沟通问题，收到一个紧急电话。和他人沟通下是否可以推迟一下，等完成此次番茄钟。如果今日完成就写入今日计划外紧急，不着急就加入活动清单。在当前番茄钟任务后标记一下，我推荐减号。
+3. 原子性 番茄钟是不可中断的，如果中断的，就重新启动番茄钟。因为一个番茄钟是最小单位，不可分割。
+今日总结 睡觉前，总结今天的学习效率和结果。实际所用的番茄钟数和计划的番茄钟数的误差，中断次数。如何调整减少问题出现。
+强调 如果真像逼自己一把，讨厌自己的学习效率底下，不能长期坚持。从现在起，使用这种方法坚持两周。如果还是不喜欢，那再选择放弃。</description>
+    </item>
+    
+    <item>
+      <title>Docker的cgroup讲解</title>
+      <link>https://www.printlove.cn/docker-cgroup/</link>
+      <pubDate>Thu, 14 Jan 2021 11:06:39 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/docker-cgroup/</guid>
+      <description>最近在看一个微服务框架 github.com/tal-tech/go-zero，在 core/stat/internal 目录下学习到 cgroup 知识，本文只涉及到了我所学习到的，正文开始。
+概念 cgroup ，控制组，它提供了一套机制用于控制一组特定进程对资源的使用。cgroup 绑定一个进程集合到一个或多个子系统上。官方解释
+subsystem，子系统，一个通过 cgroup 提供的工具和接口来管理进程集合的模块。一个子系统就是一个典型的“资源控制器”，用来调度资源或者控制资源使用的上限。其实每种资源就是一个子系统。子系统可以是以进程为单位的任何东西，比如虚拟化子系统、内存子系统。
+hierarchy，层级树，多个 cgroup 的集合，这些集合构成的树叫 hierarchy。可以认为这是一个资源树，附着在这上面的进程可以使用的资源上限必须受树上节点（cgroup）的控制。hierarchy 上的层次关系通过 cgroupfs 虚拟文件系统显示。系统允许多个 hierarchy 同时存在，每个 hierachy 包含系统中的部分或者全部进程集合。
+cgroupfs 是用户管理操纵 cgroup 的主要接口：通过在 cgroupfs 文件系统中创建目录，实现 cgroup 的创建；通过向目录下的属性文件写入内容，设置 cgroup 对资源的控制；向 task 属性文件写入进程 ID，可以将进程绑定到某个 cgroup，以此达到控制进程资源使用的目的；也可以列出 cgroup 包含的进程 pid。这些操作影响的是 sysfs 关联的 hierarchy，对其它 hierarchy 没有影响。
+对于 cgroup，其本身的作用只是任务跟踪。但其它系统（比如 cpusets，cpuacct），可以利用 cgroup 的这个功能实现一些新的属性，比如统计或者控制一个 cgroup 中进程可以访问的资源。举个例子，cpusets 子系统可以将进程绑定到特定的 cpu 和内存节点上。
+如果未理解跳过往下看，回头再看
+讲解 /proc/[pid]/cgroup 进程的 cgroup 信息，如下图：
+每行的格式 hierarchy-ID:controller-list:cgroup-path，此截图中 cgroup-path 对应的容器 id /sys/fs/cgroup/ 目录 cpuacct/cpuacct.usage_percpu 每个 cpu 的使用时间，如下图：</description>
+    </item>
+    
+    <item>
+      <title>supervisor(进程管理)小白快速上手</title>
+      <link>https://www.printlove.cn/supervisor/</link>
+      <pubDate>Fri, 12 Jul 2019 09:58:16 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/supervisor/</guid>
+      <description>简介 supervisor 是用 Python 开发的一个 client/server 服务，是 Linux/Unix 系统下的一个进程管理工具。可以很方便的监听、启动、停止、重启一个或多个进程。用 supervisor 管理的进程，当一个进程意外被杀死，supervisor 监听到进程死后，会自动将它重启，很方便的做到进程自动恢复的功能，不再需要自己写 shell 脚本来控制。
+安装 sudo apt-get install supervisor 其它安装方式 使用 pip 工具
+pip install supervisor 配置文件 生成 echo_supervisord_conf &amp;gt; /etc/supervisord.conf 配置文件加载顺序 默认在当前目录查找 supervisord.conf 配置文件
+1.$CWD/supervisord.conf
+2.$CWD/etc/supervisord.conf
+3./etc/supervisord.conf
+4./etc/supervisor/supervisord.conf (since Supervisor 3.3.0)
+5.../etc/supervisord.conf (Relative to the executable)
+6.../supervisord.conf (Relative to the executable)
+指定配置文件 sudo supervisord -c supervisord.conf 配置程序 增加自己的一个程序，打开 supervisord.conf 配置文件
+[program:jshop] command=make run ; the program (relative uses PATH, can take args) stdout_logfile=jshop.</description>
+    </item>
+    
+    <item>
+      <title>Windows 安装 Docker 并简单使用</title>
+      <link>https://www.printlove.cn/windows-docker/</link>
+      <pubDate>Mon, 13 Aug 2018 10:11:21 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/windows-docker/</guid>
+      <description>初次安装后，首先更换docker镜像地址，打开daemon.json，配置：
+win10配置文件路径，~/docker/daemon.json { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://registry.docker-cn.com&amp;#34;] } 或者
+右键点击docer运行图标，选择setting &amp;gt;&amp;gt; 右侧Daemon
+1. 登录出错 win10系统
+解决办法：打开防火墙
+2. 查看所有镜像 docker image lsdocker images3. 查看所有容器 docker container ls -all4. 镜像与容器的关系 镜像（Image）和容器（Container）的关系，就像是面向对象程序设计中的 类 和 实例 一样，镜像是静态的定义，容器是镜像运行时的实体。容器可以被创建、启动、停止、删除、暂停等。
+5. 删除镜像和容器 docker rmi &amp;lt;镜像名|镜像ID&amp;gt;rm &amp;lt;容器名|容器ID&amp;gt;docker rm `docker ps -aq` # 删除所有容器6. 启动与暂停容器 docker start &amp;lt;容器名|容器ID&amp;gt;docker stop &amp;lt;容器名|容器ID&amp;gt;7. 查看容器详细信息 docker inspect &amp;lt;容器ID|容器名&amp;gt;结果类似于json数据，可以通过| grep来过滤需要的信息
+8. 运行并进去容器 docker run [--name &amp;lt;容器名&amp;gt;] -itd centos bash如果有错误提示，有可能会在命令前加winpty</description>
+    </item>
+    
+    <item>
+      <title>git常用命令</title>
+      <link>https://www.printlove.cn/git-always-use/</link>
+      <pubDate>Mon, 18 Dec 2017 14:15:25 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/git-always-use/</guid>
+      <description>1、清除暂存区和工作区记录
+git reset --hard HEAD git clean -df 然后运行 git status 显示 clean 字样说明清除成功
+2、当 a 分支修改的内容迁移到 b 分支
+回到 a 分支修改之前（假定是当前） git reset --soft HEAD^ 查看修改的文件 git status 加入到储存区 git stash 切换到新的分支并取出修改的东西 git checkout b git stash pop 3、从线上拉去本地不存在的分支
+git fetch origin [远程分支]:[本地不存在的分支] 4、从仓库中删除文件
+git rm --cached 文件路径 5、合并分支
+情况 1：假设当前分支是 master,将 develop 分支合并到 master 上
+git merge develop 情况 2：假设当前分支是 master，将 master 分支合并到 develop 分支上
+6、基于分支检出 强制创建一个基于指定的 tag 的分支。</description>
+    </item>
+    
+    <item>
+      <title>css的高级用法</title>
+      <link>https://www.printlove.cn/css-plus/</link>
+      <pubDate>Fri, 17 Nov 2017 11:57:08 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/css-plus/</guid>
+      <description>模糊背景图片 (:before) 类似这样的效果
+之前
+、
+之后 重点注意: 颜色的变化,之后的图片相比之前的好像更暗淡一些
+&amp;lt;div class=&amp;#34;banner&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; banner 放置类似上面的图片
+.banner{ width: 800px; height: 400px; position: relative; background: url(图片路径) no-repeat; background-size: cover; } .banner:before{ content: &amp;#39; &amp;#39;; display: block; width: 100%; height: 100%; left: 0; top: 0; background: url(images/overlay.png); position: absolute; opacity: 0.5; } </description>
+    </item>
+    
+    <item>
+      <title>Vagrant安装与使用</title>
+      <link>https://www.printlove.cn/vagrant-install/</link>
+      <pubDate>Tue, 05 Sep 2017 21:17:35 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/vagrant-install/</guid>
+      <description>安装 环境：win10
+下载 virtualbox 和 vagrant，直接傻瓜式下一步安装就行:
+virtualbox5.1.8 vagrant1.8.6 常用命令 序号 命令 解释 1 vagrant box list 查看目前已有的 box 2 vagrant box add [自定义名称] [box 镜像路径] 新增加一个 box 3 vagrant box remove 删除指定 box 4 vagrant init 初始化配置 vagrantfile 5 vagrant up 启动虚拟机 6 vagrant ssh ssh 登陆虚拟机 7 vagrant suspend 挂起虚拟机 8 vagrant reload 重启虚拟机 9 vagrant halt 关闭虚拟机 10 vagrant status 查看虚拟机状态 11 vagrant destroy 删除虚拟机 12 vagrant package --output xxx.</description>
+    </item>
+    
+    <item>
+      <title>Thinkphp的cron计划任务</title>
+      <link>https://www.printlove.cn/thinkphp-cron/</link>
+      <pubDate>Sat, 26 Aug 2017 11:14:38 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/thinkphp-cron/</guid>
+      <description>首先明白一点，thinkphp 中的计划任务不是真正意义上的，它是使用一个文件的修改时间差来比较是否执行，并且必须依赖网站的访问才能触发脚本
+在 conf 下新建两个文件并配置 tags.php 和 crons.php
+配置 tag.php
+return array( &amp;#39;app_end&amp;#39;=&amp;gt;array(&amp;#39;\Behavior\CronRun&amp;#39;), // 定时任务 ); 配置 crons.php
+return array( &amp;#39;cron_1&amp;#39;=&amp;gt;array(&amp;#39;cron1&amp;#39;, &amp;#39;10&amp;#39;) //cron1要执行的脚本 ) cron1 默认在 ThinkPHP\Library\Cron\cron1.php 如果没有 cron 目录则新建一个,cron1.php 自己所要执行的脚本
+注意：
+app_end 的路径配置，\Behavior\CronRun 路径要包含 \ 否则不被认为是 Behavior 如果报错 Log::write 相关错误，则打开 ThinkPHP\Library\Behavior\CronRunBehavior.class.php 大约 55 行 \Think\Log::write(implode(&#39;&#39;,$log)); </description>
+    </item>
+    
+    <item>
+      <title>移动端滑动切换</title>
+      <link>https://www.printlove.cn/mobile-swipe/</link>
+      <pubDate>Wed, 30 Nov 2016 10:19:34 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/mobile-swipe/</guid>
+      <description>预览 scss 样式 @import &amp;#39;common&amp;#39;;//初始样式，可以不需要(这是我项目需要) /*body默认铺满整个屏幕*/ body{ position: absolute; bottom: 0; top: 0; left: 0; right: 0; } #nav{ height: 2.8125rem; background-color: white; color: $gray; @include flex(center, center); .sub-item{ text-align: center; -webkit-flex: 1; flex: 1; line-height: 2.8125rem; width: 100%; height: 100%; border-bottom: none; } } .selected{ border-bottom: 0.0625rem solid $textcolor!important; color: $textcolor!important; } #main{ min-height: 100%; } html 额外了解: swiper插件
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no&amp;#34;&amp;gt; &amp;lt;title&amp;gt;投资计划&amp;lt;/title&amp;gt; &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; type=&amp;#34;text/css&amp;#34; href=&amp;#34;css/swiper.</description>
+    </item>
+    
+    <item>
+      <title>LAMP环境搭建</title>
+      <link>https://www.printlove.cn/lamp/</link>
+      <pubDate>Tue, 27 Sep 2016 12:09:47 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/lamp/</guid>
+      <description>安装 php, yum -y install php 查询是否安装了 apache rpm -qa httpd linux 当中 apache 称为 httpd
+service httpd start 启动软件 httpd.conf 配置文件路径 /etc/httpd/conf/httpd.conf systemctl systemctl 命令是系统服务管理器指令，它实际上将 service 和 chkconfig 这两个命令组合到一起。
+疑点解释 linux 下，源码的安装一般由 3 个步骤组成：配置（configure）、编译（make）、安装（make install）
+过程中用到 configure --prefix --with；其中 --prefix 指的是安装路径，--with 指的是安装本文件所依赖的库文件
+./configure 的作用是检测系统配置，生成 makefile 文件，以便你可以用 make 和 make install 来编译和安装程序。
+./configure 是源代码安装的第一步，主要的作用是对即将安装的软件进行配置，检查当前的环境是否满足要安装软件的依赖关系，但并不是所有的 tar 包都是源代码的包，
+你先 ls，看有没有 configure 或者 makefile 文件。
+如果有 configure，就./configure，有很多参数。如果系统环境合适，就会生成 makefile，否则会报错。
+如果有 makefile，就直接 make，然后 make install。</description>
+    </item>
+    
+    <item>
+      <title>(centos)svn服务器与客户端的搭建</title>
+      <link>https://www.printlove.cn/centos-svn-install/</link>
+      <pubDate>Mon, 19 Sep 2016 17:44:29 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/centos-svn-install/</guid>
+      <description>1、 yum install subversion.i686
+2、 创建仓库
+创建版本库目录mkdir -p /home/svndata/lvmaque_svn创建版本库svnadmin create /home/svndata/lvmaque_svn结果:
+3、进入 conf 目录（该 svn 版本库配置文件）
+authz 文件是权限控制文件 passwd 是帐号密码文件 svnserve.conf SVN 服务配置文件 4、设置帐号密码
+vi passwd
+在 [users] 块中添加用户和密码，格式：帐号=密码，如 dan=dan
+5、 设置权限
+vi authz
+在末尾添加如下代码：
+[/]dan=rwww = r意思是版本库的根目录 dan 对其有读写权限，ww 只有读权限。
+/，表示根目录及以下。根目录是 svnserve 启动时指定的，我们指定为/home/svnadmin/svndata。这样，/就是表示对全部版本库设置权限。 repos1:/，表示对版本库 1 设置权限 repos2:/occi，表示对版本库 2 中的 occi 项目设置权限 repos2:/occi/aaa,，表示对版本库 2 中的 occi 项目的 aaa 目录设置权限 6、修改 svnserve.conf 文件
+vi svnserve.</description>
+    </item>
+    
+    <item>
+      <title>(windows)svn服务器与客户端的搭建</title>
+      <link>https://www.printlove.cn/win-svn-install/</link>
+      <pubDate>Sat, 17 Sep 2016 23:49:35 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/win-svn-install/</guid>
+      <description>准备软件 VisualSVN_Server 服务器端
+TortoiseSVN 客户端
+安装过程 1） 先安装好两个软件，这个没有什么难度，就不细说了
+2） 在服务器端创建一个空仓库
+要建立版本库,需要右键单击左边窗口的 Repositores,如下图:
+在弹出的右键菜单中选择 Create New Repository 或者新建 -&amp;gt;Repository:
+进入下一步，如下图
+点击【下一步】，如下图：
+点击【create】，如下图：
+点击【Finish】即可完成基本创建。
+需要建立用户和组，并且需要分配权限 3.1 在 VisualSVN Server Manager 窗口的左侧右键单击用户组,选择 Create User 或者新建 -&amp;gt;User,如图:
+点击 User 后，进入如下图：
+填写 Username 和 password 后，点击 ok 按钮后，进入如下图：
+点击上面的【Add】按钮后，如下图
+增加 longen0707 到用户中 (如果有多个用户，操作一样)。
+3.2 然后我们建立用户组,在 VisualSVN Server Manager 窗口的左侧右键单击用户组,选择 Create Group 或者新建 -&amp;gt;Group,如图:
+建立组可以在分配权限给一个组分配，省去了多个用户相同权限的频繁操作
+点击【Group】按钮后，进入如下图：
+在弹出窗口中填写 Group name 为 Developers,然后点 Add 按钮,在弹出的窗口中选择 Developer,加入到这个组,然后点 Ok.</description>
+    </item>
+    
+    <item>
+      <title>使用css3属性处理单词的换行和断词</title>
+      <link>https://www.printlove.cn/css3-word/</link>
+      <pubDate>Sat, 11 Jun 2016 21:03:33 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/css3-word/</guid>
+      <description>问题呈现 &amp;lt;div class=&amp;#34;main&amp;#34;&amp;gt; Nameofuser-definedcallbackfunctiontobecalledwheneverastreamtriggersanotification. &amp;lt;/div&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; .main{ width: 100px; border: 2px solid red; } &amp;lt;/style&amp;gt; 默认情况下,连续的单词如果在一行容纳不下的话会在空格和连字符处换行，那如何让它换行呢?
+认识 word-break 属性 属性值 解释 normal 使用浏览器默认的换行规则 (默认) break-all 允许在单词内换行 keep-all 只能在半角空格或连字符处换行 现在大多说的浏览器默认的换行规则为半角空格和连字符,因此 normal 和 keep-all 的效果是一样的。
+word-break: break-all &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; .main{ width: 100px; border: 2px solid red; word-break: break-all; } &amp;lt;/style&amp;gt; word-break: break-all，打破了默认的换行规则。那如果想保留空格和连字符处换行怎么办？
+认识 word-wrap 属性 属性值 解释 normal 使用浏览器默认的换行规则 (默认) break-word 长单词进行换行 下来看一下演示,我把单词内部插入了几个空格
+先看默认的，以作对比。我把长单词多插入了几个空格，以便效果明显 &amp;lt;div class=&amp;#34;main&amp;#34;&amp;gt; Name of user-definedcallbackfunction to be called wheneverastreamtriggersanotification.</description>
+    </item>
+    
+    <item>
+      <title>php缓冲区与header函数之间的秘密</title>
+      <link>https://www.printlove.cn/php-header/</link>
+      <pubDate>Sun, 05 Jun 2016 12:42:47 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/php-header/</guid>
+      <description>我们在实际的开发中,是否听说过在 header 之前不能有任何的实际输出。甚至有的认为 header 函数必须写在代码的最前面。可是你是否试验过 header 函数之前输出东西?下来让我们更深层次的了解一下
+测试 header 之前有输出 &amp;lt;?php echo &amp;#39;hello world!&amp;#39;; header(&amp;#39;content-type: text/html;charset=utf-8;&amp;#39;); 我经过测试时可以成功的,不会出现任何错误和警告。不知道你们是怎么样的?可是我想大多说都是没有问题,如果出现了Cannot modify header information - headers already sent这样的警告,这是是说不能修改头部信息,头部信息已经发送。下来就了解一下为什么会出现两种不同结果?
+缓冲区 做个比喻,就好比我们看电影时的缓存一样。它不会之间立即给我们播放出来,而是先将一部分下载好的电影放到缓存里面,再有缓存播放出来。我们编写 php 代码也是这个道理
+php 的缓存机制 -output_buffering php 中的常用 ob 函数 函数 解释 ob_start 打开输出缓冲区 ob_clean 清空缓冲区 ob_get_contents 返回缓冲区内容 ob_get_clean 返回缓冲区内容,并清空 &amp;lt;?php ob_start(); echo &amp;#39;hello world!&amp;#39;; echo ob_get_contents();//输出hello world!hello world! 在 php.ini 配置文件中,修改缓冲区大小
+注：一般在 233 行左右,默认是 4096 表示 4096 字节也就是 4kB。
+下来将 4096 修改为 5,重新运行这段代码
+&amp;lt;?php echo &amp;#39;hello world!</description>
+    </item>
+    
+    <item>
+      <title>跟我学习php数组常用函数-下篇</title>
+      <link>https://www.printlove.cn/php-func-down/</link>
+      <pubDate>Sun, 05 Jun 2016 00:05:03 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/php-func-down/</guid>
+      <description>mixed array_rand ( array $input [, int $num_req = 1 ] ) 从 input 所给的数组中随机 选取一个或多个键
+num_req，指明了你想取出多少个单元。如果指定的数目超过了数组里的数量将会产生一个 E_WARNING 级别的错误。 返回值,如果你只取出一个，array_rand() 返回一个随机单元的键名，否则就返回一个包含随机键名的数组。这样你就可以随机从数组中取出键名和值。 array array_replace ( array $array1 , array $array2 [, array $... ] ) array_replace() 函数使用后面数组元素相同 key 的值替换 array1 数组的值。
+如果一个键存在于第一个数组同时也存在于第二个数组，它的值将被第二个数组中的值替换。 $arr1 = array(&amp;#39;hobby&amp;#39; =&amp;gt; &amp;#39;basketball&amp;#39;); $arr2 = array(&amp;#39;hobby&amp;#39; =&amp;gt; &amp;#39;football&amp;#39;); $arr = array_replace($arr1, $arr2); //$arr结果,array(&amp;#39;hobby&amp;#39; =&amp;gt; &amp;#39;football&amp;#39;); 如果一个键存在于第二个数组，但是不存在于第一个数组，则会在第一个数组中创建这个元素。 $arr1 = array(&amp;#39;hobby&amp;#39; =&amp;gt; &amp;#39;basketball&amp;#39;); $arr2 = array(&amp;#39;sex&amp;#39; =&amp;gt; &amp;#39;male&amp;#39;); $arr = array_replace($arr1, $arr2); //$arr结果,array(&amp;#39;hobby&amp;#39; =&amp;gt; &amp;#39;basketball&amp;#39;, &amp;#39;sex&amp;#39; =&amp;gt; &amp;#39;male&amp;#39;); 如果一个键仅存在于第一个数组，它将保持不变。 如果传递了多个替换数组，它们将被按顺序依次处理，后面的数组将覆盖之前的值。 是非递归的：它将第一个数组的值进行替换而不管第二个数组中是什么类型。 $arr1 = array(&amp;#39;hobby&amp;#39; =&amp;gt; array(&amp;#39;a&amp;#39; =&amp;gt; &amp;#39;football&amp;#39;, &amp;#39;b&amp;#39; =&amp;gt; &amp;#39;basketball&amp;#39;)); $arr2 = array(&amp;#39;hobby&amp;#39; =&amp;gt; array(&amp;#39;a&amp;#39; = &amp;gt; &amp;#39;ping-pong&amp;#39;)); $arr = array_replace($arr1, $arr2); //结果:array(&amp;#39;hobby&amp;#39; =&amp;gt; array(&amp;#39;a&amp;#39; = &amp;gt; &amp;#39;ping-pong&amp;#39;)); 如果是递归的,结果:array(&#39;hobby&#39; =&amp;gt; array(&#39;a&#39; =&amp;gt; &#39;ping-pong&#39;, &#39;b&#39; =&amp;gt; &#39;basketball&#39;));</description>
+    </item>
+    
+    <item>
+      <title>跟我学习php数组常用函数-上篇</title>
+      <link>https://www.printlove.cn/php-func-up/</link>
+      <pubDate>Fri, 03 Jun 2016 23:54:14 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/php-func-up/</guid>
+      <description>对于 php 的初学者,也许会对它大量的函数不清楚该学习哪些。我在这列举了一些大家实际当中可能会使用到的,供您参考
+array_map ( callable $callback , array $arr1 [, array $... ] ) callback(回调函数),接受一个函数
+函数作用: 将 arr1 的参数顺序的传递给前面的回调函数
+回调函数有参时: /*例1*/ &amp;lt;?php function cube ( $n ) { return( $n * $n * $n ); } $a = array( 1 , 2 , 3 , 4 , 5 ); $b = array_map ( &amp;#34;cube&amp;#34; , $a ); print_r ( $b ); /** 输出 Array ( [0] =&amp;gt; 1 [1] =&amp;gt; 8 [2] =&amp;gt; 27 [3] =&amp;gt; 64 [4] =&amp;gt; 125 ) **/ ?</description>
+    </item>
+    
+    <item>
+      <title>你清楚 C# 怎么使用 Python 的东西吗</title>
+      <link>https://www.printlove.cn/csharp-python/</link>
+      <pubDate>Thu, 02 Jun 2016 14:52:30 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/csharp-python/</guid>
+      <description>本次实验是 vs2010 版本以下（包括 vs2010）,我记得如果是高版本的话好像已经内置了，所以比较简单
+去官网下载 IronPython，它是 IronPython 是一种在 NET 和 Mono 上实现的 Python 语言
+打开 vs,添加两个引用，在 IronPython 的安装根目录下面选择 IronPython.dll 和 Microsoft.Scripting.dll
+using Microsoft.Scripting.Hosting; using IronPython.Hosting; //前面要导入两个名称空间 private void button1_Click(object sender, EventArgs e) { ScriptEngine pyEngine = Python.CreateEngine(); //建立python引擎 pyEngine.CreateScriptSourceFromFile(&amp;#34;demo1.py&amp;#34;).Execute(); //执行.py脚本 } 上面这个 &amp;quot;demo1.py&amp;quot; 是你的 Python 脚本文件，如果想通过上面两句执行.py 文件必须，前提是你还要导入别的模块，就必须加入在最前面写入以下代码,还有要设置脚本属性中（vs 中右键）“复制到输出目录中”这一项，选择始终复制（所有脚本一样） import sys sys.path.append(&amp;#34;C:\IronPython 2.7\Lib&amp;#34;)#看自己的Lib路径 调用 python 的方法//配置 python 的环境,另写一个脚本 demo2.py ScriptRuntime pyRuntime = Python.CreateRuntime(); dynamic obj = pyRuntime.UseFile(&amp;#34;demo2.py&amp;#34;); var a = obj.</description>
+    </item>
+    
+    <item>
+      <title>认识css3伪元素</title>
+      <link>https://www.printlove.cn/css3-class/</link>
+      <pubDate>Wed, 01 Jun 2016 22:10:21 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/css3-class/</guid>
+      <description>css2 的规定为单冒号表示，而 css3 已经明确表示伪类使用单冒号，伪元素使用双冒号，本次所有测试双冒号。
+提示：对于读者阅读，有的地方显得有些冗余，但是，这是为了测试没办法了，如果写的不全面或者有错误，请您提出建议。
+::selection 对用户所选取的部分样式改变
+浏览器支持 IE FireFox Chrome Safari Opera Edge 360 支持 支持 支持 没测试 支持 支持 支持 注：IE9+、Opera、Google Chrome 以及 Safari 中支持 ::selection 选择器。 Firefox 支持替代的 ::-moz-selection。 代码示例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; ::selection{ background-color: red; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;article&amp;gt; ::selection元素选择器的学习,如果选中显示为红色，默认为蓝色的 &amp;lt;/article&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; w3cshool,css3 ::selection
+::before 在元素显示内容之前进行某些样式
+###浏览器支持
+IE FireFox Chrome Safari Opera Edge 360 支持 支持 支持 没测试 支持 支持 支持 IE9 包括 9 版本以上支持双冒号 ###代码示例 &amp;lt;!</description>
+    </item>
+    
+    <item>
+      <title>这种div高度自适应确定你知道吗？</title>
+      <link>https://www.printlove.cn/div-height-auto/</link>
+      <pubDate>Wed, 01 Jun 2016 22:06:11 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/div-height-auto/</guid>
+      <description>随子元素 div 高度自适应 如何下面的 child1 和 child2 浮动，parent 高度就会为 0，前提 child1 和 child2 都有高度，如果你想 parent 的高度自适应，请继续阅读
+&amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;parent&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;child1&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;child2&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; 样式省略 方法 1 .parent{ overflow:hidden; } 方法 2 会使用到伪元素：after,如果不懂请看 伪元素 .parent:after{ content: &amp;#34; &amp;#34;; height: 0; display: block; clear: both; visibility: hidden; } 根据 div 宽度的百分比调整 div 高度 假设我的 div 宽度会自动变化,但是我的高度只想设置成 div 宽度的一半,该如何实现呢?
+&amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;main&amp;#34;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; 设置 main 的高度为宽度的一半
+.main:after{ display: block; content: &amp;#39; &amp;#39;; padding-top: 50%; border: 1px solid black;/*便于看出div的效果*/ } </description>
+    </item>
+    
+    <item>
+      <title>那些经常使用的 CSS3属性</title>
+      <link>https://www.printlove.cn/css-property/</link>
+      <pubDate>Tue, 31 May 2016 19:44:16 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/css-property/</guid>
+      <description>1、display:flex||inline-flex display flex inline-flex 解释 将对象作为弹性伸缩盒显示 将对象作为内联块级弹性伸缩盒显示 项目中的应用 我当时写过一个因为子元素浮动让 div 自适应高度的解决办法，使用的是 css 方法解决的。div高度自适应
+下面就是换用 display:flex 解决
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Test&amp;lt;/title&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; .main{ width:200px; background-color: red; display: flex;/*父div设置该属性*/ } .main&amp;gt;div{ width: 50px; height: 50px; border: 1px solid blue; box-sizing: border-box;/*这是css3属性，如果不懂，请继续往下阅读*/ /*float:left;这个属性就不需要了，会自动浮动*/ } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;div&amp;gt;1&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;2&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;3&amp;lt;/div&amp;gt; &amp;lt;div&amp;gt;4&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; display:inline-flex,如果想看到效果，将上面的 display:flex,换成 display:inline-flex,并且将 width:200px 删除。在没有测试之前，有的人可能会认为.main 会占据整个一行，但是，测试结果是，它会根据子元素所有的 div 大小自适应宽度和高度
+2、属性 align-items 项目中的应用
+属性值 解释 flex-start 弹性盒子元素的侧轴（纵轴）起始位置的边界紧靠住该行的侧轴起始边界 flex-end 弹性盒子元素的侧轴（纵轴）起始位置的边界紧靠住该行的侧轴结束边界 center 弹性盒子元素在该行的侧轴（纵轴）上居中放置。（如果该行的尺寸小于弹性盒子元素的尺寸，则会向两个方向溢出相同的长度 baseline 如弹性盒子元素的行内轴与侧轴为同一条，则该值与 &#39;flex-start&#39; 等效。其它情况下，该值将参与基线对齐 stretch 如果指定侧轴大小的属性值为 &#39;auto&#39;，则其值会使项目的边距盒的尺寸尽可能接近所在行的尺寸，但同时会遵照 &#39;min/max-width/height&#39; 属性的限制 再次注意:</description>
+    </item>
+    
+    <item>
+      <title>实现HTML元素垂直居中的六种方法</title>
+      <link>https://www.printlove.cn/css-center/</link>
+      <pubDate>Tue, 31 May 2016 19:40:00 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/css-center/</guid>
+      <description>一、 img 的垂直水平居中 使用到的重要样式属性 display,vertical-align
+vertical-align:middle 这个属性是对 table 元素垂直居中起作用，如果想使用在 img 元素上，就注意下面的 display 设置
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; .main{ width: 400px; height: 400px; background-color: #aaa; display: table;/*父元素设置表格属性*/ text-align: center; } .main span{ display: table-cell;/*img设置成表格元素属性*/ vertical-align: middle;/*两个display设置后这个属性就起作用*/ } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&amp;#34;main&amp;#34;&amp;gt; &amp;lt;span&amp;gt;&amp;lt;img src=&amp;#34;1.jpg&amp;#34; alt=&amp;#34;/&amp;#34; width=&amp;#34;150px&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 注意: display:table-cell，这是对类似文字元素起作用的,所以包含在 span 标签内
+对于文字居中也 h1,span,p 等类似文字标签都可以这样设置居中 二、 div 的垂直水平居中 这种方法同样适用于 img,只需将 child 换成 img 就行，不再需要 span 了</description>
+    </item>
+    
+    <item>
+      <title>Ajax简单实现文件异步上传的多种方法</title>
+      <link>https://www.printlove.cn/ajax-upload/</link>
+      <pubDate>Tue, 31 May 2016 19:33:05 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/ajax-upload/</guid>
+      <description>1. 认识 FormData 对象 FormData 是 Html5 新加进来的一个类,可以模拟表单数据
+构造函数 解释 FormData (optional HTMLFormElement form) (可选) 一个 HTML 表单元素,可以包含任何形式的表单控件,包括文件输入框. 方法 void append(DOMString name, DOMString value)
+name 表单元素名称 value 表单元素要传递的值 &amp;lt;form name=&amp;#34;myForm&amp;#34; enctype=&amp;#34;multipart/form-data&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; name=&amp;#34;userName&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;file&amp;#34; name=&amp;#34;img&amp;#34;&amp;gt; &amp;lt;input type=&amp;#34;button&amp;#34; id=&amp;#34;btn&amp;#34; value=&amp;#34;submit&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; 2. 使用 javascript 简单实现 function upload() { var userName = document.myForm.userName.value; var img = document.myForm.img.files[0]; var fm = new FormData(); fm.append(&amp;#39;userName&amp;#39;, userName); fm.append(&amp;#39;img&amp;#39;, img); var request = new XMLHttpRequest(); request.</description>
+    </item>
+    
+    <item>
+      <title>WPF如何使用触发器</title>
+      <link>https://www.printlove.cn/wpf-trigger/</link>
+      <pubDate>Mon, 02 Nov 2015 20:29:11 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/wpf-trigger/</guid>
+      <description>一 属性触发器 1.WPF 如何实现下面的功能
+2.下面就是利用属性触发器实现 (如果不懂可以看看《WPF 高级编程》这本书)
+&amp;lt;!--给编辑资料添加属性触发器,字体颜色变色，提醒用户可以点击--&amp;gt; &amp;lt;Style x:Key=&amp;#34;styPropert&amp;#34; TargetType=&amp;#34;{x:Type CheckBox}&amp;#34;&amp;gt; &amp;lt;Style.Triggers&amp;gt; &amp;lt;Trigger Property=&amp;#34;IsMouseOver&amp;#34; Value=&amp;#34;true&amp;#34;&amp;gt; &amp;lt;Setter Property=&amp;#34;BorderBrush&amp;#34; Value=&amp;#34;Yellow&amp;#34;&amp;gt;&amp;lt;/Setter&amp;gt; &amp;lt;/Trigger&amp;gt; &amp;lt;/Style.Triggers&amp;gt; &amp;lt;/Style&amp;gt; 3.如果针对一个这种情况你可能会使用 MouseEnter 和 MouseLeave 两个事件,但是如果这种情况多的话，差不多相同的重复写，还有你可以多个 Label 共同作用这两个事件，这样也确实变的简单了，但是你利用属性触发器代码变得就会变得更清晰和更优美
+//利用这两个事件实现上图简单的功能 private void label1_MouseEnter(object sender, MouseEventArgs e) { label1.Foreground = Brushes.Blue; //将鼠标指针变成手的形状 label1.Cursor = Cursors.Hand; } private void label1_MouseLeave(object sender, MouseEventArgs e) { label1.Foreground = Brushes.Black; } 二 多触发器 1.我现在做一个简单的关键字变色（只是为了演示多触发器），本来是应该需要正则表达式来完成
+对于这种功能的实现你完全可以使用一个事件来写，但是今天只是想说说触发器如何使用
+&amp;lt;Window.Resources&amp;gt; &amp;lt;Style x:Key=&amp;#34;styColor&amp;#34; TargetType=&amp;#34;{x:Type ComboBox}&amp;#34;&amp;gt; &amp;lt;Style.Triggers&amp;gt; &amp;lt;MultiTrigger&amp;gt; &amp;lt;MultiTrigger.Conditions&amp;gt; &amp;lt;!--被选择，并且内容为是整个字体变颜色--&amp;gt; &amp;lt;Condition Property=&amp;#34;SelectedIndex&amp;#34; Value=&amp;#34;0&amp;#34;&amp;gt;&amp;lt;/Condition&amp;gt; &amp;lt;Condition Property=&amp;#34;Text&amp;#34; Value=&amp;#34;WPF&amp;#34;&amp;gt;&amp;lt;/Condition&amp;gt; &amp;lt;/MultiTrigger.</description>
+    </item>
+    
+    <item>
+      <title>C#调用Python语言</title>
+      <link>https://www.printlove.cn/csharp-python/</link>
+      <pubDate>Fri, 23 Oct 2015 20:57:06 +0000</pubDate>
+      
+      <guid>https://www.printlove.cn/csharp-python/</guid>
+      <description>本次实验是 vs2010 版本以下（包括 vs2010）,我记得如果是高版本的话好像已经内置了，所以比较简单。
+1.去官网下载 IronPython,链接 http://ironpython.codeplex.com/，它是 IronPython 是一种在 NET 和 Mono 上实现的 Python 语言
+2.打开 vs,添加两个引用，在 IronPython 的安装根目录下面选择 IronPython.dll 和 Microsoft.Scripting.dll
+using Microsoft.Scripting.Hosting; using IronPython.Hosting; //前面要导入两个名称空间 private void button1_Click(object sender, EventArgs e) { ScriptEngine pyEngine = Python.CreateEngine(); //建立python引擎 pyEngine.CreateScriptSourceFromFile(&amp;#34;demo1.py&amp;#34;).Execute();//执行.py脚本 } 3.上面这个 &amp;quot;demo1.py&amp;quot; 是你的 Python 脚本文件，如果想通过上面两句执行.py 文件必须，前提是你还要导入别的模块，就必须加入在最前面写入以下代码,还有要设置脚本属性中（vs 中右键）“复制到输出目录中”这一项，选择始终复制（所有脚本一样）
+import sys sys.path.appedn(&amp;#34;C:\IronPython 2.7\Lib&amp;#34;)#看自己的Lib路径 4.调用python的方法//配置python的环境,另写一个脚本demo2.py ScriptRuntime pyRuntime = Python.CreateRuntime(); dynamic obj = pyRuntime.UseFile(&amp;#34;demo2.py&amp;#34;); var a = obj.ShutDown(1800); //调用脚本的ShutDown方法，1800时间单位为秒 if (a == 1) { Console.</description>
+    </item>
+    
+    <item>
+      <title>使用sql语句的两种分页方法</title>
+      <link>https://www.printlove.cn/sql-page/</link>
+      <pubDate>Mon, 19 Oct 2015 15:12:58 +0800</pubDate>
+      
+      <guid>https://www.printlove.cn/sql-page/</guid>
+      <description>使用存储过程 1. 使用 top 方法 &amp;lt;pre name=&amp;#34;code&amp;#34; class=&amp;#34;sql&amp;#34;&amp;gt;--一条一条的访问数据库 Create procedure data_page @num int,--每页的信息数 @i int--接受是第几页 as declare @n int --存储总信息数 set @n=(select COUNT(*) from people) if(@i&amp;lt;=@n/@num) begin select top (@num) * from people where P_id in(select top (@i*@num) p_id from people order by p_id asc) order by p_id desc end --如果最后一张不是完整的一页 --进入一面的判断 if(@i*@num-@n&amp;gt;0) select top (@n-(@i-1)*@num) * from people order by p_id desc go exec data_page 5,1 --删除存储过程 drop procedure data_page 2.</description>
+    </item>
+    
+  </channel>
+</rss>
