@@ -1,40 +1,5 @@
 {
     "redirects": [
-        {
-            "source": "/tools/:path*",
-            "destination": "https://old.printlove.cn/tools/:path*"
-        },
-        {
-            "source": "/tools/:path*/",
-            "destination": "https://old.printlove.cn/tools/:path*"
-        },
-        {
-            "source": "/posts/docker/wsl2",
-            "destination": "/docker-wsl2/"
-        },
-        {
-            "source": "/posts/gobasic/5-常量及运算符/",
-            "destination": "/golang-const/"
-        },
-        {
-            "source": "/posts/me/",
-            "destination": "/about"
-        },
-        {
-            "source": "/posts/gobasic/19/",
-            "destination": "/golang-unit-test/"
-        },
-        {
-            "source": "/posts/gobasic/16-error/",
-            "destination": "/golang-error/"
-        },
-        {
-            "source": "/posts/go/webhook/",
-            "destination": "/go-webhook/"
-        },
-        {
-            "source": "/posts/gobasic/11-package/",
-            "destination": "/golang-package/"
-        }
+        
     ]
 }
