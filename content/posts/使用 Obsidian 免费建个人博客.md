@@ -57,7 +57,7 @@ Property key，可以通过文章的属性设置上传的目录，例如我这�
 注意：Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。  
   
 下来稍微麻烦点展开说说，正则内容替换：  
-![使用 Obsidian 免费建个人博客-20240110092805987.webp](/images/%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-20240110092805987.webp)  
+![使用 Obsidian 免费建个人博客-20240110093155470.webp](/images/%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-20240110093155470.webp)  
   
 截图中有三个正则替换规则，每行后面都有个箭头，↑箭头表示插件应用之前替换，↓箭头表示插件应用之后替换。  
   
