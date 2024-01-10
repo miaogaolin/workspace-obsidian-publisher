@@ -11,8 +11,10 @@
             "id": "64cf32dc74f8c1fe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "static/apple-touch-icon.png"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "static/apple-touch-icon.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "static/apple-touch-icon.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "static/apple-touch-icon.png"
+              }
             }
           }
         ]
@@ -140,8 +146,16 @@
   },
   "active": "64cf32dc74f8c1fe",
   "lastOpenFiles": [
-    "public/page/1/index.html",
+    "static/images/测试AI-20240110142830164.webp",
+    "static/apple-touch-icon.png",
+    "archetypes/default.md",
+    "content/posts/post.md",
+    "archetypes/post.md",
     "content/posts/使用 Obsidian 免费建个人博客.md",
+    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
+    "static/images/测试AI-20240110180800972.webp",
+    "static/images/测试AI-20240110151536606.webp",
+    "public/page/1/index.html",
     "public/robots.txt",
     "public/index.xml",
     "public/posts/index.xml",
@@ -151,7 +165,6 @@
     "public/404.html",
     "public/sitemap.xml",
     "public/obsidian-blog/index.html",
-    "public/obsidian-blog",
     "public/images/sponsor.webp",
     "public/safari_pinned_tab.png",
     "public/favicon-32x32.png",
@@ -160,18 +173,11 @@
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",
-    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "static/images/sponsor.webp",
     "content/posts/WPF如何使用触发器.md",
     "static/images/f9d00dcaa243c71281a24ae64054b9b7.webp",
-    "static/images/ff5b30392401a5619af9164726ce2603.png",
-    "static/images/f5ee3e3b600a290529b34681428dd6ac.webp",
-    "static/images/eeda0f20b31f86e2c04842a033da4ce0.webp",
-    "content/posts/测试AI.md",
     "content/posts/Golang在线工具迁入Vercel.md",
     "content/posts/“番茄工作法”你确定了解吗？.md",
-    "archetypes/post.md",
-    "archetypes/default.md",
     "content/posts/跟我学习php数组常用函数-上篇.md",
     "content/posts/认识css3伪元素.md",
     "content/posts/那些经常使用的 CSS3属性.md",
