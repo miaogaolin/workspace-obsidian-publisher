@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "acf2ff72d3b1f1ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "df9784ab4a51a9b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89d1ba324d7ae21c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/测试AI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "978d940fdb6bdddd",
+    "type": "split",
+    "children": [
+      {
+        "id": "091e914d55814d17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ecfe3fe68bdb8054",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "381d1dcadfde1ff0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b84e3f5cf1b00dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8dddf73d0921827c",
+    "type": "split",
+    "children": [
+      {
+        "id": "0916294dd4da7c32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69332cdd6f982980",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/posts/测试AI.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02a71a35042c3da4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/posts/测试AI.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cc1a302b231ab98e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "13db69b2844777cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/posts/测试AI.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "89d1ba324d7ae21c",
+  "lastOpenFiles": [
+    "static/images/测试AI-20240110095041262.webp",
+    "static/images/test-20240109194639827.webp",
+    "static/images/Pasted image 20240109182501.webp",
+    "content/posts/测试AI.md",
+    "static/images/测试-20240109181624092.webp",
+    "static/images/5e2c1892175d010a1f39bd9e6995a190.webp",
+    "static/images/ff5b30392401a5619af9164726ce2603.png",
+    "static/images/Pasted image 20240109181445.webp",
+    "static/images/Pasted image 20240109180814.webp",
+    "static/images/Pasted image 20240109180614.webp",
+    "archetypes/post.md",
+    "content/关于我.md",
+    "README.md",
+    "themes/PaperMod/theme.toml",
+    "themes/PaperMod/layouts/partials/templates/twitter_cards.html",
+    "themes/PaperMod/layouts/partials/templates/schema_json.html",
+    "themes/PaperMod/layouts/partials/templates/opengraph.html",
+    "themes/PaperMod/layouts/_default/_markup/render-image.html",
+    "themes/PaperMod/layouts/shortcodes/rtl.html",
+    "themes/PaperMod/layouts/shortcodes/ltr.html",
+    "themes/PaperMod/layouts/shortcodes/rawhtml.html",
+    "themes/PaperMod/layouts/shortcodes/inTextImg.html",
+    "themes/PaperMod/layouts/shortcodes/figure.html",
+    "themes/PaperMod/images/tn.png",
+    "themes/PaperMod/images/screenshot.png",
+    "themes/PaperMod/README.md",
+    "content/赞助.md",
+    "content/posts/Vercel 解决静态网站接口跨域.md"
+  ]
+}
