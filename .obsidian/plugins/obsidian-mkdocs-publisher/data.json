@@ -14,7 +14,7 @@
       "name": ""
     },
     "otherRepo": [],
-    "verifiedRepo": false,
+    "verifiedRepo": true,
     "rateLimit": 0
   },
   "upload": {
@@ -97,9 +97,9 @@
       "removePart": [],
       "addCmd": false
     },
-    "noticeError": false,
+    "noticeError": true,
     "displayModalRepoEditing": false,
     "migrated": true
   },
-  "tabsID": "text-conversion"
+  "tabsID": "plugin-settings"
 }
