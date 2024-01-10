@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on PrintLove</title>
-    <link>https://www.printlove.cn/tags/</link>
+    <link>https://www.gby.ai/tags/</link>
     <description>Recent content in Tags on PrintLove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.printlove.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gby.ai/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>标签</title>
-      <link>https://www.printlove.cn/tags/%E6%A0%87%E7%AD%BE/</link>
+      <link>https://www.gby.ai/tags/%E6%A0%87%E7%AD%BE/</link>
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://www.printlove.cn/tags/%E6%A0%87%E7%AD%BE/</guid>
+      <guid>https://www.gby.ai/tags/%E6%A0%87%E7%AD%BE/</guid>
       <description></description>
     </item>
     
     <item>
       <title>app_obsidian</title>
-      <link>https://www.printlove.cn/tags/app_obsidian/</link>
+      <link>https://www.gby.ai/tags/app_obsidian/</link>
       <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/tags/app_obsidian/</guid>
+      <guid>https://www.gby.ai/tags/app_obsidian/</guid>
       <description></description>
     </item>
     
     <item>
       <title>随笔</title>
-      <link>https://www.printlove.cn/tags/%E9%9A%8F%E7%AC%94/</link>
+      <link>https://www.gby.ai/tags/%E9%9A%8F%E7%AC%94/</link>
       <pubDate>Mon, 18 Dec 2023 16:36:49 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/tags/%E9%9A%8F%E7%AC%94/</guid>
+      <guid>https://www.gby.ai/tags/%E9%9A%8F%E7%AC%94/</guid>
       <description></description>
     </item>
     
     <item>
       <title>app</title>
-      <link>https://www.printlove.cn/tags/app/</link>
+      <link>https://www.gby.ai/tags/app/</link>
       <pubDate>Thu, 27 Jan 2022 15:25:26 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/tags/app/</guid>
+      <guid>https://www.gby.ai/tags/app/</guid>
       <description></description>
     </item>
     
     <item>
       <title>program_golang</title>
-      <link>https://www.printlove.cn/tags/program_golang/</link>
+      <link>https://www.gby.ai/tags/program_golang/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.printlove.cn/tags/program_golang/</guid>
+      <guid>https://www.gby.ai/tags/program_golang/</guid>
       <description></description>
     </item>
     
     <item>
       <title>app_docker</title>
-      <link>https://www.printlove.cn/tags/app_docker/</link>
+      <link>https://www.gby.ai/tags/app_docker/</link>
       <pubDate>Mon, 13 Aug 2018 10:11:21 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/tags/app_docker/</guid>
+      <guid>https://www.gby.ai/tags/app_docker/</guid>
       <description></description>
     </item>
     

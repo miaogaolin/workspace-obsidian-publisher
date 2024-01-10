@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Go基础系列 on PrintLove</title>
-    <link>https://www.printlove.cn/series/go%E5%9F%BA%E7%A1%80%E7%B3%BB%E5%88%97/</link>
+    <link>https://www.gby.ai/series/go%E5%9F%BA%E7%A1%80%E7%B3%BB%E5%88%97/</link>
     <description>Recent content in Go基础系列 on PrintLove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.printlove.cn/series/go%E5%9F%BA%E7%A1%80%E7%B3%BB%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gby.ai/series/go%E5%9F%BA%E7%A1%80%E7%B3%BB%E5%88%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go基础系列：19. 单元测试</title>
-      <link>https://www.printlove.cn/golang-unit-test/</link>
+      <link>https://www.gby.ai/golang-unit-test/</link>
       <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.printlove.cn/golang-unit-test/</guid>
+      <guid>https://www.gby.ai/golang-unit-test/</guid>
       <description>Go 语言中如何进行单元测试，代码覆盖率的作用及不同模式，testify 包的使用</description>
     </item>
     
     <item>
       <title>Go基础系列：18. 并发</title>
-      <link>https://www.printlove.cn/golang-concurrency/</link>
+      <link>https://www.gby.ai/golang-concurrency/</link>
       <pubDate>Fri, 22 Oct 2021 10:12:00 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-concurrency/</guid>
+      <guid>https://www.gby.ai/golang-concurrency/</guid>
       <description>并发与并行的区别，什么是Goroutine，什么是通道，select语句使用等等</description>
     </item>
     
     <item>
       <title>Go基础系列：17. 详解 20 个占位符</title>
-      <link>https://www.printlove.cn/golang-format/</link>
+      <link>https://www.gby.ai/golang-format/</link>
       <pubDate>Thu, 30 Sep 2021 18:12:00 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-format/</guid>
+      <guid>https://www.gby.ai/golang-format/</guid>
       <description>Go 语言中 20 个占位符的想详细讲解，还有几个标记符号的用法</description>
     </item>
     
     <item>
       <title>Go基础系列：16. 错误与异常</title>
-      <link>https://www.printlove.cn/golang-error/</link>
+      <link>https://www.gby.ai/golang-error/</link>
       <pubDate>Wed, 29 Sep 2021 10:10:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-error/</guid>
+      <guid>https://www.gby.ai/golang-error/</guid>
       <description>学到什么 什么是错误？ 如何创建错误？ 如何处理错误？ errors 包的使用？ 什么是异常？ 如何处理异常？ defer 关键字的作用？ recover 函数的使用？ 什么是错误 在写代码时，不是所有情况都能处理，对于不能处理的逻辑，就需要使用错误机制告诉上层调用者。
 在 Go 语言中，错误是被作为一个接口类型对待，它不像其它语言一样使用 try/catch 去捕捉，只需在函数或方法之间使用一个错误类型变量去传递。
 创建错误 这里所说的创建错误，实际上就是去实现错误接口，接口如下：
@@ -53,136 +53,136 @@ import &amp;#34;fmt&amp;#34; var ErrHuman = fmt.Errorf(&amp;#34;%s不符合我�
     
     <item>
       <title>Go基础系列：15. 接口</title>
-      <link>https://www.printlove.cn/golang-interface/</link>
+      <link>https://www.gby.ai/golang-interface/</link>
       <pubDate>Sat, 18 Sep 2021 17:51:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-interface/</guid>
+      <guid>https://www.gby.ai/golang-interface/</guid>
       <description>什么是接口？如何定义接口？如何使用接口？如何嵌入接口？接口与接口之间如何赋值？如何推断接口的实际类型？如何使用空接口？</description>
     </item>
     
     <item>
       <title>Go基础系列：14. 指针类型</title>
-      <link>https://www.printlove.cn/golang-pointer/</link>
+      <link>https://www.gby.ai/golang-pointer/</link>
       <pubDate>Wed, 15 Sep 2021 18:24:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-pointer/</guid>
+      <guid>https://www.gby.ai/golang-pointer/</guid>
       <description>什么是指针？什么什么是指针类型？如何使用和创建指针类型变量？如何从指针变量中取值？如何传递指针？</description>
     </item>
     
     <item>
       <title>Go基础系列：13. 自定义类型和结构体 - 方法</title>
-      <link>https://www.printlove.cn/golang-method/</link>
+      <link>https://www.gby.ai/golang-method/</link>
       <pubDate>Fri, 10 Sep 2021 11:30:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-method/</guid>
+      <guid>https://www.gby.ai/golang-method/</guid>
       <description>自定义类型和结构体如何携带方法？什么是值接收者？什么是指针接收者？等等等</description>
     </item>
     
     <item>
       <title>Go基础系列：12. 自定义类型和结构体 - 定义</title>
-      <link>https://www.printlove.cn/golang-struct/</link>
+      <link>https://www.gby.ai/golang-struct/</link>
       <pubDate>Tue, 07 Sep 2021 18:30:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-struct/</guid>
+      <guid>https://www.gby.ai/golang-struct/</guid>
       <description>自定义类型、结构体定义、匿名结构体、类型别名</description>
     </item>
     
     <item>
       <title>Go基础系列：11. 包</title>
-      <link>https://www.printlove.cn/golang-package/</link>
+      <link>https://www.gby.ai/golang-package/</link>
       <pubDate>Wed, 01 Sep 2021 17:35:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-package/</guid>
+      <guid>https://www.gby.ai/golang-package/</guid>
       <description>学习 Go 语言中包的声明、导入、使用、和包之间的加载顺序等等</description>
     </item>
     
     <item>
       <title>Go基础系列：10. 函数</title>
-      <link>https://www.printlove.cn/golang-func/</link>
+      <link>https://www.gby.ai/golang-func/</link>
       <pubDate>Fri, 06 Aug 2021 17:15:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-func/</guid>
+      <guid>https://www.gby.ai/golang-func/</guid>
       <description>一文搞懂 Go 语言中的函数，系统整理了 15 个内置函数</description>
     </item>
     
     <item>
       <title>Go基础系列：9. 内置集合 - map</title>
-      <link>https://www.printlove.cn/golang-map/</link>
+      <link>https://www.gby.ai/golang-map/</link>
       <pubDate>Fri, 16 Jul 2021 17:21:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-map/</guid>
+      <guid>https://www.gby.ai/golang-map/</guid>
       <description>go语言map的创建、遍历、删除键等知识讲解</description>
     </item>
     
     <item>
       <title>Go基础系列：8. 内置集合 - 切片</title>
-      <link>https://www.printlove.cn/golang-slice/</link>
+      <link>https://www.gby.ai/golang-slice/</link>
       <pubDate>Thu, 15 Jul 2021 16:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-slice/</guid>
+      <guid>https://www.gby.ai/golang-slice/</guid>
       <description>一文搞定 Go 语言切片，并对比了数组与切片的区别</description>
     </item>
     
     <item>
       <title>Go基础系列：7. 内置集合 - 数组</title>
-      <link>https://www.printlove.cn/golang-array/</link>
+      <link>https://www.gby.ai/golang-array/</link>
       <pubDate>Wed, 14 Jul 2021 16:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-array/</guid>
+      <guid>https://www.gby.ai/golang-array/</guid>
       <description>go语言中数组的用法，go语言中通道、map、数组和切片的遍历</description>
     </item>
     
     <item>
       <title>Go基础系列：6. 流程控制</title>
-      <link>https://www.printlove.cn/golang-if-for-switch/</link>
+      <link>https://www.gby.ai/golang-if-for-switch/</link>
       <pubDate>Mon, 12 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-if-for-switch/</guid>
+      <guid>https://www.gby.ai/golang-if-for-switch/</guid>
       <description>go语言if、for、switch语句使用，break、continue、goto、fallthrough关键字使用</description>
     </item>
     
     <item>
       <title>Go基础系列：5. 常量及运算符</title>
-      <link>https://www.printlove.cn/golang-const/</link>
+      <link>https://www.gby.ai/golang-const/</link>
       <pubDate>Sun, 11 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-const/</guid>
+      <guid>https://www.gby.ai/golang-const/</guid>
       <description>go语言常量的使用和其它语言的不同之处，go语言的运算符优先级，go语言运算符结合性</description>
     </item>
     
     <item>
       <title>Go基础系列：4. 变量及数据类型</title>
-      <link>https://www.printlove.cn/golang-var/</link>
+      <link>https://www.gby.ai/golang-var/</link>
       <pubDate>Sat, 10 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-var/</guid>
+      <guid>https://www.gby.ai/golang-var/</guid>
       <description>go语言变量，go语言数据类型</description>
     </item>
     
     <item>
       <title>Go基础系列：3. 环境搭建疑惑 - gomod学习</title>
-      <link>https://www.printlove.cn/gomod/</link>
+      <link>https://www.gby.ai/gomod/</link>
       <pubDate>Fri, 09 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/gomod/</guid>
+      <guid>https://www.gby.ai/gomod/</guid>
       <description>gomod如何使用，不同配置的含义，gomod命令的作用</description>
     </item>
     
     <item>
       <title>Go基础系列：2. 环境搭建</title>
-      <link>https://www.printlove.cn/golang-install/</link>
+      <link>https://www.gby.ai/golang-install/</link>
       <pubDate>Thu, 08 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-install/</guid>
+      <guid>https://www.gby.ai/golang-install/</guid>
       <description>windows、linux、mac的环境搭建，编辑器goland配置</description>
     </item>
     
     <item>
       <title>Go基础系列：1. 学习前导</title>
-      <link>https://www.printlove.cn/golang-start/</link>
+      <link>https://www.gby.ai/golang-start/</link>
       <pubDate>Wed, 07 Jul 2021 18:18:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/golang-start/</guid>
+      <guid>https://www.gby.ai/golang-start/</guid>
       <description>程序猿工作经历，掏心窝子学习Go语言</description>
     </item>
     

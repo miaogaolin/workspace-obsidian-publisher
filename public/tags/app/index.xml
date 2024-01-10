@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>app on PrintLove</title>
-    <link>https://www.printlove.cn/tags/app/</link>
+    <link>https://www.gby.ai/tags/app/</link>
     <description>Recent content in app on PrintLove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 27 Jan 2022 15:25:26 +0800</lastBuildDate><atom:link href="https://www.printlove.cn/tags/app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jan 2022 15:25:26 +0800</lastBuildDate><atom:link href="https://www.gby.ai/tags/app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022 科学上网 Ubuntu &amp; CFW 实现透明代理</title>
-      <link>https://www.printlove.cn/ubuntu-cfw/</link>
+      <link>https://www.gby.ai/ubuntu-cfw/</link>
       <pubDate>Thu, 27 Jan 2022 15:25:26 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/ubuntu-cfw/</guid>
+      <guid>https://www.gby.ai/ubuntu-cfw/</guid>
       <description>这篇文章是我折腾 3 天的结果，在这方面也是初学者，如果有问题，可以一块讨论。
 目标 我家里有个不用的笔记本，所以用它来实现透明代理。
 💡 透明代理：只要连接上了家里的局域网，不管是 wifi 还是连接到路由器的宽带，都可以自动的实现科学上网，无需设置什么。

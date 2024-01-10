@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>app_docker on PrintLove</title>
-    <link>https://www.printlove.cn/tags/app_docker/</link>
+    <link>https://www.gby.ai/tags/app_docker/</link>
     <description>Recent content in app_docker on PrintLove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Mon, 13 Aug 2018 10:11:21 +0800</lastBuildDate><atom:link href="https://www.printlove.cn/tags/app_docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Aug 2018 10:11:21 +0800</lastBuildDate><atom:link href="https://www.gby.ai/tags/app_docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 安装 Docker 并简单使用</title>
-      <link>https://www.printlove.cn/windows-docker/</link>
+      <link>https://www.gby.ai/windows-docker/</link>
       <pubDate>Mon, 13 Aug 2018 10:11:21 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/windows-docker/</guid>
+      <guid>https://www.gby.ai/windows-docker/</guid>
       <description>初次安装后，首先更换docker镜像地址，打开daemon.json，配置：
 win10配置文件路径，~/docker/daemon.json { &amp;#34;registry-mirrors&amp;#34;: [&amp;#34;https://registry.docker-cn.com&amp;#34;] } 或者
 右键点击docer运行图标，选择setting &amp;gt;&amp;gt; 右侧Daemon

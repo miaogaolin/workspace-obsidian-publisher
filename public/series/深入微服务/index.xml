@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>深入微服务 on PrintLove</title>
-    <link>https://www.printlove.cn/series/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/</link>
+    <link>https://www.gby.ai/series/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/</link>
     <description>Recent content in 深入微服务 on PrintLove</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.printlove.cn/series/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.gby.ai/series/%E6%B7%B1%E5%85%A5%E5%BE%AE%E6%9C%8D%E5%8A%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深入微服务：3. Protobuf 为啥比 JSON、XML 牛？</title>
-      <link>https://www.printlove.cn/protobuf/</link>
+      <link>https://www.gby.ai/protobuf/</link>
       <pubDate>Fri, 19 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://www.printlove.cn/protobuf/</guid>
+      <guid>https://www.gby.ai/protobuf/</guid>
       <description>Protobuf 的实现原理，并说明 JSON、XML 的不同支持</description>
     </item>
     
     <item>
       <title>深入微服务：2. 研究 Protobuf 时发现一个挺好的算法 — ZigZag</title>
-      <link>https://www.printlove.cn/zigzag/</link>
+      <link>https://www.gby.ai/zigzag/</link>
       <pubDate>Mon, 08 Nov 2021 17:45:01 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/zigzag/</guid>
+      <guid>https://www.gby.ai/zigzag/</guid>
       <description>Protobuf 底层使用的压缩算法，并使用 Go 语言实现</description>
     </item>
     
     <item>
       <title>深入微服务：1. 开篇 gRPC 环境&amp;启动</title>
-      <link>https://www.printlove.cn/grpc-start/</link>
+      <link>https://www.gby.ai/grpc-start/</link>
       <pubDate>Mon, 08 Nov 2021 16:48:56 +0800</pubDate>
       
-      <guid>https://www.printlove.cn/grpc-start/</guid>
+      <guid>https://www.gby.ai/grpc-start/</guid>
       <description>gRPC 的环境搭建及入门使用</description>
     </item>
     
