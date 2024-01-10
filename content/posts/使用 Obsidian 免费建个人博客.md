@@ -43,7 +43,9 @@ author:
 ### Github config  
 ![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)   
   
-注意：生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
+注意：  
+1. 生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
+2. 通过 here 生成 token 时的[链接](https://github.com/settings/tokens/new?scopes=repo,workflow)会自动带上权限，你只需要设置名字和过期时间即可。  
 ### Upload config  
 ![53917e2e2c04940aac42ceb567ccc769.webp](/images/53917e2e2c04940aac42ceb567ccc769.webp)  
 Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
