@@ -3,7 +3,7 @@ title: PrintLove
 paginate: 10
 theme: PaperMod
 languageCode: zh-cn
-
+ignoreErrors: ["error-remote-getjson"]  #yml or ignoreErrors = ["error-remote-getjson"]  #toml
 enableRobotsTXT: true
 buildDrafts: true
 buildFuture: false
