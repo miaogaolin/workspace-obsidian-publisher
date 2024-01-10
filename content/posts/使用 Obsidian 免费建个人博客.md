@@ -24,7 +24,7 @@ author:
 目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。  
 ## 相关工具  
 1. Obsidian + Github Publisher 插件  
-2. Hugo + Paper Mod 主题  
+2. Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo  
 3. Github  
 4. Vercel  
   
@@ -41,29 +41,28 @@ author:
   
 我会根据使用过程，讲一讲我用到的配置，如果你对其它配置感兴趣，可以看看 [官网文档](https://obsidian-publisher.netlify.app/plugin/)。  
 ### Github config  
-![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)  
+![2fd44d1493f8c3f6eb2a342853810937.png](/images/2fd44d1493f8c3f6eb2a342853810937.png)   
   
 注意：生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
 ### Upload config  
 ![53917e2e2c04940aac42ceb567ccc769.webp](/images/53917e2e2c04940aac42ceb567ccc769.webp)  
-Fixed Folder，表示将所有的文章上传到 content/posts 目录下。  
-  
-![20231227164241.webp](/images/20231227164241.webp)  
-Property key，可以通过文章的属性设置上传的目录，例如我这配置：  
-- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`  
-- 如果 dir 属性没有设置则默认上传到 content/posts 目录下  
+Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
+![01ee5739a16e4235cdae2095a45aa5e3.webp](/images/01ee5739a16e4235cdae2095a45aa5e3.webp)  
+Property key，可以通过文章的属性设置上传的目录，例如我这配置：    
+- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`    
+- 如果 dir 属性没有设置则默认上传到 content/posts 目录下    
 ### Text & link converters  
 这块配置影响上传文章后的内容结构。  
 ![caef122d9c017944179ec66c06230a0d.png](/images/caef122d9c017944179ec66c06230a0d.png)  
 注意：Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。  
   
 下来稍微麻烦点展开说说，正则内容替换：  
+![e5acf60c86d000689200d0524b401b72.webp](/images/e5acf60c86d000689200d0524b401b72.webp)  
   
-![87899138698e52765b7770dd775fb2e7.webp](/images/87899138698e52765b7770dd775fb2e7.webp)  
 截图中有三个正则替换规则，每行后面都有个箭头，↑箭头表示插件应用之前替换，↓箭头表示插件应用之后替换。  
   
 正则内容：  
-- 第一行：图片路径，`/(\(|\[)([0-9a-z]+)\.(png|jpg|webp)/`  ->  `$1/images/$2.$3` ，将数字字母组合的图片名之前加上 /images 地址前缀，我图片在本地存储的，而且图片名称自动会存储为纯字母数字的格式，如果你有图床那这个就不需要这个配置。  
+- 第一行：图片路径，`/\]\(([^/]+?)\.(png|jpg|jpeg|webp|gif)/`  ->  `](/images/$1.$2` 且 后面的箭头向下，作用是在图片名之前加上 /images 地址前缀，我图片在本地存储的，如果你有图床那这个就不需要配置。  
 - 第二行：文章之前引用，`/[^\(]+\.md/` ->  `{{</* relref "$&" >*/}}`，将 obsidian 文章之间的引用转化为 hugo 中的格式，在 obsidian 文章之间引用是没有 md 后缀的，因此执行该替换的时间是等文章使用插件转化后再执行，据此后面的箭头向下。  
 - 第三行：文章封面，`/cover\.image/` -> `cover:\n    image`, 将一级 key 转为二级，因为 obsidian 不支持多层级属性。  
 > `{{</* relref "例子.md" */>}}` 这个在 hugo 中表示获取“例子.md”文件的相对访问地址，例如：`例子.md` 文件的 frontmatter 的 slug 配置为 example-1，那生成的结果大概就是 `/post/example-1`，不配置 slug 那访问地址就是 `/post/例子`   
@@ -80,7 +79,7 @@ Property key，可以通过文章的属性设置上传的目录，例如我这�
 这些 Obsidian 插件对于发布网站不是必要的，但是对于优化内容格式还是很有必要的：  
 - Obsidian Linter 插件,我只用了在英文两边加空格的设置。  
 - Image Converter 转化图片格式，我统一转为 webp，并设置了图片分辨率大小。  
-- Unique attachments 用于将附件的文件名统一为 “字母 + 数字”的格式。  
+- Unique attachments 用于将附件的文件名统一为 “字母 + 数字”的格式,记着在配置里加入 webp 图片格式  
 - Image Inserter 用于找图片，我用于设置文章封面，即设置 cover:  
     image 属性。  
   
