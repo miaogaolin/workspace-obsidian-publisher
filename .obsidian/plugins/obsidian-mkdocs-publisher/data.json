@@ -3,7 +3,7 @@
     "user": "hellloveyy",
     "repo": "obsidian-GbyAi",
     "branch": "main",
-    "automaticallyMergePR": true,
+    "automaticallyMergePR": false,
     "tokenPath": "%configDir%/plugins/%pluginID%/env",
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 0
+    "rateLimit": 4978
   },
   "upload": {
     "behavior": "yaml",
@@ -99,7 +99,8 @@
     },
     "noticeError": true,
     "displayModalRepoEditing": false,
-    "migrated": true
+    "migrated": true,
+    "dev": true
   },
   "tabsID": "plugin-settings"
 }
