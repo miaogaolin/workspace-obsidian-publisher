@@ -14,7 +14,7 @@
       <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>https://www.gby.ai/111test/</guid>
-      <description>1111</description>
+      <description>22222 1111</description>
     </item>
     
     <item>
@@ -113,14 +113,26 @@ Please note we are unable to ship orders internationally or to P.O. boxes
       <description>群晖对于刚拿到的新手，还是稍微有那么一丢丢的茫然，毕竟还不像国产 NAS 那样傻瓜。
 下来我根据我使用的过程总结下必要的设置。
 群晖管家 APP “群晖管家”这是第一步手机要装的东西，说明书上就会告诉你，功能：
-安装群晖系统 给新手提供了手机端常用套件的下载入口 用户管理 等等 访问 NAS 后台 看看官方文档，有详细的教程：如何通过 Web Assistant 或 Synology Assistant 找到我的Synology NAS ？
+安装群晖系统
+给新手提供了手机端常用套件的下载入口
+用户管理
+等等
+访问 NAS 后台 看看官方文档，有详细的教程：如何通过 Web Assistant 或 Synology Assistant 找到我的Synology NAS ？
 我自己不知道上面的简单方式，就这样搞了，NAS 的后台我是通过浏览器 IP + 端口 来访问，默认的端口是 5000，IP 的话在自己的路由器管理设备里查看到的。
 安装套件 可以理解为你想用的 APP，需要进入 NAS 后台。
 Synology Photos 手机端和 Web 端都需要安装，用来方便查看自己的图片，具体功能如下：
 手机端：
-同步手机的照片，可以选择最新文件同步或全量同步 手机端同步后可选择删除本地设备的照片 可切换个人空间和共享空间的照片 自动识别人物，也可手动将多个人的分类合并
-系统端： 系统端管理员可设置多人管理的共享目录 需要回收站功能，需要在控制面板的共享目录文件夹里开启 问题：
-若有特定人物未出現於人物相簿，該如何處理？ - Synology 知識中心 如果按照这个套件太慢，可以直接在官网下载安装包，然后进行手动按照：下载中心 Synology Drive Web 端和手机端都可以安装，用来管理 NAS 中的文件，就是类似 Onedrive 的替代品。
+同步手机的照片，可以选择最新文件同步或全量同步
+手机端同步后可选择删除本地设备的照片
+可切换个人空间和共享空间的照片
+自动识别人物，也可手动将多个人的分类合并
+系统端：
+系统端管理员可设置多人管理的共享目录
+需要回收站功能，需要在控制面板的共享目录文件夹里开启
+问题：
+若有特定人物未出現於人物相簿，該如何處理？ - Synology 知識中心
+如果按照这个套件太慢，可以直接在官网下载安装包，然后进行手动按照：下载中心
+Synology Drive Web 端和手机端都可以安装，用来管理 NAS 中的文件，就是类似 Onedrive 的替代品。
 PC 端有需求可下载客户端。
 Download
 Cloud Sync 仅 Web 端，将 NAS 中指定的文件和云盘进行定时同步，主要功能：</description>
@@ -757,10 +769,15 @@ using Microsoft.Scripting.Hosting; using IronPython.Hosting; //前面要导入�
       <description>css2 的规定为单冒号表示，而 css3 已经明确表示伪类使用单冒号，伪元素使用双冒号，本次所有测试双冒号。
 提示：对于读者阅读，有的地方显得有些冗余，但是，这是为了测试没办法了，如果写的不全面或者有错误，请您提出建议。
 ::selection 对用户所选取的部分样式改变
-浏览器支持 IE FireFox Chrome Safari Opera Edge 360 支持 支持 支持 没测试 支持 支持 支持 注：IE9+、Opera、Google Chrome 以及 Safari 中支持 ::selection 选择器。 Firefox 支持替代的 ::-moz-selection。 代码示例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; ::selection{ background-color: red; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;article&amp;gt; ::selection元素选择器的学习,如果选中显示为红色，默认为蓝色的 &amp;lt;/article&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; w3cshool,css3 ::selection
+浏览器支持 | IE | FireFox| Chrome |Safari|Opera|Edge|360|
+| :-: |:-:|:-:|:-:|:-:|:-:|:-:|
+| 支持 |支持 |支持 | 没测试 | 支持 | 支持 | 支持 |
+注：IE9+、Opera、Google Chrome 以及 Safari 中支持 ::selection 选择器。
+Firefox 支持替代的 ::-moz-selection。
+代码示例 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;style type=&amp;#34;text/css&amp;#34;&amp;gt; ::selection{ background-color: red; } &amp;lt;/style&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;article&amp;gt; ::selection元素选择器的学习,如果选中显示为红色，默认为蓝色的 &amp;lt;/article&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; w3cshool,css3 ::selection
 ::before 在元素显示内容之前进行某些样式
 ###浏览器支持
-IE FireFox Chrome Safari Opera Edge 360 支持 支持 支持 没测试 支持 支持 支持 IE9 包括 9 版本以上支持双冒号 ###代码示例 &amp;lt;!</description>
+| IE | FireFox| Chrome |Safari|Opera|Edge|360|</description>
     </item>
     
     <item>

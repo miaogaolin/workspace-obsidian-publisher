@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/git常用命令.md",
+                "file": "content/posts/测试AI.md",
                 "mode": "source",
                 "source": true
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "archetypes/post.md",
+                "file": "content/posts/跟我学习php数组常用函数-上篇.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archetypes/post.md",
+                "file": "content/posts/测试AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archetypes/post.md",
+                "file": "content/posts/测试AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "archetypes/post.md"
+                "file": "content/posts/测试AI.md"
               }
             }
           }
@@ -159,8 +158,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "14c826ef5ce33a8e",
+  "active": "89d1ba324d7ae21c",
   "lastOpenFiles": [
+    "public/images/测试AI-20240110142830164.webp",
+    "content/posts/跟我学习php数组常用函数-上篇.md",
+    "content/posts/认识css3伪元素.md",
+    "content/posts/那些经常使用的 CSS3属性.md",
+    "content/posts/跟我学习php数组常用函数-下篇.md",
+    "content/posts/第一次拿到群晖设置的东西.md",
+    "content/posts/测试AI.md",
+    "archetypes/post.md",
+    "static/images/测试AI-20240110095041262.webp",
+    "static/images/测试AI-20240110142830164.webp",
     "content/posts/git常用命令.md",
     "content/posts/C Sharp调用Python语言.md",
     "content/posts/自组山地车笔记.md",
@@ -168,7 +177,6 @@
     "content/posts/css的高级用法.md",
     "content/posts/Ajax简单实现文件异步上传的多种方法.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",
-    "content/posts/测试AI.md",
     "public/robots.txt",
     "public/tags/program_golang/index.xml",
     "public/tags/随笔/index.xml",
@@ -187,10 +195,7 @@
     "public/images/f9d00dcaa243c71281a24ae64054b9b7.webp",
     "public/images/f5ee3e3b600a290529b34681428dd6ac.webp",
     "public/images/f31a639541b3609f02a2ccfee1fe9dc4.webp",
-    "public/images/f055e776fdb771c15797f58f964a22e0.png",
-    "public/images/eeda0f20b31f86e2c04842a033da4ce0.webp",
     "content/posts/“番茄工作法”你确定了解吗？.md",
-    "archetypes/post.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "content/posts/Skinny Sim 卡官方尝试购买.md",
     "content/posts/Vagrant安装与使用.md",
@@ -200,10 +205,6 @@
     "content/posts/Go基础系列：13. 自定义类型和结构体 - 方法.md",
     "content/posts/Go基础系列：3. 环境搭建疑惑 - gomod学习.md",
     "content/posts/test.md",
-    "content/posts/测试.md",
-    "README.md",
-    "themes/PaperMod/README.md",
-    "content/赞助.md",
-    "content/posts/Vercel 解决静态网站接口跨域.md"
+    "content/posts/测试.md"
   ]
 }
