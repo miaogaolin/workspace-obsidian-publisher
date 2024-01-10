@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/测试AI.md",
+                "file": "archetypes/post.md",
                 "mode": "source",
                 "source": true
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/测试AI.md",
+                "file": "archetypes/post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/测试AI.md",
+                "file": "archetypes/post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/测试AI.md"
+                "file": "archetypes/post.md"
               }
             }
           }
@@ -160,10 +160,11 @@
   },
   "active": "89d1ba324d7ae21c",
   "lastOpenFiles": [
+    "content/posts/测试AI.md",
+    "static/images/测试AI-20240110180800972.webp",
     "archetypes/post.md",
     "archetypes/default.md",
     "content/posts/跟我学习php数组常用函数-上篇.md",
-    "content/posts/测试AI.md",
     "static/images/测试AI-20240110151536606.webp",
     "public/111test/index.html",
     "layouts/partials/cover.html",
@@ -194,7 +195,6 @@
     "public/images/test-20240109194639827.webp",
     "public/images/sponsor.webp",
     "public/images/ff5b30392401a5619af9164726ce2603.png",
-    "public/images/f9d00dcaa243c71281a24ae64054b9b7.webp",
     "content/posts/“番茄工作法”你确定了解吗？.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "content/posts/Skinny Sim 卡官方尝试购买.md",
@@ -204,7 +204,6 @@
     "content/posts/LAMP环境搭建.md",
     "content/posts/Go基础系列：13. 自定义类型和结构体 - 方法.md",
     "content/posts/Go基础系列：3. 环境搭建疑惑 - gomod学习.md",
-    "content/posts/test.md",
-    "content/posts/测试.md"
+    "content/posts/test.md"
   ]
 }
