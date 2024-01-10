@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "content/posts/测试AI.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               }
             }
           }
@@ -148,12 +148,14 @@
   },
   "active": "89d1ba324d7ae21c",
   "lastOpenFiles": [
-    "static/images/测试AI-20240110095041262.webp",
-    "static/images/test-20240109194639827.webp",
-    "static/images/Pasted image 20240109182501.webp",
+    "content/posts/test.md",
     "content/posts/测试AI.md",
-    "static/images/测试-20240109181624092.webp",
+    "content/posts/测试.md",
+    "static/images/test-20240109194639827.webp",
     "static/images/5e2c1892175d010a1f39bd9e6995a190.webp",
+    "static/images/测试AI-20240110095041262.webp",
+    "static/images/Pasted image 20240109182501.webp",
+    "static/images/测试-20240109181624092.webp",
     "static/images/ff5b30392401a5619af9164726ce2603.png",
     "static/images/Pasted image 20240109181445.webp",
     "static/images/Pasted image 20240109180814.webp",
@@ -172,7 +174,6 @@
     "themes/PaperMod/layouts/shortcodes/inTextImg.html",
     "themes/PaperMod/layouts/shortcodes/figure.html",
     "themes/PaperMod/images/tn.png",
-    "themes/PaperMod/images/screenshot.png",
     "themes/PaperMod/README.md",
     "content/赞助.md",
     "content/posts/Vercel 解决静态网站接口跨域.md"
