@@ -120,41 +120,29 @@ author: # 作者名称
 - Refresh published and upload new notes 将所有 share 为 true 且新更新的文章发布  
 - Refresh all published notes 将所有 share 为 true 的文章都发布  
 ### Vercel 部署  
-接下来访问 [vercel](https://vercel.com/) 官网，然后将上面对应的仓库部署上去即可，不用关心我下面的仓库名称。  
+接下来访问 [vercel](https://vercel.com/) 官网，然后将上面对应的仓库部署上去即可。  
 #### 1. Github  
   
-使用 Github 登录  
+使用 Github 登录。  
   
 #### 2. 创建项目  
   
-![3e7fc91ea06024fcd08e74eb783365ab.webp](/images/3e7fc91ea06024fcd08e74eb783365ab.webp)  
+![820895b5d2f3b4a8f0cfcbe729713b1b.webp](/images/820895b5d2f3b4a8f0cfcbe729713b1b.webp)  
   
 #### 3. Import & Deploy  
   
 导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，下来需要耐心等会。  
   
-![c1777889058222e03a61b87c005fad80.webp](/images/c1777889058222e03a61b87c005fad80.webp)  
+![f82042806c13baba0ff30bf60510df39.webp](/images/f82042806c13baba0ff30bf60510df39.webp)  
   
-![9f1c6365a663e0f9c7b6ebac8c513a76.webp](/images/9f1c6365a663e0f9c7b6ebac8c513a76.webp)  
+![7cda90de3afb93df2543fe2009f6e6a7.webp](/images/7cda90de3afb93df2543fe2009f6e6a7.webp)  
   
   
 #### 4. 域名  
-  
-完成后点击 Go to Dashboard > View Domains，再添加自己的域名。  
-  
-![2e7e301f17970785f4efddfc9213a4ce.webp](/images/2e7e301f17970785f4efddfc9213a4ce.webp)  
-  
-  
-添加完后，再解析自己的域名，我的域名在阿里云购买的，先复制上图中蓝色框的内容，这个是在 Vercel 站上给你分配的域名。这个域名访问时不方便，所以用自己的。  
-  
-![ebc2ca5107e27f262798df00d428cbbd.webp](/images/ebc2ca5107e27f262798df00d428cbbd.webp)  
-  
-**图解：**  
-  
-- 记录类型：CNAME  
-- 记录值：填写自己的  
+下来输入自己的域名，然后 ADD，选择推荐的转发规则即可，按照给的提示信息去解析自己的域名。  
   
 ![c370b2dc6029ed604493b2ec1e1e6e9a.webp](/images/c370b2dc6029ed604493b2ec1e1e6e9a.webp)  
+![e6aee6766b6bfe93a06cae9c8016ac65.webp](/images/e6aee6766b6bfe93a06cae9c8016ac65.webp)  
 ## 总结  
 重点学会了 Github Publisher 插件后，你可以用 Hexo 等其它工具管理你的内容，只要把你 Obsidian 对应的内容放置到仓库对应的地方即可。  
   
