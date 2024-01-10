@@ -21,7 +21,6 @@ cover:
 author:   
 ---  
   
-目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。  
 ## 相关工具  
 1. Obsidian + Github Publisher 插件  
 2. Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo  

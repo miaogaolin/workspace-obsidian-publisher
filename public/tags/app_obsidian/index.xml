@@ -14,8 +14,7 @@
       <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
       
       <guid>https://www.gby.ai/obsidian-blog/</guid>
-      <description>目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 Vercel + Notion 建个人博客 。
-相关工具 Obsidian + Github Publisher 插件 Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo Github Vercel 具体步骤继续往下看。
+      <description>相关工具 Obsidian + Github Publisher 插件 Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo Github Vercel 具体步骤继续往下看。
 Hugo + PaperMod 使用 hugo 初始化一个网站，并配置好你喜欢的主题，并发布到 Github 上，这块具体怎么弄就不展开介绍了。
 可以参考：
 官方主题文档：PaperMod 我的仓库：miaogaolin/workspace-obsidian-publisher 稍微改了点官方主题 Github Publisher 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。

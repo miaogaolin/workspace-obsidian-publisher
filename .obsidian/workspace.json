@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "df9784ab4a51a9b7",
+        "id": "f2d9eb86fc1770cc",
         "type": "tabs",
         "children": [
           {
-            "id": "89d1ba324d7ae21c",
+            "id": "64cf32dc74f8c1fe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archetypes/post.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "14c826ef5ce33a8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "archetypes/post.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "archetypes/post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "archetypes/post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "archetypes/post.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -158,52 +138,53 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "89d1ba324d7ae21c",
+  "active": "64cf32dc74f8c1fe",
   "lastOpenFiles": [
+    "public/page/1/index.html",
+    "content/posts/使用 Obsidian 免费建个人博客.md",
+    "public/robots.txt",
+    "public/index.xml",
+    "public/posts/index.xml",
+    "public/tags/app_obsidian/index.xml",
+    "public/tags/index.xml",
+    "public/series/index.xml",
+    "public/404.html",
+    "public/sitemap.xml",
+    "public/obsidian-blog/index.html",
+    "public/obsidian-blog",
+    "public/images/sponsor.webp",
+    "public/safari_pinned_tab.png",
+    "public/favicon-32x32.png",
+    "public/favicon-16x16.png",
+    "public/apple-touch-icon.png",
+    "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
+    "content/posts/(centos)svn服务器与客户端的搭建.md",
+    "content/posts/实现HTML元素垂直居中的六种方法.md",
+    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
+    "static/images/sponsor.webp",
+    "content/posts/WPF如何使用触发器.md",
+    "static/images/f9d00dcaa243c71281a24ae64054b9b7.webp",
+    "static/images/ff5b30392401a5619af9164726ce2603.png",
+    "static/images/f5ee3e3b600a290529b34681428dd6ac.webp",
+    "static/images/eeda0f20b31f86e2c04842a033da4ce0.webp",
     "content/posts/测试AI.md",
-    "static/images/测试AI-20240110180800972.webp",
+    "content/posts/Golang在线工具迁入Vercel.md",
+    "content/posts/“番茄工作法”你确定了解吗？.md",
     "archetypes/post.md",
     "archetypes/default.md",
     "content/posts/跟我学习php数组常用函数-上篇.md",
-    "static/images/测试AI-20240110151536606.webp",
-    "public/111test/index.html",
-    "layouts/partials/cover.html",
-    "public/images/测试AI-20240110142830164.webp",
     "content/posts/认识css3伪元素.md",
     "content/posts/那些经常使用的 CSS3属性.md",
     "content/posts/跟我学习php数组常用函数-下篇.md",
     "content/posts/第一次拿到群晖设置的东西.md",
-    "static/images/测试AI-20240110095041262.webp",
-    "static/images/测试AI-20240110142830164.webp",
     "content/posts/git常用命令.md",
     "content/posts/C Sharp调用Python语言.md",
     "content/posts/自组山地车笔记.md",
     "content/posts/BBC如何报道河南洪灾？.md",
     "content/posts/css的高级用法.md",
     "content/posts/Ajax简单实现文件异步上传的多种方法.md",
-    "content/posts/实现HTML元素垂直居中的六种方法.md",
-    "public/robots.txt",
-    "public/tags/program_golang/index.xml",
-    "public/tags/随笔/index.xml",
-    "public/tags/app/index.xml",
-    "public/series/go基础系列/index.xml",
-    "public/tags/app_docker/index.xml",
-    "public/tags/app_obsidian/index.xml",
-    "public/tags/标签/index.xml",
-    "public/safari_pinned_tab.png",
-    "public/images/测试AI-20240110095041262.webp",
-    "public/images/test-20240109194639827.webp",
-    "public/images/sponsor.webp",
-    "public/images/ff5b30392401a5619af9164726ce2603.png",
-    "content/posts/“番茄工作法”你确定了解吗？.md",
-    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "content/posts/Skinny Sim 卡官方尝试购买.md",
     "content/posts/Vagrant安装与使用.md",
-    "content/关于我.md",
-    "content/posts/Go基础系列：19. 单元测试.md",
-    "content/posts/LAMP环境搭建.md",
-    "content/posts/Go基础系列：13. 自定义类型和结构体 - 方法.md",
-    "content/posts/Go基础系列：3. 环境搭建疑惑 - gomod学习.md",
-    "content/posts/test.md"
+    "content/关于我.md"
   ]
 }
