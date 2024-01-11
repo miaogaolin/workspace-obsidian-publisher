@@ -26,7 +26,7 @@ author:
 流程简介：  
 1. 选择自己的静态网站生成工具，我选择 Hugo；  
 2. 使用 Hugo 初始化好结构然后上传到 Github 仓库；  
-3. Obsidian 写好文章，然后使用插件将指定的文章(md格式)上传到第 2 步的仓库,插件的作用就是将 Obsidian 中的 markdown 内容适配成 Hugo 需要的内容；  
+3. Obsidian 写好文章，然后使用插件将指定的文章 (md 格式) 上传到第 2 步的仓库,插件的作用就是将 Obsidian 中的 markdown 内容适配成 Hugo 需要的内容；  
 4. 部署仓库，配置域名。  
 ## 相关工具  
 1. Obsidian + Github Publisher 插件，必须  
@@ -51,7 +51,7 @@ author:
   
 注意：  
 1. 生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
-2. 通过 here 生成 token 时的[链接](https://github.com/settings/tokens/new?scopes=repo,workflow)会自动带上权限，你只需要设置名字和过期时间即可。  
+2. 通过 here 生成 token 时的 [链接](https://github.com/settings/tokens/new?scopes=repo,workflow) 会自动带上权限，你只需要设置名字和过期时间即可。  
 ### Upload config  
 ![53917e2e2c04940aac42ceb567ccc769.webp](/images/53917e2e2c04940aac42ceb567ccc769.webp)  
 Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
