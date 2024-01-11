@@ -43,7 +43,7 @@ author:
 - 我的仓库：[miaogaolin/workspace-obsidian-publisher](https://github.com/miaogaolin/workspace-obsidian-publisher) 稍微改了点官方主题  
   
 ## Github Publisher  
-给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
+给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章和本地附件上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
   
 我会根据使用过程，讲一讲我用到的配置，如果你对其它配置感兴趣，可以看看 [官网文档](https://obsidian-publisher.netlify.app/plugin/)。  
 ### Github config  
