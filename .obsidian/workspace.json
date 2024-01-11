@@ -11,9 +11,11 @@
             "id": "64cf32dc74f8c1fe",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "static/favicon-16x16.png"
+                "file": "content/search.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "static/favicon-16x16.png",
+                "file": "content/search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "static/favicon-16x16.png",
+                "file": "content/search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "static/favicon-16x16.png"
+                "file": "content/search.md"
               }
             }
           }
@@ -146,6 +148,11 @@
   },
   "active": "64cf32dc74f8c1fe",
   "lastOpenFiles": [
+    "content/archives.md",
+    "content/关于我.md",
+    "content/赞助.md",
+    "content/search.md",
+    "static/favicon-16x16.png",
     "public/search/index.html",
     "public/search",
     "public/assets/js/search.0e9df42568296faef39c5e55c0fddc2ae7ffc301da16a3f462e057bcabf13a3d.js",
@@ -155,11 +162,8 @@
     "static/safari_pinned_tab.png",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "content/posts/使用 Obsidian 免费建个人博客.md",
-    "content/search.md",
     "content/posts/未命名.md",
-    "content/archives.md",
     "archetypes/post.md",
-    "content/关于我.md",
     "static/images/sponsor.webp",
     "static/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
     "static/images/post-20240110194409858.webp",
@@ -167,7 +171,6 @@
     "static/images/测试AI-20240110142830164.webp",
     "archetypes/default.md",
     "content/posts/post.md",
-    "static/images/测试AI-20240110180800972.webp",
     "public/page/1/index.html",
     "public/robots.txt",
     "public/index.xml",
@@ -175,7 +178,6 @@
     "public/tags/app_obsidian/index.xml",
     "public/tags/index.xml",
     "public/series/index.xml",
-    "public/404.html",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",
