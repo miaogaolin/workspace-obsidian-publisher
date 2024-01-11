@@ -22,11 +22,17 @@ author:
 ---  
   
 目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。  
+  
+流程简介：  
+1. 选择自己的静态网站生成工具，我选择 Hugo；  
+2. 使用 Hugo 初始化好结构然后上传到 Github 仓库；  
+3. Obsidian 写好文章，然后使用插件将指定的文章 (md 格式) 上传到第 2 步的仓库,插件的作用就是将 Obsidian 中的 markdown 内容适配成 Hugo 需要的内容；  
+4. 部署仓库，配置域名。  
 ## 相关工具  
-1. Obsidian + Github Publisher 插件  
-2. Hugo + Paper Mod 主题，你也可以选择其它，例如：Hexo  
-3. Github  
-4. Vercel  
+1. Obsidian + Github Publisher 插件，必须  
+2. Hugo + Paper Mod 主题，可选择其它  
+3. Github，必须  
+4. Vercel，可选择其它  
   
 具体步骤继续往下看。  
 ## Hugo + PaperMod  
@@ -45,7 +51,7 @@ author:
   
 注意：  
 1. 生成的 token 不要放在 Github 的公共仓库，检测到 token 就会失效。  
-2. 通过 here 生成 token 时的[链接](https://github.com/settings/tokens/new?scopes=repo,workflow)会自动带上权限，你只需要设置名字和过期时间即可。  
+2. 通过 here 生成 token 时的 [链接](https://github.com/settings/tokens/new?scopes=repo,workflow) 会自动带上权限，你只需要设置名字和过期时间即可。  
 ### Upload config  
 ![53917e2e2c04940aac42ceb567ccc769.webp](/images/53917e2e2c04940aac42ceb567ccc769.webp)  
 Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
@@ -123,6 +129,7 @@ author: # 作者名称
 - Refresh all published notes 将所有 share 为 true 的文章都发布  
 ### Vercel 部署  
 接下来访问 [vercel](https://vercel.com/) 官网，然后将上面对应的仓库部署上去即可。  
+> 你也可以选择 Github Pages、Netlify 部署，甚至自己的服务器也行。  
 #### 1. Github  
   
 使用 Github 登录。  
@@ -146,6 +153,6 @@ author: # 作者名称
 ![c370b2dc6029ed604493b2ec1e1e6e9a.webp](/images/c370b2dc6029ed604493b2ec1e1e6e9a.webp)  
 ![e6aee6766b6bfe93a06cae9c8016ac65.webp](/images/e6aee6766b6bfe93a06cae9c8016ac65.webp)  
 ## 总结  
-重点学会了 Github Publisher 插件后，你可以用 Hexo 等其它工具管理你的内容，只要把你 Obsidian 对应的内容放置到仓库对应的地方即可。  
+重点学会了 Github Publisher 插件如何将 Obsidian 中的文章格式适配成你最终想要的内容格式即可。  
   
-Vercel 也不是必须的，你也可以使用 Github Page，只是我个人习惯而已。
+至于你选择 Hugo 静态网站生成器，还是 Hexo 都是可以的。   
