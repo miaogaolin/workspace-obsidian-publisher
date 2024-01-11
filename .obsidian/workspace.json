@@ -142,6 +142,9 @@
   },
   "active": "ecfe3fe68bdb8054",
   "lastOpenFiles": [
+    "static/logo.png",
+    "static/logo1.png",
+    "static/logo (3).png",
     "未命名.md",
     "archetypes/post.md",
     "static/images/post-20240111195047056.webp",
@@ -152,8 +155,6 @@
     "static/images/关于我-20240111170320688.webp",
     "static/safari_pinned_tab.png",
     "static/safari_pinned_tab.1png.png",
-    "static/favicon-32x32的副本.png",
-    "static/favicon-32x32.png",
     "content/关于我.md",
     "content/赞助.md",
     "content/archives.md",
@@ -186,7 +187,6 @@
     "content/posts/跟我学习php数组常用函数-下篇.md",
     "content/posts/第一次拿到群晖设置的东西.md",
     "content/posts/git常用命令.md",
-    "content/posts/C Sharp调用Python语言.md",
-    "content/posts/自组山地车笔记.md"
+    "content/posts/C Sharp调用Python语言.md"
   ]
 }
