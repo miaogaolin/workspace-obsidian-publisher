@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2d9eb86fc1770cc",
+        "id": "f8b21e98cf8c2266",
         "type": "tabs",
         "children": [
           {
-            "id": "64cf32dc74f8c1fe",
+            "id": "622bbddf9498f26e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,14 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "64cf32dc74f8c1fe",
+  "active": "622bbddf9498f26e",
   "lastOpenFiles": [
+    "public/search/index.html",
+    "content/search.md",
     "content/archives.md",
     "content/关于我.md",
     "content/赞助.md",
-    "content/search.md",
     "static/favicon-16x16.png",
-    "public/search/index.html",
     "public/search",
     "public/assets/js/search.0e9df42568296faef39c5e55c0fddc2ae7ffc301da16a3f462e057bcabf13a3d.js",
     "public/images/post-20240110194409858.webp",
@@ -192,7 +192,6 @@
     "content/posts/git常用命令.md",
     "content/posts/C Sharp调用Python语言.md",
     "content/posts/自组山地车笔记.md",
-    "content/posts/BBC如何报道河南洪灾？.md",
-    "content/posts/css的高级用法.md"
+    "content/posts/BBC如何报道河南洪灾？.md"
   ]
 }
