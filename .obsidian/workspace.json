@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "f8b21e98cf8c2266",
+        "id": "1f38786214413008",
         "type": "tabs",
         "children": [
           {
-            "id": "622bbddf9498f26e",
+            "id": "1c01217c97c2fb1a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/search.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/search.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -146,29 +140,32 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "622bbddf9498f26e",
+  "active": "ecfe3fe68bdb8054",
   "lastOpenFiles": [
-    "public/search/index.html",
-    "content/search.md",
-    "content/archives.md",
+    "未命名.md",
+    "archetypes/post.md",
+    "static/images/post-20240111195047056.webp",
+    "static/images/post-20240110194409858.webp",
+    "static/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
+    "static/images/赞助-20240111160711230.webp",
+    "static/images/赞助-20240111160239127.webp",
+    "static/images/关于我-20240111170320688.webp",
+    "static/safari_pinned_tab.png",
+    "static/safari_pinned_tab.1png.png",
+    "static/favicon-32x32的副本.png",
+    "static/favicon-32x32.png",
     "content/关于我.md",
     "content/赞助.md",
-    "static/favicon-16x16.png",
+    "content/archives.md",
+    "content/search.md",
+    "layouts/_default/未命名.md",
+    "layouts/_default/list.html",
+    "public/search/index.html",
     "public/search",
     "public/assets/js/search.0e9df42568296faef39c5e55c0fddc2ae7ffc301da16a3f462e057bcabf13a3d.js",
-    "public/images/post-20240110194409858.webp",
-    "public/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
-    "static/favicon-32x32.png",
-    "static/safari_pinned_tab.png",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "content/posts/使用 Obsidian 免费建个人博客.md",
     "content/posts/未命名.md",
-    "archetypes/post.md",
-    "static/images/sponsor.webp",
-    "static/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
-    "static/images/post-20240110194409858.webp",
-    "static/apple-touch-icon.png",
-    "static/images/测试AI-20240110142830164.webp",
     "archetypes/default.md",
     "content/posts/post.md",
     "public/page/1/index.html",
@@ -177,7 +174,6 @@
     "public/posts/index.xml",
     "public/tags/app_obsidian/index.xml",
     "public/tags/index.xml",
-    "public/series/index.xml",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",
@@ -191,7 +187,6 @@
     "content/posts/第一次拿到群晖设置的东西.md",
     "content/posts/git常用命令.md",
     "content/posts/C Sharp调用Python语言.md",
-    "content/posts/自组山地车笔记.md",
-    "content/posts/BBC如何报道河南洪灾？.md"
+    "content/posts/自组山地车笔记.md"
   ]
 }

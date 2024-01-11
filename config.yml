@@ -1,21 +1,25 @@
-baseURL: "https://gby.ai/"
-title: GbyAI
-paginate: 10
-theme: PaperMod
-languageCode: zh-cn
+baseURL: "https://gby.ai/" #绑定的域名
+title: GbyAI #网站标题
+paginate: 10 #首页每页显示的文章数
+theme: PaperMod #主题名称
+languageCode: zh-cn #默认语言
 ignoreErrors: ["error-remote-getjson"]  #yml or ignoreErrors = ["error-remote-getjson"]  #toml
-enableRobotsTXT: true
-buildDrafts: true
-buildFuture: false
-buildExpired: false
-
-# googleAnalytics: ""
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 
 minify:
   disableXML: true
   minifyOutput: true
 
+# 网页下方copyright说明
 copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+#搜索使用
+outputs:
+  home:
+      - HTML
+      - RSS
+      - JSON # is necessary
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: GbyAI
@@ -27,34 +31,33 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: false
-  ShowShareButtons: true
+  ShowReadingTime: false #是否展示阅读时间
+  ShowShareButtons: false #是否展示评论和分享按钮
   # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
-  ShareButtons:
-    - x
-    - telegram
-    - email
+#  ShareButtons:
+#    - x
+#    - telegram
+#    - email
   ShowPostNavLinks: true
-  ShowBreadCrumbs: false
-  ShowCodeCopyButtons: true
-  ShowWordCount: false
-  ShowRssButtonInSectionTermList: true
+  ShowBreadCrumbs: false #是否展示面包屑导航
+  ShowCodeCopyButtons: true #代码是否展示copy按钮
+  ShowWordCount: false #是否展示字数统计
+  ShowRssButtonInSectionTermList: true #订阅按钮
   UseHugoToc: true
-  # 是否展示 uv、pv
-  ViewCount: false 
-  # 是否开启百度统计
-  BaiduAnalytics: "4bddc7ae6f2203e19017f349bdcc79c2"
+  ViewCount: false # 是否展示 uv、pv
+#  BaiduAnalytics: "" # 是否开启百度统计
+  #googleAnalytics:  # 谷歌统计
   disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
+  disableScrollToTop: false #滑动到顶部
+  comments: false #评论展示
   hidemeta: false
   hideSummary: true
   hideDescription: true
-  showtoc: true
-  tocopen: false
+  showtoc: true #显示目录
+  tocopen: true #自动展开目录
   # 网站左上角的文字和图标配置
   label:
-    text: 
+    text:
     iconSVG:
 
   assets:
@@ -81,28 +84,20 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode
+  # 网站介绍
   homeInfoParams:
     Title: "Hi! I'm hellloveyy \U0001F44B"
     Content: "一名全身心投入 AIGC 的学徒 - **[进一步了解我](/about)**"
 
   socialIcons:
-    # - name: wechat
-      # url: "hellloveyy"
+#     - name: wechat
+#       url: "https://www.beizigen.com/images/wechat.webp"
     - name: email
       url: "mailto:hellloveyy@gmail.com"
     - name: github
       url: "https://github.com/hellloveyy"
     - name: rss
       url: "/index.xml"
-
-  # analytics:
-  #   google:
-  #     SiteVerificationTag: "XYZabc"
-  #   bing:
-  #     SiteVerificationTag: "XYZabc"
-  #   yandex:
-  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -118,12 +113,6 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
-  outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON # is necessary
-
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -143,19 +132,19 @@ languages:
       posts: /:slug/
     menu:
       main:
-        - name: 搜索
+        - name: 🔍搜索
           url: search
           weight: 1
-        - name: 文章
+        - name: 📚文章
           url: archives
           weight: 2
         # - name: 标签
         #   url: tags
         #   weight: 2
-        - name: 系列
+        - name: 🧩系列
           url: series
           weight: 3
-        - name: 赞助
+        - name: 🤝赞助
           url: sponsor
           weight: 4
           
@@ -169,10 +158,10 @@ markup:
 # highlight:
 #   noClasses: false
 #   anchorLineNos: true
-#   codeFences: true
-#   guessSyntax: true
-#   lineNos: true
-#   style: monokai
+  # codeFences: true
+  # guessSyntax: true
+  # lineNos: true
+  # style: monokai
 
 taxonomies:
   tag: tags
