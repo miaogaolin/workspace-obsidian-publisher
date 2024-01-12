@@ -4,6 +4,13 @@
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/license.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/assets/css/core/license.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/home_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/PaperMod/layouts/partials/home_info.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +21,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/PaperMod" />
   </component>
   <component name="ProjectId" id="2anE7HwOx6bImVKsMXsfQpTbWOw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -44,7 +51,7 @@
       <updated>1704945775204</updated>
       <workItem from="1704945790147" duration="2633000" />
       <workItem from="1704959728654" duration="3948000" />
-      <workItem from="1705033099141" duration="15516000" />
+      <workItem from="1705033099141" duration="19782000" />
     </task>
     <servers />
   </component>
