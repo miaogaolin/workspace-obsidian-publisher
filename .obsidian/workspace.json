@@ -142,6 +142,7 @@
   },
   "active": "ecfe3fe68bdb8054",
   "lastOpenFiles": [
+    "未命名.md",
     "public/index.json",
     "public/logo1.png",
     "public/logo.png",
@@ -152,7 +153,6 @@
     "static/logo.png",
     "static/logo1.png",
     "static/logo (3).png",
-    "未命名.md",
     "archetypes/post.md",
     "static/images/post-20240111195047056.webp",
     "content/关于我.md",
@@ -174,7 +174,6 @@
     "public/index.xml",
     "public/posts/index.xml",
     "public/tags/app_obsidian/index.xml",
-    "public/tags/index.xml",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
     "content/posts/实现HTML元素垂直居中的六种方法.md",

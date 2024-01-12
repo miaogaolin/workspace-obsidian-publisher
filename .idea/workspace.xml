@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/images/post-20240111195047056.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/logo1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +43,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704945775204</updated>
       <workItem from="1704945790147" duration="2633000" />
-      <workItem from="1704959728654" duration="3349000" />
+      <workItem from="1704959728654" duration="3948000" />
+      <workItem from="1705033099141" duration="15516000" />
     </task>
     <servers />
   </component>
