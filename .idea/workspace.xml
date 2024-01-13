@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/easy-typing-obsidian/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/easy-typing-obsidian/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/easy-typing-obsidian/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/Obsidian-blog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/post-20240111195047056.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240113002109537.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240113002715608.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240113230950211.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114002433572.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114003941993.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114004020589.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114004148520.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114004253463.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114004750640.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114005401948.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114005759772.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114010007732.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114011233104.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114012431514.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114012841616.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/Obsidian-blog-20240114013047211.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archetypes/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/archetypes/post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/PaperMod 主题引用“霞鹜文楷”字体.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/使用 Obsidian 免费建个人博客.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/cf1fc10b763df1f061cc4608337a6cc4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/post-20240110194409858.webp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +73,8 @@
       <updated>1704945775204</updated>
       <workItem from="1704945790147" duration="2633000" />
       <workItem from="1704959728654" duration="3948000" />
-      <workItem from="1705033099141" duration="21827000" />
+      <workItem from="1705033099141" duration="22480000" />
+      <workItem from="1705161036058" duration="715000" />
     </task>
     <servers />
   </component>

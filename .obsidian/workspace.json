@@ -11,8 +11,12 @@
             "id": "1c01217c97c2fb1a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Obsidian-blog.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 362.5
   },
   "right": {
     "id": "8dddf73d0921827c",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/Obsidian-blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/Obsidian-blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "content/posts/Obsidian-blog.md"
               }
             }
           }
@@ -140,8 +146,26 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ecfe3fe68bdb8054",
+  "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "static/images/Obsidian-blog-20240114014649113.webp",
+    "static/images/Obsidian-blog-20240114014347570.webp",
+    "static/images/Obsidian-blog-20240114014309645.webp",
+    "static/images/Obsidian-blog-20240114014119226.webp",
+    "static/images/Obsidian-blog-20240114014039357.webp",
+    "static/images/Obsidian-blog-20240114013913729.webp",
+    "static/images/Obsidian-blog-20240114013047211.webp",
+    "static/images/Obsidian-blog-20240114012841616.webp",
+    "static/images/Obsidian-blog-20240114012431514.webp",
+    "static/images/Obsidian-blog-20240114011233104.webp",
+    "post-20240111195047056.md",
+    "content/posts/Obsidian-blog.md",
+    "static/images/post-20240111195047056.webp",
+    "archetypes/post.md",
+    "static/images/github-publisher.json",
+    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
+    "archetypes/default.md",
+    "未命名.md",
     "themes/PaperMod/i18n/sk.yaml",
     "themes/PaperMod/i18n/ro.yaml",
     "themes/PaperMod/assets/css/includes/chroma-styles.css",
@@ -150,30 +174,13 @@
     "zzsc.js",
     "themes/PaperMod/assets/css/core/zzsc.css",
     "zzsc.css",
-    "static/android-chrome-512x512.png",
-    "static/android-chrome-192x192.png",
-    "未命名.md",
     "public/index.json",
-    "public/logo1.png",
-    "public/logo.png",
-    "public/images/赞助-20240111160711230.webp",
-    "public/images/赞助-20240111160239127.webp",
-    "public/images/关于我-20240111170320688.webp",
-    "public/images/post-20240111195047056.webp",
-    "static/logo.png",
-    "static/logo1.png",
-    "archetypes/post.md",
     "content/关于我.md",
     "content/赞助.md",
     "content/archives.md",
     "content/search.md",
     "layouts/_default/未命名.md",
-    "layouts/_default/list.html",
-    "public/search/index.html",
-    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
-    "content/posts/使用 Obsidian 免费建个人博客.md",
     "content/posts/未命名.md",
-    "archetypes/default.md",
     "content/posts/post.md",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",
@@ -186,7 +193,6 @@
     "content/posts/那些经常使用的 CSS3属性.md",
     "content/posts/跟我学习php数组常用函数-下篇.md",
     "content/posts/第一次拿到群晖设置的东西.md",
-    "content/posts/git常用命令.md",
-    "content/posts/C Sharp调用Python语言.md"
+    "content/posts/git常用命令.md"
   ]
 }
