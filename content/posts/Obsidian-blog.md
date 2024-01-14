@@ -108,7 +108,7 @@ author: hellloveyy & 老苗
         "after": true
       },
       {
-        "entry": "/[^\\(]+\\.md/",
+        "entry": "/[^\\({{< relref "]+\\.md" >*/}}/",
         "replace": "{{</* relref \"$&\" >*/}}",
         "flags": "",
         "after": true
