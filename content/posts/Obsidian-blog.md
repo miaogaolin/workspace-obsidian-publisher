@@ -35,9 +35,7 @@ author: hellloveyy & 老苗
 ### 4. Obsidian 文章模板  
 我在 obsidian 模板里配置的内容，用于发布文章时统一的设置。  
 我的配置是和 Hugo 强关联的，如果你用了其它工具，就根据自己的情况调整。  
-- 在设置-模板-模板文件夹位置，设置自己的目标文件夹，我这里设置的是 `archetypes` ![]({{< relref "/images/Obsidian-blog-20240114005759772.webp)
-- 在对应的目录新建了一个 `post.md" >*/}}` 作为我文章的默认模板 ![](/images/Obsidian-blog-20240114010007732.webp)
-- 模板内容字段解析
+- 在设置-模板-模板文件夹位置，设置自己的目标文件夹，我这里设置的是 `archetypes` ![](/images/Obsidian-blog-20240114005759772.webp)
 
 ### 5. 发布新文章 
 
