@@ -55,94 +55,8 @@ author: hellloveyy & 老苗
 ### 2. Github Publisher  
 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
   
-我的配置如下，你可以导入配置，下方也会说明一些关键设置。如果你对其它配置感兴趣，可以看看 [Publisher官网文档](https://obsidian-publisher.netlify.app/plugin/)。
-``` json
-{
-  "github": {
-    "branch": "main",
-    "automaticallyMergePR": true,
-    "tokenPath": "%configDir%/plugins/%pluginID%/env",
-    "api": {
-      "tiersForApi": "Github Free/Pro/Team ({{< relref "default)",
-      "hostname": ""
-    },
-    "workflow": {
-      "commitMessage": "[PUBLISHER] Merge",
-      "name": ""
-    },
-    "verifiedRepo": true
-  },
-  "upload": {
-    "behavior": "yaml",
-    "defaultName": "content/posts",
-    "rootFolder": "content",
-    "yamlFolderKey": "dir",
-    "frontmatterTitle": {
-      "enable": false,
-      "key": "title"
-    },
-    "replaceTitle": [],
-    "replacePath": [],
-    "autoclean": {
-      "enable": false,
-      "excluded": []
-    },
-    "folderNote": {
-      "enable": false,
-      "rename": "index.md" >*/}}",
-      "addTitle": {
-        "enable": false,
-        "key": "title"
-      }
-    },
-    "metadataExtractorPath": ""
-  },
-  "conversion": {
-    "hardbreak": false,
-    "dataview": true,
-    "censorText": [
-      {
-        "entry": "/\\]\\(([^/]+?)\\.(png|jpg|jpeg|webp|gif)/",
-        "replace": "](/images/$1.$2",
-        "flags": "",
-        "after": true
-      },
-      {
-        "entry": "/[^\\({{< relref "]+\\.md" >*/}}/",
-        "replace": "{{</* relref \"$&\" >*/}}",
-        "flags": "",
-        "after": true
-      },
-      {
-        "entry": "/cover\\.image/",
-        "replace": "cover:\\n image",
-        "flags": "",
-        "after": false
-      }
-    ],
-    "tags": {
-      "inline": true,
-      "exclude": [],
-      "fields": []
-    },
-    "links": {
-      "internal": false,
-      "unshared": false,
-      "wiki": true,
-      "slugify": true
-    }
-  },
-  "embed": {
-    "attachments": true,
-    "overrideAttachments": [],
-    "keySendFile": [],
-    "notes": false,
-    "folder": "static/images",
-    "convertEmbedToLinks": "keep",
-    "charConvert": "->"
-  }
-}
-```
+我的配置如下，你可以找我要配置文件导入配置，当然下方也会说明一些关键设置。如果你对其它配置感兴趣，可以看看 [Publisher官网文档](https://obsidian-publisher.netlify.app/plugin/)。
+
 #### 2.1 Github config  
 ![](Obsidian-blog-20240114002433572.webp)
   
@@ -187,7 +101,7 @@ Property key，可以通过文章的属性设置上传的目录，例如我这�
 我在 obsidian 模板里配置的内容，用于发布文章时统一的设置。  
 我的配置是和 Hugo 强关联的，如果你用了其它工具，就根据自己的情况调整。  
 - 在设置-模板-模板文件夹位置，设置自己的目标文件夹，我这里设置的是 `archetypes` ![](Obsidian-blog-20240114005759772.webp)
-- 在对应的目录新建了一个 `post.md` 作为我文章的默认模板 ![](Obsidian-blog-20240114010007732.webp)
+- 在对应的目录新建了一个 `{{< relref "post.md" >*/}}` 作为我文章的默认模板 ![](Obsidian-blog-20240114010007732.webp)
 - 模板内容字段解析
 ```yaml  
 ---
