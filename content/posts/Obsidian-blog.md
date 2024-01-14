@@ -163,8 +163,7 @@ Property key，可以通过文章的属性设置上传的目录，例如我这�
 会将图片中使用到的本地图片上传到 `static/images` 仓库目录下。  
 ### 3. Image Converter 优化图像插入  
 - 转化图片格式，统一转为 webp，便于图像加载和快速打开
-- `Auto rename` 自动修改名字根据文章标题，这样后期便于整理 `static/images` 不会显得杂乱无章
-- ![](/images/Obsidian-blog-20240114005401948.webp)
+- `Auto rename` 自动修改名字根据文章标题，这样后期便于整理 `static/images` 不会显得杂乱无章 ![](/images/Obsidian-blog-20240114005401948.webp)
 
 ### 4. Obsidian 文章模板  
 我在 obsidian 模板里配置的内容，用于发布文章时统一的设置。  
