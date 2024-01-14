@@ -196,17 +196,16 @@ author:  #作者
 
 ```  
 ### 5. 发布新文章 
-> 提交之前本地校验文章没有问题，然后批量把文档目前的图片前增加 `/images/`
+- 提交之前本地校验文章没有问题，然后批量把文档目前的图片前增加 `/images/`
 
-当然插件的配置也支持菜单模式，配置前往：`Plugin settings -> Menu`。  
-先使用命令行 `command + P` ，输入 ` active `，然后选择 `Github Publisher: Uxxxxxxx` 即可，记着文章的 share 属性要开启，即 true。  
+- 使用命令行 `command + P` ，输入 ` active `，然后选择 `Github Publisher: Uxxxxxxx` 即可，记着文章的 share 属性要开启，即 true。  
 ![](/images/Obsidian-blog-20240114012431514.webp)
   
-右下角会提示上传的进度，如果完成了右上角有提示：  
+- 右下角会提示上传的进度，如果完成了右上角有提示：  
 ![](/images/Obsidian-blog-20240114013047211.webp)
-如果你想上传多个 share 为 true 的文章，使用的命令为：  
-- `Refresh published and upload new notes` 将所有 share 为 true 且新更新的文章发布  
-- `Refresh all published notes` 将所有 share 为 true 的文章都发布  
+- 如果你想上传多个 share 为 true 的文章，使用的命令为：  
+	- `Refresh published and upload new notes` 将所有 share 为 true 且新更新的文章发布  
+	- `Refresh all published notes` 将所有 share 为 true 的文章都发布  
 
 ### 6. Logo & favicon 设计
 推荐两个工具：
