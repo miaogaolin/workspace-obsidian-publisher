@@ -121,7 +121,7 @@ author:  #作者
 ```  
 ### 5. 发布新文章 
 
-当然插件的配置也支持菜单模式，配置前往：`Plugin settings -> Menu`。  
+当然插件的配置也支持菜单模式，配置前往：`Plugin settings - Menu`。  
 先使用命令行 `command + P` ，输入 ` active `，然后选择 `Github Publisher: Uxxxxxxx` 即可，记着文章的 share 属性要开启，即 true。  
 ![](Obsidian-blog-20240114012431514.webp)
   
