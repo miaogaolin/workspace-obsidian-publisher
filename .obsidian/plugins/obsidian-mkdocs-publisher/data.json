@@ -47,12 +47,6 @@
     "dataview": true,
     "censorText": [
       {
-        "entry": "/\\]\\(([^/]+?)\\.(png|jpg|jpeg|webp|gif)/",
-        "replace": "](/images/$1.$2",
-        "flags": "",
-        "after": true
-      },
-      {
         "entry": "/cover\\.image/",
         "replace": "cover:\\n image",
         "flags": "",
@@ -96,5 +90,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "upload-configuration"
+  "tabsID": "text-conversion"
 }
