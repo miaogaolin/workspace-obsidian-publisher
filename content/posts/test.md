@@ -1,0 +1,6 @@
+---  
+cover:  
+  image:   
+share: true  
+---  
+  
