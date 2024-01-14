@@ -27,38 +27,6 @@ author: hellloveyy & 老苗
 
 
 
-### 3. Image Converter 优化图像插入  
-- 转化图片格式，统一转为 webp，便于图像加载和快速打开
-- `Auto rename` 自动修改名字根据文章标题，这样后期便于整理 `static/images` 不会显得杂乱无章
-- ![](/images/Obsidian-blog-20240114005401948.webp)
-
-### 4. Obsidian 文章模板  
-我在 obsidian 模板里配置的内容，用于发布文章时统一的设置。  
-我的配置是和 Hugo 强关联的，如果你用了其它工具，就根据自己的情况调整。  
-- 在设置-模板-模板文件夹位置，设置自己的目标文件夹，我这里设置的是 `archetypes` ![]({{< relref "/images/Obsidian-blog-20240114005759772.webp)
-- 在对应的目录新建了一个 `post.md" >*/}}` 作为我文章的默认模板 ![](/images/Obsidian-blog-20240114010007732.webp)
-- 模板内容字段解析
-```yaml  
----
-date: "{{date}}" # 创建时间，我这边生成的格式是 YYYY-MM-DDTHH:mm:ssZ  
-tags:   
-- 标签名
-title: "{{title}}"  
-slug:  # 自定义 URL 中文章的访问名称，默认用时间戳填充模板格式为 X  
-share: false  # 配合 Github Publisher 插件用的,true 表示 obsidian 的文章可以发布  
-canonicalURL: "" # 之前文章在其他地方被发布的地址，避免搜索引擎重复，设置了该属性会优先展示 canonicalURL 执行的文章  
-keywords:   # 用于 SEO 优化，也可以不配置该内容默认会使用 tags 的内容  
-description: "" # 文章的描述 SEO 优化，为空时默认会截取文章前面的内容  
-series:  # 系列文章  
-- 系列名
-lastmod: # 文章最后更新的时间  
-lang: "cn" # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等  
-cover:  
-  image: /images/post-20240111195047056.webp  # 文章封面图片地址，可以用7牛地址也可以用本地地址
-author:  #作者
----
-
-```  
 ### 5. 发布新文章 
 
 当然插件的配置也支持菜单模式，配置前往：`Plugin settings - Menu`。  
