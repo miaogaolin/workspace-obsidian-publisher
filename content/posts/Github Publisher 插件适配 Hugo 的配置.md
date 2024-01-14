@@ -14,7 +14,7 @@ cover:
 author: 
 ---
 
-在 [使用 Obsidian 免费建个人博客 > Github Publisher]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}#Github%20Publisher) 一文中讲解了三个规则，但是后期发现还有其它内容需要调整，索性在这篇文章中统一整理下。
+在 [使用 Obsidian 免费建个人博客 > Github Publisher]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}#github-publisher) 一文中讲解了三个规则，但是后期发现还有其它内容需要调整，索性在这篇文章中统一整理下。
 
 本文基于 Obsidian 的 Github Publisher 插件，版本：v6.15.5，插件不同可以略有差异，不过差异影响使用了，我就会更新该篇文章。
 
@@ -88,16 +88,15 @@ Text replacer 正则：
 
 #### 锚点
 
-如果文章链接中出现了锚点跳转，则记着关闭这个配置：
-{{< figure src="/images/b626d0ca540a27e08f1ac99ed6bc6487.webp" caption="">}}
+如果文章链接中出现了锚点跳转，则记着开启这个配置：
+{{< figure src="/images/Github Publisher 插件适配 Hugo 的配置-20240114213533916.webp" caption="">}}
 
 > 锚点跳转就是跳转到文章的某个标题处，在 Obsidian 的格式为 `[[文章#标题]]`
 
 该配置会将锚点 (`#标题`) 处理：
 1.  转小写
 2. 空格转化减号 (`-`)
-虽然我测试对于这种转了的， Hugo 还是能访问到对应的标题，但我还是担心我测试不到位，直接关闭省事。
-
+只有转化才能正常访问锚点。
 ### 属性一级转二级
 在 Obsidian 中如果属性是二级的话，展示效果就非常不友好直观，所以我会在 Obsidian 里这样写需要转二级的属性：
 ```
