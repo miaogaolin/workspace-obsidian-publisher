@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4928
+    "rateLimit": 4954
   },
   "upload": {
     "behavior": "yaml",
@@ -49,12 +49,6 @@
       {
         "entry": "/\\]\\(([^/]+?)\\.(png|jpg|jpeg|webp|gif)/",
         "replace": "](/images/$1.$2",
-        "flags": "",
-        "after": true
-      },
-      {
-        "entry": "/[^\\(]+\\.md/",
-        "replace": "{{< relref \"$&\" >*/}}",
         "flags": "",
         "after": true
       },
@@ -102,5 +96,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "text-conversion"
+  "tabsID": "github-configuration"
 }

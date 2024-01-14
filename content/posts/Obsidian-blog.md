@@ -25,18 +25,18 @@ cover:
 author: hellloveyy & 老苗
 ---
 
+
 ## 一、首先为什么是这个组合？
 1. **回归写作**：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求；
 	- 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈
-2. **数据沉淀**：未来的 AI 时代，是数据无价的时代，沉淀自己的内容和数据越来越重要。obsidian 的所有数据均为本地 md 文件，对比各种印象笔记、notion 等，更为方便存储和使用；多端同步和远程存储可以选择官方，也可以像我一样折腾到 GitHub；
+2. **数据沉淀**：未来的 AI 时代，是数据无价的时代，沉淀自己的内容和数据越来越重要。Obsidian 的所有数据均为本地 md 文件，对比各种印象笔记、notion 等，更为方便存储和使用；多端同步和远程存储可以选择官方，也可以像我一样折腾到 GitHub；
 3. **知识传播**：vercel + hugo + paperMod 这一套组合拳非常方便部署
 
 ## 二、相关工具汇总
 1. Hugo + Paper Mod 主题 （主题很多，自己点菜，完全满足做博客或者门户网站等）![](Obsidian-blog-20240113002715608.webp)
 2. Obsidian 编辑器 + Github Publisher 插件 + Image Converter 插件
 3. Github + Vercel （老搭档了，对比 GitHub page 自由度更高更方便）
-4. [dynadot.com](dynadot.com) （我用来购买 AI 域名，性价比较高而且可选中文界面&中文客服，服务相当周到。有一次出价点错了，跟客服说明之后，友好的帮我立刻取消了出价。我的推荐码： `kW6Z6i9D8e6I9T` 创建 Dynadot 帐户并在48小时内消费 9.99$ 会返还给你 5$，聊胜于无吧)
-  ![](Obsidian-blog-20240113230950211.webp)
+4. [dynadot.com](dynadot.com) （我用来购买 AI 域名，性价比较高而且可选中文界面&中文客服，服务相当周到。有一次出价点错了，跟客服说明之后，友好的帮我立刻取消了出价。我的推荐码： `kW6Z6i9D8e6I9T` 创建 Dynadot 帐户并在 48 小时内消费 9.99$ 会返还给你 5$，聊胜于无吧) ![](Obsidian-blog-20240113230950211.webp)
 
 ## 三、流程步骤
 ### 1. Hugo + PaperMod  
@@ -169,7 +169,7 @@ Property key，可以通过文章的属性设置上传的目录，例如我这�
 - 第一行：图片路径，`/\]\(([^/]+?)\.(png|jpg|jpeg|webp|gif)/`  ->  `](/images/$1.$2` ，将数字字母组合的图片名之前加上 /images 地址前缀，我图片在本地存储的，而且图片名称自动会存储为纯字母数字的格式，如果你有图床那这个就不需要这个配置。  
 - 第二行：文章之前引用，`/[^\(]+\.md/` ->  `{{< relref "$&" >*/}}`，将 obsidian 文章之间的引用转化为 hugo 中的格式，在 obsidian 文章之间引用是没有 md 后缀的，因此执行该替换的时间是等文章使用插件转化后再执行，据此后面的箭头向下。  
 - 第三行：文章封面，`/cover\.image/` -> `cover:\n image`, 将一级 key 转为二级，因为 obsidian 不支持多层级属性。  
-> `{{</* relref "例子.md" */>}}` 这个在 hugo 中表示获取“例子.md”文件的相对访问地址，例如：`例子.md` 文件的 frontmatter 的 slug 配置为 example-1，那生成的结果大概就是 `/post/example-1`，不配置 slug 那访问地址就是 `/post/例子`   
+> `{{</* relref "例子.md" */>}}` 这个在 hugo 中表示获取“例子. Md”文件的相对访问地址，例如：`例子.md` 文件的 frontmatter 的 slug 配置为 example-1，那生成的结果大概就是 `/post/example-1`，不配置 slug 那访问地址就是 `/post/例子`   
   
   
 #### 2.4 Attachment & embed note config  
@@ -259,3 +259,4 @@ git push origin main
 
 ## 四、总结 
 
+生命在于折腾！欢迎以任何方式咨询任何问题，能不能回答到时候再说
