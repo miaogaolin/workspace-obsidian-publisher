@@ -25,6 +25,7 @@ cover:
 author: hellloveyy & 老苗
 ---
 
+
 ## 一、首先为什么是这个组合？
 1. **回归写作**：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求；
 	- 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈
@@ -32,7 +33,7 @@ author: hellloveyy & 老苗
 3. **知识传播**：vercel + hugo + paperMod 这一套组合拳非常方便部署
 
 ## 二、相关工具汇总
-1. Hugo + Paper Mod 主题 （主题很多，自己点菜，完全满足做博客或者门户网站等）![](Obsidian-blog-20240113002715608.webp)
+1. Hugo + Paper Mod 主题 （主题很多，自己点菜，完全满足做博客或者门户网站等）![](/images/Obsidian-blog-20240113002715608.webp)
 2. Obsidian 编辑器 + Github Publisher 插件 + Image Converter 插件
 3. Github + Vercel （老搭档了，对比 GitHub page 自由度更高更方便）
 4. [dynadot.com](dynadot.com) （我用来购买 AI 域名，性价比较高而且可选中文界面&中文客服，服务相当周到。有一次出价点错了，跟客服说明之后，友好的帮我立刻取消了出价。我的推荐码： `kW6Z6i9D8e6I9T` 创建 Dynadot 帐户并在 48 小时内消费 9.99$ 会返还给你 5$，聊胜于无吧) ![](Obsidian-blog-20240113230950211.webp)
@@ -236,16 +237,16 @@ git push origin main
   
 ##### 3. Import & Deploy  
   
-导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，注意要选择环境 `hugo` 接下来需要耐心等撒花即可。  
-![](Obsidian-blog-20240114014039357.webp)
-![](Obsidian-blog-20240114014119226.webp)
+导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，注意要选择环境 `hugo` 接下来需要耐心等撒花即可。 
+![](/images/Obsidian-blog-20240114014039357.webp)
+![](/images/Obsidian-blog-20240114014119226.webp)
   
 ##### 4. 域名  
   
 完成后点击 Domains，添加自己的域名。  
-![](Obsidian-blog-20240114014309645.webp)
-![](Obsidian-blog-20240114014347570.webp)
-添加完后，再解析自己的域名，我的域名在 [dynadot.com](dynadot.com) 购买的，按照说明设置即可。Vercel 站上给你分配的域名，网络不太稳定国内访问有时候会受限。  
+![](/images/Obsidian-blog-20240114014309645.webp)
+![](/images/Obsidian-blog-20240114014347570.webp)
+添加完后，再解析自己的域名，我的域名在 [dynadot.com](/images/dynadot.com) 购买的，按照说明设置即可。Vercel 站上给你分配的域名，网络不太稳定国内访问有时候会受限。  
 ![](Obsidian-blog-20240114014649113.webp)
 
 ## 四、总结 
