@@ -27,43 +27,6 @@ author: hellloveyy & 老苗
 
 
 
-  
-### 2. Github Publisher  
-给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
-  
-我的配置如下，你可以导入配置，下方也会说明一些关键设置。如果你对其它配置感兴趣，可以看看 [Publisher官网文档](https://obsidian-publisher.netlify.app/plugin/)。
-
-#### 2.1 Github config  
-![](/images/Obsidian-blog-20240114002433572.webp)
-  
-**注意**：
-- 生成的 token 不要随便放在 Github 的公共仓库，检测到 token 就会失效。  
-- 一定要点图中的链接去生成 token ！
-#### 2.2 Upload config  
-![](/images/Obsidian-blog-20240114003941993.webp)
-Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
-![](/images/Obsidian-blog-20240114004020589.webp)
-Property key，可以通过文章的属性设置上传的目录，例如我这配置：    
-
-- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`    
-- 如果 dir 属性没有设置则默认上传到 content/posts 目录下    
-#### 2.3 Text & link converters  
-这块配置影响上传文章后的内容结构。  
-![](/images/Obsidian-blog-20240114004148520.webp)
-注意：Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。  
-  
-下来稍微麻烦点展开说说，正则内容替换：  
-![](/images/Obsidian-blog-20240114004253463.webp)
-  
-截图中有三个正则替换规则，每行后面都有个箭头，↑箭头表示插件应用之前替换，↓箭头表示插件应用之后替换。  
-  
-
-  
-  
-#### 2.4 Attachment & embed note config  
-![](/images/Obsidian-blog-20240114004750640.webp)
-  
-会将图片中使用到的本地图片上传到 `static/images` 仓库目录下。  
 ### 3. Image Converter 优化图像插入  
 - 转化图片格式，统一转为 webp，便于图像加载和快速打开
 - `Auto rename` 自动修改名字根据文章标题，这样后期便于整理 `static/images` 不会显得杂乱无章
