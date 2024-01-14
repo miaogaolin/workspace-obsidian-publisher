@@ -234,7 +234,6 @@ git push origin main
 导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，注意要选择环境 `hugo` 接下来需要耐心等撒花即可。 
 ![](/images/Obsidian-blog-20240114014039357.webp)
 ![](/images/Obsidian-blog-20240114014119226.webp)
->>>>>>> a88975f5a45bcb9a9010bb11804c7229d6ad33ca
   
 ##### 4. 域名  
   
