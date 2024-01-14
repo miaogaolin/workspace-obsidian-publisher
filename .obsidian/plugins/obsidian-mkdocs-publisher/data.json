@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4940
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "yaml",
@@ -90,5 +90,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "upload-configuration"
+  "tabsID": "github-configuration"
 }
