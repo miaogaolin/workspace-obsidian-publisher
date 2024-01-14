@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="" />
+    <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/Obsidian-blog-bak.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

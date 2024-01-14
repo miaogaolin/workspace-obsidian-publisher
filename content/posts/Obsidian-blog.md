@@ -236,7 +236,7 @@ git push origin main
   
 ##### 3. Import & Deploy  
   
-导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，注意要选择环境 `hugo` 接下来需要耐心等撒花即可。  
+导入 Github 上 fork 后的项目，**import** 后再点击 **deploy**，注意要选择环境 `hugo` 接下来需要耐心等撒花即可。 
 ![](Obsidian-blog-20240114014039357.webp)
 ![](Obsidian-blog-20240114014119226.webp)
   
