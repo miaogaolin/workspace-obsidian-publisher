@@ -2,6 +2,6 @@
   "promptDelete": false,
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "static/images",
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true
 }

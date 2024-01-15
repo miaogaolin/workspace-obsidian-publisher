@@ -16,5 +16,31 @@
       <guid>https://gby.ai/obsidian-blog/</guid>
       <description>一、首先为什么是这个组合？ 回归写作：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求； 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈 数据沉淀：未来的 AI 时代，是数据无价的时代，沉淀自己的内容和数据越来越重要。Obsidian 的所有数据均为本地 md 文件，对比各种印象笔记、notion 等，更为方便存储和使用；多端同步和远程存储可以选择官方，也可以像我一样折腾到 GitHub； 知识传播：vercel + hugo + paperMod 这一套组合拳非常方便部署 二、相关工具汇总 Hugo + Paper Mod 主题 （主题很多，自己点菜，完全满足做博客或者门户网站等） Obsidian 编辑器 + Github Publisher 插件 + Image Converter 插件 Github + Vercel （老搭档了，对比 GitHub page 自由度更高更方便） dynadot.com （我用来购买 AI 域名，性价比较高而且可选中文界面&amp;amp;中文客服，服务相当周到。有一次出价点错了，跟客服说明之后，友好的帮我立刻取消了出价。我的推荐码： kW6Z6i9D8e6I9T 创建 Dynadot 帐户并在 48 小时内消费 9.99$ 会返还给你 5$，聊胜于无吧) 三、流程步骤 1. Hugo + PaperMod 使用我的仓库 fork 直接部署： hellloveyy/obsidian-GbyAi fork 自老苗，去掉了他自己的文章和关联的图片，下面 PaperMod 已经被引用到这个项目的子模块了，请看根目录文件 .</description>
     </item>
+    <item>
+      <title>如何使用虚拟卡升级 Chatgpt Plus 和 Api</title>
+      <link>https://gby.ai/wildcard/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/wildcard/</guid>
+      <description>目前阶段经历过一场虚拟卡开通 plus 被封号的风波过后，平台对虚拟卡卡的很严格，包括 Nobepay、depay、dupay 等均为概率学成功，目前我使用并且很稳的一个卡商就是 wildcard，下面详细对比介绍一下：
+先附上邀请链接和邀请码： https://bewildcard.com/i/OPENAI888 邀请码：OPENAI888
+开卡能打88折！
+一、不成功各种报错原因总结：
+开通plus时使用的IP被太多人使用过，或者被污染了不够纯净，导致付款被拒
+填写付款账单地址和ip地址不匹配
+二、对比市面上的各种 pay 的优劣势：
+优势：
+提供美国远程家庭环境，OpenAI 一键注册，OpenAI api 转发服务
+提供三次免费海外手机号验证
+可提现，可多卡转现
+详细的各种教程
+不需要搞KYC验证、虚拟货币USDT充值那一套
+各种白嫖包括deepl api，rewind ai，perplexlty ai等
+灰常优质的客服体验，当你因为各种原因在开卡之后不能开通 plus 或者 api，美国的中文客服会 1 对 1 服务，帮你直接绑定！咋样是不是巨省事！还能帮你把能白嫖的都开了包括 deepl 的 api 免费额度、PerplexityAI pro 等等
+劣势：
+开卡费用和每笔手续费比 ***pay 稍微高点，但是我觉得从省心省事稳定的角度，每个人的时间就是金钱 三、主要教程链接：还有更多官网自取
+OpenAI API 绑卡充值教程
+ChatGPT Plus 订阅图文教程
+ChatGPT Plus 订阅视频教程</description>
+    </item>
   </channel>
 </rss>
