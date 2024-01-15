@@ -18,7 +18,7 @@ series:
   - ChatGPT
 lastmod: 
 lang: cn
-cover:
+Cover:
   image: /images/wildcard-20240115191347234.Webp
 author: hellloveyy
 ---
