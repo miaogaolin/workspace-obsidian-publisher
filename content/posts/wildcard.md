@@ -19,9 +19,10 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/wildcard-20240115191347234.webp
+  image: /images/wildcard-20240115195700027.webp
 author: hellloveyy
 ---
+
 
 {{< figure src="/images/wildcard-20240115191347234.webp" caption="">}}
 目前阶段经历过一场虚拟卡开通 plus 被封号的风波过后，平台对虚拟卡卡的很严格，包括 Nobepay、depay、dupay 等均为概率学成功，目前我使用并且很稳的一个卡商就是 wildcard，下面详细对比介绍一下：
@@ -29,7 +30,6 @@ author: hellloveyy
 先附上邀请链接和邀请码： https://bewildcard.com/i/OPENAI888    邀请码：`OPENAI888`
 
 开卡能打88折！
-
 
 一、不成功各种报错原因总结：
 
