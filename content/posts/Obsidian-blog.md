@@ -29,6 +29,7 @@ weight: "1"
 
 
 
+
 ## 一、首先为什么是这个组合？
 1. **回归写作**：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求；
 	- 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈
@@ -225,115 +226,16 @@ taxonomies:
 ### 2. Github Publisher  
 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
   
-我的配置如下，你可以导入配置，下方也会说明一些关键设置。如果你对其它配置感兴趣，可以看看 [Publisher官网文档](https://obsidian-publisher.netlify.app/plugin/)。
-``` json
-{
-  "github": {
-    "branch": "main",
-    "automaticallyMergePR": true,
-    "tokenPath": "%configDir%/plugins/%pluginID%/env",
-    "api": {
-      "tiersForApi": "Github Free/Pro/Team (default)",
-      "hostname": ""
-    },
-    "workflow": {
-      "commitMessage": "[PUBLISHER] Merge",
-      "name": ""
-    },
-    "verifiedRepo": true
-  },
-  "upload": {
-    "behavior": "yaml",
-    "defaultName": "content/posts",
-    "rootFolder": "content",
-    "yamlFolderKey": "dir",
-    "frontmatterTitle": {
-      "enable": false,
-      "key": "title"
-    },
-    "replaceTitle": [],
-    "replacePath": [],
-    "autoclean": {
-      "enable": false,
-      "excluded": []
-    },
-    "folderNote": {
-      "enable": false,
-      "rename": "index.md",
-      "addTitle": {
-        "enable": false,
-        "key": "title"
-      }
-    },
-    "metadataExtractorPath": ""
-  },
-  "conversion": {
-    "hardbreak": false,
-    "dataview": true,
-    "censorText": [
-      {
-        "entry": "/cover\\.image/",
-        "replace": "cover:\\n image",
-        "flags": "",
-        "after": false
-      }
-    ],
-    "tags": {
-      "inline": true,
-      "exclude": [],
-      "fields": []
-    },
-    "links": {
-      "internal": false,
-      "unshared": false,
-      "wiki": true,
-      "slugify": true
-    }
-  },
-  "embed": {
-    "attachments": true,
-    "overrideAttachments": [],
-    "keySendFile": [],
-    "notes": false,
-    "folder": "static/images",
-    "convertEmbedToLinks": "keep",
-    "charConvert": "->"
-  }
-}
-```
-#### 2.1 Github config  
+我的配置如下，你可以导入配置 https://github.com/miaogaolin/obsidian-github-publisher-hugo/tree/main ，老苗的说明很详细了哈。
+
+如果你对其它配置感兴趣，可以看看 [Publisher官网文档](https://obsidian-publisher.netlify.app/plugin/)。
+#### Github config  
 ![](/images/Obsidian-blog-20240114002433572.webp)
   
 **注意**：
 - 生成的 token 不要随便放在 Github 的公共仓库，检测到 token 就会失效。  
 - 一定要点图中的链接去生成 token ！
-#### 2.2 Upload config  
-![](/images/Obsidian-blog-20240114003941993.webp)
-Fixed Folder，表示将所有的文章上传到 content/posts 目录下。    
-![](/images/Obsidian-blog-20240114004020589.webp)
-Property key，可以通过文章的属性设置上传的目录，例如我这配置：    
-
-- 通过 dir 属性获取上传的目录，最终的上传路径为 `content/{dir}`    
-- 如果 dir 属性没有设置则默认上传到 content/posts 目录下    
-#### 2.3 Text & link converters  
-这块配置影响上传文章后的内容结构。  
-![](/images/Obsidian-blog-20240114004148520.webp)
-注意：Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。  
-  
-正则内容替换：
-
-![](/images/Obsidian-blog-20240114105009695.webp)
-
-截图正则替换规则，每行后面都有个箭头，↑箭头表示插件应用之前替换，↓箭头表示插件应用之后替换。  
-  
-正则内容：  
-- 文章封面，`/cover\.image/` -> `cover:\n image`, 将一级 key 转为二级，因为 obsidian 不支持多层级属性。     
-  
-  
-#### 2.4 Attachment & embed note config  
-![](/images/Obsidian-blog-20240114004750640.webp)
-  
-会将图片中使用到的本地图片上传到 `static/images` 仓库目录下。  
+ 
 ### 3. Image Converter 优化图像插入  
 - 转化图片格式，统一转为 webp，便于图像加载和快速打开
 - `Auto rename` 自动修改名字根据文章标题，这样后期便于整理 `static/images` 不会显得杂乱无章 ![](/images/Obsidian-blog-20240114005401948.webp)
