@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/Obsidian-blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Obsidian-blog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/partials/extend_head.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/extend_head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/partials/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <workItem from="1704945790147" duration="2633000" />
       <workItem from="1704959728654" duration="3948000" />
       <workItem from="1705033099141" duration="22480000" />
-      <workItem from="1705161036058" duration="5929000" />
+      <workItem from="1705161036058" duration="6686000" />
     </task>
     <servers />
   </component>
