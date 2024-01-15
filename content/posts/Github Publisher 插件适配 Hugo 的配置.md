@@ -16,7 +16,7 @@ author:
 
 在 [使用 Obsidian 免费建个人博客 > Github Publisher]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}#github-publisher) 一文中讲解了三个规则，但是后期发现还有其它内容需要调整，索性在这篇文章中统一整理下。
 
-本文基于 Obsidian 的 Github Publisher 插件，版本：v6.15.5，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，即使收到通知可以关注[我的频道](https://t.me/evan_share)。
+本文基于 Obsidian 的 Github Publisher 插件，版本：v6.15.5，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
 
 下面我会对重要的配置进行讲解，如果你暂时不想看了，可以使用我提供的[默认配置](https://github.com/miaogaolin/obsidian-github-publisher-hugo)。
 
