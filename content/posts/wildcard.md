@@ -24,7 +24,6 @@ author: hellloveyy
 ---
 
 {{< figure src="/images/wildcard-20240115191347234.webp" caption="">}}
-
 目前阶段经历过一场虚拟卡开通 plus 被封号的风波过后，平台对虚拟卡卡的很严格，包括 Nobepay、depay、dupay 等均为概率学成功，目前我使用并且很稳的一个卡商就是 wildcard，下面详细对比介绍一下：
 
 先附上邀请链接和邀请码： https://bewildcard.com/i/OPENAI888    
@@ -62,7 +61,7 @@ author: hellloveyy
 
 1. 开卡费用和每笔手续费比 ***pay 稍微高点，但是我觉得从省心省事稳定的角度，每个人的时间就是金钱
 
- {{< figure src="/images/wildcard-20240115191132126.webp" caption="">}}
+{{< figure src="/images/wildcard-20240115191132126.webp" caption="">}}
 
 三、主要教程链接：还有更多官网自取
 
