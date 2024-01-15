@@ -28,6 +28,7 @@ weight: "1"
 
 
 
+
 ## 一、首先为什么是这个组合？
 1. **回归写作**：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求；
 	- 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈
@@ -52,151 +53,174 @@ weight: "1"
 	- 可以参考：官方主题文档：[PaperMod](https://adityatelange.github.io/hugo-PaperMod/)  
 - 所有 hugo 和 paperMOD 主题的配置项都在 `config.yml`，并且加注了详细的注释！
 ```yml
-baseURL: "https://gby.ai/" #绑定的域名  
-title: GbyAI #网站标题  
-paginate: 10 #首页每页显示的文章数  
-theme: PaperMod #主题名称  
-languageCode: zh-cn #默认语言  
-ignoreErrors: ["error-remote-getjson"]  #yml or ignoreErrors = ["error-remote-getjson"]  #toml  
-enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true  
-  
-minify:  
-  disableXML: true  
-  minifyOutput: true  
-  
-# 网页下方copyright说明  
-copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
-  
-#搜索使用  
-outputs:  
-  home:      - HTML  
-      - RSS  
-      - JSON # is necessary  
-  
-params:  
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.  
-  title: GbyAI  
-  description: "探索AIGC，了解深层的agent落地，探索prompt的实际应用，最新的AI方面消息传递"  
-  keywords: ["AIGC", "agent", "prompt", "news"]  
-  author: ["hellloveyy"]  
-  # images: ["<link or path of image for opengraph, twitter-cards>"]  
-  DateFormat: "2006-01-02"  
-  defaultTheme: auto # dark, light  
-  disableThemeToggle: false  
-  
-  ShowReadingTime: false #是否展示阅读时间  
-  ShowShareButtons: false #是否展示评论和分享按钮  
-  # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin#  ShareButtons:  
-#    - x  
-#    - telegram  
-#    - email  
-  ShowPostNavLinks: true  
-  ShowBreadCrumbs: false #是否展示面包屑导航  
-  ShowCodeCopyButtons: true #代码是否展示copy按钮  
-  ShowWordCount: false #是否展示字数统计  
-  ShowRssButtonInSectionTermList: true #订阅按钮  
-  UseHugoToc: true  
-  ViewCount: false # 是否展示 uv、pv  
-#  BaiduAnalytics: "" # 是否开启百度统计  
-  #googleAnalytics:  # 谷歌统计  disableSpecial1stPost: false  
-  disableScrollToTop: false #滑动到顶部  
-  comments: false #评论展示  
-  hidemeta: false  
-  hideSummary: true  
-  hideDescription: true  
-  showtoc: true #显示目录  
-  tocopen: true #自动展开目录  
-  # 网站左上角的文字和图标配置  label:  
-    text:    iconSVG:  
-  assets:    # disableHLJS: true # to disable highlight.js  
-    # disableFingerprinting: true    favicon: "/favicon.ico"  
-    favicon16x16: "/favicon-16x16.png"  
-    favicon32x32: "/favicon-32x32.png"  
-    apple_touch_icon: "/apple-touch-icon.png"  
-    safari_pinned_tab: "/safari_pinned_tab.png"  
-  
-  # profile-mode  
-  profileMode:  
-    enabled: false # needs to be explicitly set  
-    title: ExampleSite  
-    subtitle: "This is subtitle"  
-    imageUrl: "<img location>"  
-    imageWidth: 120  
-    imageHeight: 120  
-    imageTitle: my image  
-    buttons:  
-      - name: Posts  
-        url: posts  
-      - name: Tags  
-        url: tags  
-  
-  # 网站介绍  
-  homeInfoParams:  
-    Title: "Hi! I'm hellloveyy \U0001F44B"  
-    Content: "一名全身心投入 AIGC 的学徒 - **[进一步了解我](/about)**"  
-  
-  socialIcons:  
-#     - name: wechat  
-#       url: "https://www.beizigen.com/images/wechat.webp"  
-    - name: email  
-      url: "mailto:hellloveyy@gmail.com"  
-    - name: github  
-      url: "https://github.com/hellloveyy"  
-    - name: rss  
-      url: "/index.xml"  
-  
-  cover:  
-    hidden: true # hide everywhere but not in structured data  
-    hiddenInList: false # hide on list pages and home  
-    hiddenInSingle: true # hide on single page  
-    # 在列表默认显示的图片    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy  
-  
-  editPost:  
-    URL: "https://github.com/hellloveyy/obsidian-GbyAi/tree/main/content"  
-    Text: "指出问题" # edit text  
-    appendFilePath: true # to append file path to Edit link  
-  
-  # for search  # https://fusejs.io/api/options.html  fuseOpts:  
-    isCaseSensitive: false  
-    shouldSort: true  
-    location: 0  
-    distance: 1000  
-    threshold: 0.4  
-    minMatchCharLength: 0  
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search  
-    keys: ["title", "permalink", "summary", "content", "tags"]  
-  
-# 选择languages字段的哪个语言，默认 en  
-defaultContentLanguage: zh  
-languages:  
-  zh:    permalinks:      # 默认会带路径会带 /posts 前缀  
-      posts: /:slug/  
-    menu:  
-      main:        - name: 🔍搜索  
-          url: search  
-          weight: 1  
-        - name: 📚文章  
-          url: archives  
-          weight: 2  
-        # - name: 标签  
-        #   url: tags        #   weight: 2        - name: 🧩系列  
-          url: series  
-          weight: 3  
-        - name: 🤝赞助  
-          url: sponsor  
-          weight: 4  
-          # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma  
-# pygmentsUseClasses: true  
-markup:  
-  goldmark:    extensions:      # 禁用 Hugo 将英文单引号转为 &rsquo  
-      typographer: false  
-# highlight:  
-#   noClasses: false  
-#   anchorLineNos: true  
-  # codeFences: true  # guessSyntax: true  # lineNos: true  # style: monokai  
-taxonomies:  
-  tag: tags  
-  series: series
+baseURL: " https://gby.ai/" #绑定的域名
+title: GbyAI #网站标题
+paginate: 10 #首页每页显示的文章数
+theme: PaperMod #主题名称
+languageCode: zh-cn #默认语言
+ignoreErrors: ["error-remote-getjson"]  #yml or ignoreErrors = ["error-remote-getjson"]  #toml
+enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+
+minify:
+	disableXML: true
+	minifyOutput: true
+
+# 网页下方copyright说明
+copyright: Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+#搜索使用
+outputs:
+	home:
+		- HTML
+		- RSS
+		- JSON # is necessary
+
+params:
+	env: production # to enable google analytics, opengraph, twitter-cards and schema.
+	title: GbyAI
+	description: "探索AIGC，了解深层的agent落地，探索prompt的实际应用，最新的AI方面消息传递"
+	keywords: ["AIGC", "agent", "prompt", "news"]
+	author: ["hellloveyy"]
+	# images: ["<link or path of image for opengraph, twitter-cards>"]
+	DateFormat: "2006-01-02"
+	defaultTheme: auto # dark, light
+	disableThemeToggle: false
+
+	ShowReadingTime: false #是否展示阅读时间
+	ShowShareButtons: false #是否展示评论和分享按钮
+	# 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
+	#  ShareButtons:
+	#    - x
+	#    - telegram
+	#    - email
+	ShowPostNavLinks: true
+	ShowBreadCrumbs: false #是否展示面包屑导航
+	ShowCodeCopyButtons: true #代码是否展示copy按钮
+	ShowWordCount: false #是否展示字数统计
+	ShowRssButtonInSectionTermList: true #订阅按钮
+	UseHugoToc: true
+	ViewCount: false # 是否展示 uv、pv
+	#  BaiduAnalytics: "" # 是否开启百度统计
+	#googleAnalytics:  # 谷歌统计
+	disableSpecial1stPost: false
+	disableScrollToTop: false #滑动到顶部
+	comments: false #评论展示
+	hidemeta: false
+	hideSummary: true
+	hideDescription: true
+	showtoc: true #显示目录
+	tocopen: true #自动展开目录
+	# 网站左上角的文字和图标配置
+	label:
+		text:
+		iconSVG:
+
+	assets:
+		# disableHLJS: true # to disable highlight.js
+		# disableFingerprinting: true
+		favicon: "/favicon.ico"
+		favicon16x16: "/favicon-16x16.png"
+		favicon32x32: "/favicon-32x32.png"
+		apple_touch_icon: "/apple-touch-icon.png"
+		safari_pinned_tab: "/safari_pinned_tab.png"
+
+	# profile-mode
+	profileMode:
+		enabled: false # needs to be explicitly set
+		title: ExampleSite
+		subtitle: "This is subtitle"
+		imageUrl: "<img location>"
+		imageWidth: 120
+		imageHeight: 120
+		imageTitle: my image
+		buttons:
+			- name: Posts
+			  url: posts
+			- name: Tags
+			  url: tags
+
+	# 网站介绍
+	homeInfoParams:
+		Title: "Hi! I'm hellloveyy \U0001F44B"
+		Content: "一名全身心投入 AIGC 的学徒 - **[进一步了解我](/about)**"
+
+	socialIcons:
+		#     - name: wechat
+		#       url: "https://www.beizigen.com/images/wechat.webp"
+		- name: email
+		  url: "mailto:hellloveyy@gmail.com"
+		- name: github
+		  url: "https://github.com/hellloveyy"
+		- name: rss
+		  url: "/index.xml"
+
+	cover:
+		hidden: true # hide everywhere but not in structured data
+		hiddenInList: false # hide on list pages and home
+		hiddenInSingle: true # hide on single page
+		# 在列表默认显示的图片
+		defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
+
+	editPost:
+		URL: "https://github.com/hellloveyy/obsidian-GbyAi/tree/main/content"
+		Text: "指出问题" # edit text
+		appendFilePath: true # to append file path to Edit link
+
+	# for search
+	# https://fusejs.io/api/options.html
+	fuseOpts:
+		isCaseSensitive: false
+		shouldSort: true
+		location: 0
+		distance: 1000
+		threshold: 0.4
+		minMatchCharLength: 0
+		limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+		keys: ["title", "permalink", "summary", "content", "tags"]
+
+# 选择languages字段的哪个语言，默认 en
+defaultContentLanguage: zh
+languages:
+	zh:
+		permalinks:
+			# 默认会带路径会带 /posts 前缀
+			posts: /:slug/
+		menu:
+			main:
+				- name: 🔍搜索
+				  url: search
+				  weight: 1
+				- name: 📚文章
+				  url: archives
+				  weight: 2
+				# - name: 标签
+				#   url: tags
+				#   weight: 2
+				- name: 🧩系列
+				  url: series
+				  weight: 3
+				- name: 🤝赞助
+				  url: sponsor
+				  weight: 4
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+markup:
+	goldmark:
+		extensions:
+			# 禁用 Hugo 将英文单引号转为 &rsquo
+			typographer: false
+	# highlight:
+	#   noClasses: false
+	#   anchorLineNos: true
+	# codeFences: true
+	# guessSyntax: true
+	# lineNos: true
+	# style: monokai
+
+taxonomies:
+	tag: tags
+	series: series
 ```
 ### 2. Github Publisher  
 给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。  
