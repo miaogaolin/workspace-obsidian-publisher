@@ -88,6 +88,8 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/laomiao_"
+    - name: telegram
+      url: "https://t.me/evan_share"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
     - name: github
