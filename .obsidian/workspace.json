@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/wildcard.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/wildcard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/wildcard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Obsidian-blog.md"
+                "file": "content/posts/wildcard.md"
               }
             }
           }
@@ -148,6 +148,14 @@
   },
   "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "content/posts/Obsidian-blog.md",
+    "content/posts/wildcard.md",
+    "static/images/wildcard-20240115195700027.webp",
+    "static/images/wildcard-20240115195442530.webp",
+    "archetypes/post.md",
+    "static/images/wildcard-20240115191132126.webp",
+    "static/images/wildcard-20240115191347234.webp",
+    "static/images/wildcard-20240115193615736.webp",
     "node_modules/@vercel/speed-insights/package.json",
     "node_modules/@vercel/speed-insights/jest.setup.ts",
     "node_modules/@vercel/speed-insights/dist/react/index.d.ts",
@@ -158,12 +166,10 @@
     "node_modules/@vercel/speed-insights/dist/react/index.d.mts",
     "node_modules/@vercel/speed-insights/dist/remix/index.d.mts",
     "node_modules/@vercel/speed-insights/dist/nuxt/index.d.mts",
-    "node_modules/@vercel/speed-insights/dist/next/index.d.mts",
     "node_modules/@vercel/speed-insights/README.md",
     "static/images/Obsidian-blog-20240114105009695.webp",
     "node_modules/@vercel/analytics/README.md",
     "static/images/post-20240111195047056.webp",
-    "content/posts/Obsidian-blog.md",
     "post-20240111195047056.md",
     "public/images/Obsidian-blog-20240114102155811.webp",
     "static/images/Obsidian-blog-20240114102155811.webp",
@@ -173,17 +179,10 @@
     "content/search.md",
     "content/archives.md",
     "public/images/Obsidian-blog-20240114014649113.webp",
-    "public/images/Obsidian-blog-20240114014347570.webp",
-    "public/images/Obsidian-blog-20240114014309645.webp",
-    "public/images/Obsidian-blog-20240114014119226.webp",
-    "public/images/Obsidian-blog-20240114014039357.webp",
-    "public/images/Obsidian-blog-20240114013913729.webp",
-    "archetypes/post.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "archetypes/default.md",
     "未命名.md",
     "layouts/_default/未命名.md",
-    "content/posts/未命名.md",
     "content/posts/post.md",
     "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
     "content/posts/(centos)svn服务器与客户端的搭建.md",

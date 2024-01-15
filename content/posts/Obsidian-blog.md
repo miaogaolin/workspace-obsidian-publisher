@@ -268,8 +268,6 @@ author:  #作者
 
 ```  
 ### 5. 发布新文章 
-- 提交之前本地校验文章没有问题，然后批量把文档目前的图片前增加 `/images/`
-
 - 使用命令行 `command + P` ，输入 ` active `，然后选择 `Github Publisher: Uxxxxxxx` 即可，记着文章的 share 属性要开启，即 true。  
 ![](/images/Obsidian-blog-20240114012431514.webp)
   

@@ -12,7 +12,7 @@ series:  # 系列文章
 - Prompt
 lastmod: # 文章最后更新的时间  
 lang: "cn" # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等  
-cover:  
+Cover:  
   image: /images/post-20240111195047056.webp  # 文章封面图片地址 
-author: fork #作者
+author: hellloveyy #作者
 ---
