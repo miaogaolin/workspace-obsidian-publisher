@@ -15,7 +15,7 @@
               "state": {
                 "file": "content/posts/Obsidian-blog.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -148,34 +148,35 @@
   },
   "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "package-lock.json",
+    "node_modules/@vercel/analytics/package.json",
+    "node_modules/@vercel/analytics/jest.setup.ts",
+    "node_modules/@vercel/analytics/README.md",
+    "node_modules/@vercel/analytics/tsconfig.json",
+    "node_modules/@vercel/analytics/tsup.config.js",
+    "node_modules/@vercel/analytics/jest.config.js",
+    "node_modules/@vercel/analytics/LICENSE",
+    "node_modules/@vercel/analytics/dist/react/index.js.map",
+    "node_modules/@vercel/analytics/dist/react/index.js",
+    "node_modules/@vercel/analytics/dist/react/index.d.ts",
+    "node_modules/@vercel/analytics/dist/react/index.d.cts",
+    "static/images/post-20240111195047056.webp",
+    "content/posts/Obsidian-blog.md",
+    "post-20240111195047056.md",
+    "static/images/Obsidian-blog-20240114105009695.webp",
     "public/images/Obsidian-blog-20240114102155811.webp",
     "static/images/Obsidian-blog-20240114102155811.webp",
-    "content/posts/Obsidian-blog.md",
     "content/posts/Obsidian-blog-bak.md",
     "content/关于我.md",
     "content/赞助.md",
     "content/search.md",
     "content/archives.md",
-    "public/tags/vercel/index.xml",
-    "public/tags/hugo/index.xml",
-    "public/tags/github/index.xml",
-    "public/tags/obsidian/index.xml",
-    "public/assets/js/search.e4d5a22d7da210dff8f236e0fce8dad7f44371f9eb5116e05fca0d46437de74c.js",
-    "public/tags/vercel/page/1/index.html",
-    "public/tags/vercel/page/1",
-    "public/tags/vercel/page",
-    "public/tags/vercel/index.html",
-    "public/tags/vercel",
     "public/images/Obsidian-blog-20240114014649113.webp",
     "public/images/Obsidian-blog-20240114014347570.webp",
     "public/images/Obsidian-blog-20240114014309645.webp",
     "public/images/Obsidian-blog-20240114014119226.webp",
     "public/images/Obsidian-blog-20240114014039357.webp",
     "public/images/Obsidian-blog-20240114013913729.webp",
-    "public/images/Obsidian-blog-20240114013047211.webp",
-    "public/images/Obsidian-blog-20240114012841616.webp",
-    "public/images/Obsidian-blog-20240114012431514.webp",
-    "post-20240111195047056.md",
     "archetypes/post.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
     "archetypes/default.md",
@@ -192,7 +193,6 @@
     "content/posts/跟我学习php数组常用函数-上篇.md",
     "content/posts/认识css3伪元素.md",
     "content/posts/那些经常使用的 CSS3属性.md",
-    "content/posts/跟我学习php数组常用函数-下篇.md",
-    "content/posts/第一次拿到群晖设置的东西.md"
+    "content/posts/跟我学习php数组常用函数-下篇.md"
   ]
 }

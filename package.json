@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-gbyai",
+  "version": "1.0.0",
+  "description": "obsidian - Github Publisher 插件 - Hugo + PaperMod主题 - Vercel",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.1.1"
+  }
+}
