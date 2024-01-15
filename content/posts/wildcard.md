@@ -19,7 +19,7 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/wildcard-20240115191347234.Webp
+  image: /images/wildcard-20240115191347234.webp
 author: hellloveyy
 ---
 
