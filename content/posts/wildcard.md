@@ -6,6 +6,8 @@ tags:
   - chatgpt api
   - 虚拟卡
   - wildcard
+  - plus
+  - api
 title: 如何使用虚拟卡升级 Chatgpt Plus 和 Api
 slug: wildcard
 share: true
@@ -22,7 +24,6 @@ author: hellloveyy
 ---
 
 {{< figure src="/images/wildcard-20240115191347234.webp" caption="">}}
-
 目前阶段经历过一场虚拟卡开通 plus 被封号的风波过后，平台对虚拟卡卡的很严格，包括 Nobepay、depay、dupay 等均为概率学成功，目前我使用并且很稳的一个卡商就是 wildcard，下面详细对比介绍一下：
 
 先附上邀请链接和邀请码： https://bewildcard.com/i/OPENAI888    
