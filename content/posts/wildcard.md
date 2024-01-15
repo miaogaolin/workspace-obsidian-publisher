@@ -19,8 +19,7 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image:
-    "{\n  < figure src=\"/images/wildcard-20240115191347234.webp\" caption=\"\">\n}": 
+  image: /images/wildcard-20240115191347234.webp
 author: hellloveyy
 ---
 
