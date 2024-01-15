@@ -15,7 +15,7 @@
     "repo": "obsidian-GbyAi",
     "user": "hellloveyy",
     "otherRepo": [],
-    "rateLimit": 4998
+    "rateLimit": 4996
   },
   "upload": {
     "behavior": "yaml",
@@ -105,5 +105,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "text-conversion"
+  "tabsID": "github-configuration"
 }
