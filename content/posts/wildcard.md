@@ -19,11 +19,11 @@ series:
 lastmod: 
 lang: cn
 cover:
-  image: wildcard-20240115191347234.Webp
-author: fork
+  image: /images/wildcard-20240115191347234.Webp
+author: hellloveyy
 ---
 
-![wildcard](wildcard-20240115191347234.webp)
+[wildcard-20240115191347234.webp](wildcard-20240115191347234.webp)
 目前阶段经历过一场虚拟卡开通 plus 被封号的风波过后，平台对虚拟卡卡的很严格，包括 Nobepay、depay、dupay 等均为概率学成功，目前我使用并且很稳的一个卡商就是 wildcard，下面详细对比介绍一下：
 
 
@@ -56,12 +56,12 @@ author: fork
 6. 各种白嫖包括deepl api，rewind ai，perplexlty ai等
     
 7. 灰常优质的客服体验，当你因为各种原因在开卡之后不能开通 plus 或者 api，美国的中文客服会 1 对 1 服务，帮你直接绑定！咋样是不是巨省事！还能帮你把能白嫖的都开了包括 deepl 的 api 免费额度、PerplexityAI pro 等等
+
 劣势：
 
 1. 开卡费用和每笔手续费比 ***pay 稍微高点，但是我觉得从省心省事稳定的角度，每个人的时间就是金钱
 
-![wildcard](wildcard-20240115191132126.webp)
-
+[wildcard-20240115191132126.webp](wildcard-20240115191132126.webp)
 
 三、主要教程链接：还有更多官网自取
 
