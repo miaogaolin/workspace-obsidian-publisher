@@ -1,7 +1,5 @@
 {
   "github": {
-    "user": "hellloveyy",
-    "repo": "obsidian-GbyAi",
     "branch": "main",
     "automaticallyMergePR": true,
     "tokenPath": "%configDir%/plugins/%pluginID%/env",
@@ -13,9 +11,11 @@
       "commitMessage": "[PUBLISHER] Merge",
       "name": ""
     },
-    "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4989
+    "repo": "obsidian-GbyAi",
+    "user": "hellloveyy",
+    "otherRepo": [],
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "yaml",
@@ -47,8 +47,21 @@
     "dataview": true,
     "censorText": [
       {
+        "entry": "/\\]\\((.+?)\\.md/",
+        "replace": "]({{< relref \"$1.md\" >}}",
+        "flags": "",
+        "after": true,
+        "inCodeBlocks": false
+      },
+      {
         "entry": "/cover\\.image/",
-        "replace": "cover:\\n image",
+        "replace": "cover:\\n    image",
+        "flags": "",
+        "after": false
+      },
+      {
+        "entry": "/\\!\\[\\[([^/]+?)\\.(png|jpg|jpeg|webp|gif)\\|?([^\\|]*?)\\]\\]/",
+        "replace": "{{< figure src=\"/images/$1.$2\" caption=\"$3\">}}",
         "flags": "",
         "after": false
       }
@@ -72,7 +85,9 @@
     "notes": false,
     "folder": "static/images",
     "convertEmbedToLinks": "keep",
-    "charConvert": "->"
+    "charConvert": "->",
+    "forcePushAttachments": [],
+    "useObsidianFolder": false
   },
   "plugin": {
     "shareKey": "share",
