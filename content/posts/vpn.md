@@ -19,5 +19,6 @@ Cover:
 author: hellloveyy
 ---
 
- {{< figure src="/images/Obsidian-blog-20240116121831597.webp" caption="">}}
-{{< figure src="/images/Obsidian-blog-20240116121848097.webp" caption="">}}
+
+1. 速子云
+2. agentneo
