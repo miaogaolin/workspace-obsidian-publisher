@@ -15,7 +15,7 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/post-20240111195047056.webp
+  image: /images/grap-wechat-group-message-20240116234653481.webp
 author: hellloveyy
 ---
 
