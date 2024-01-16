@@ -234,7 +234,9 @@ taxonomies:
 **注意**：
 - 生成的 token 不要随便放在 Github 的公共仓库，检测到 token 就会失效。  
 - 一定要点图中的链接去生成 token ！
-- 如果某一篇文章误点 share 到首页了，可以取消 share 然后按照下面的操作  ![[Obsidian-blog-20240116121831597.webp]]  ![[Obsidian-blog-20240116121848097.webp]]
+- 如果某一篇文章误点 share 到首页了，可以取消 share 然后按照下面的操作
+- ![[Obsidian-blog-20240116121831597.webp]]  
+- ![[Obsidian-blog-20240116121848097.webp]]
  
 ### 3. Image Converter 优化图像插入  
 - 转化图片格式，统一转为 webp，便于图像加载和快速打开
