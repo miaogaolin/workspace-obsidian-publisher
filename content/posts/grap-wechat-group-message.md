@@ -19,6 +19,7 @@ Cover:
 author: hellloveyy
 ---
 
+{{< figure src="/images/grap-wechat-group-message-20240116234653481.webp" caption="">}}
 ## 准备
 
 1. 准备一个 17 年之前的微信号，新账号有限制不可以登录网页微信扫码
