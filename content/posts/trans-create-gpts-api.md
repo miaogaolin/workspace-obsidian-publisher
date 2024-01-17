@@ -20,9 +20,10 @@ Cover:
 author: hellloveyy
 ---
 
+{{< figure src="/images/trans-create-gpts-api-20240117225800116.webp" caption="">}}
+
 ## Introduction 导言
-**There are 4 types of GPTs you can create:
-您可以创建 4 种类型的 GPT：**
+**您可以创建 4 种类型的 GPT：**
 
 - **Basic GPT**. It takes user input, processes it according to the instructions and returns the output. It may browse the internet, and use code interpreter, and Dalle to execute python functions and produce images.
 基本 GPT。它接收用户输入，根据指令进行处理并返回输出。它可以浏览互联网，使用代码解释器和 Dalle 执行 python 函数并生成图像。
