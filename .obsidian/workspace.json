@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/openai-translator.md",
-                "mode": "source",
+                "file": "content/posts/英译中 Prompt.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/openai-translator.md",
+                "file": "content/posts/英译中 Prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/openai-translator.md",
+                "file": "content/posts/英译中 Prompt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/openai-translator.md"
+                "file": "content/posts/英译中 Prompt.md"
               }
             }
           }
@@ -163,6 +163,7 @@
     "content/posts/中译英 Prompt.md",
     "content/posts/英译中 Prompt.md",
     "content/posts/openai-translator.md",
+    "content/posts/trans-create-gpts-api.md",
     "static/images/openai-translator-20240118192750306.webp",
     "static/images/openai-translator-20240118192527011.webp",
     "static/images/openai-translator-20240118192523124.webp",
@@ -176,7 +177,6 @@
     "OpenAI-Translator-20240117003747599.webp.md",
     "content/posts/Obsidian-blog.md",
     "英译中 Prompt.md",
-    "content/posts/trans-create-gpts-api.md",
     "content/赞助.md",
     "content/关于我.md",
     "content/search.md",
