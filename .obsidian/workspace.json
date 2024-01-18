@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/openai-translator.md",
+                "file": "content/关于我.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/openai-translator.md",
+                "file": "content/关于我.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/openai-translator.md",
+                "file": "content/关于我.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/openai-translator.md"
+                "file": "content/关于我.md"
               }
             }
           }
@@ -146,16 +146,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1c01217c97c2fb1a",
+  "active": "ecfe3fe68bdb8054",
   "lastOpenFiles": [
+    "content/posts/openai-translator.md",
     "content/关于我.md",
-    "content/posts/关于我.md",
-    "content/posts/赞助.md",
+    "content/关于我.md",
+    "content/赞助.md",
     "content/赞助.md",
     "content/archives.md",
     "content/search.md",
     "content/posts/wildcard.md",
-    "content/posts/openai-translator.md",
     "content/posts/中译英 Prompt.md",
     "content/posts/英译中 Prompt.md",
     "{{<.md",
