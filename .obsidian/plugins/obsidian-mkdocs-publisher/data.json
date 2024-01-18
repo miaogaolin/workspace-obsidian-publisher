@@ -1,5 +1,7 @@
 {
   "github": {
+    "user": "hellloveyy",
+    "repo": "obsidian-GbyAi",
     "branch": "main",
     "automaticallyMergePR": true,
     "tokenPath": "%configDir%/plugins/%pluginID%/env",
@@ -11,11 +13,9 @@
       "commitMessage": "[PUBLISHER] Merge",
       "name": ""
     },
-    "verifiedRepo": true,
-    "repo": "obsidian-GbyAi",
-    "user": "hellloveyy",
     "otherRepo": [],
-    "rateLimit": 4923
+    "verifiedRepo": true,
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "yaml",

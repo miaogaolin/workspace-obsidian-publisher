@@ -13,9 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/openai-translator.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "c88e30c9c3706c6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/英译中 Prompt.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/openai-translator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Obsidian-blog.md",
+                "file": "content/posts/openai-translator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Obsidian-blog.md"
+                "file": "content/posts/openai-translator.md"
               }
             }
           }
@@ -148,6 +160,22 @@
   },
   "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "content/posts/中译英 Prompt.md",
+    "content/posts/英译中 Prompt.md",
+    "content/posts/openai-translator.md",
+    "static/images/openai-translator-20240118192750306.webp",
+    "static/images/openai-translator-20240118192527011.webp",
+    "static/images/openai-translator-20240118192523124.webp",
+    "static/images/openai-translator-20240118192518632.webp",
+    "static/images/openai-translator-20240118192514978.webp",
+    "static/images/openai-translator-20240118192505065.webp",
+    "static/images/openai-translator-20240118192458738.webp",
+    "static/images/openai-translator-20240118192422611.webp",
+    "static/images/openai-translator-20240118192415961.webp",
+    "static/images/openai-translator-20240118192407417.webp",
+    "OpenAI-Translator-20240117003747599.webp.md",
+    "content/posts/Obsidian-blog.md",
+    "英译中 Prompt.md",
     "content/posts/trans-create-gpts-api.md",
     "content/赞助.md",
     "content/关于我.md",
@@ -163,25 +191,12 @@
     "public/tags/obsidian/page/1",
     "public/tags/obsidian/page",
     "public/tags/obsidian/index.xml",
-    "public/safari_pinned_tab.png",
-    "public/logo1.png",
-    "public/logo.png",
-    "public/images/赞助-20240111160711230.webp",
-    "public/images/赞助-20240111160239127.webp",
-    "public/images/关于我-20240111170320688.webp",
-    "public/images/sponsor.webp",
-    "public/images/post-20240111195047056.webp",
-    "public/images/post-20240110194409858.webp",
-    "public/images/cf1fc10b763df1f061cc4608337a6cc4.webp",
-    "content/posts/Obsidian-blog.md",
     "content/posts/vpn.md",
     "content/posts/wildcard.md",
     "content/posts/grap-wechat-group-message.md",
     "themes/PaperMod/README.md",
     "content/posts/AI-customer.md",
     "content/posts/OpenAI-Translator.md",
-    "content/posts/英译中 Prompt.md",
-    "content/posts/中译英 Prompt.md",
     "archetypes/post.md",
     "archetypes/default.md",
     "node_modules/@vercel/speed-insights/README.md",
@@ -189,9 +204,6 @@
     "post-20240111195047056.md",
     "content/posts/Obsidian-blog-bak.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
-    "未命名.md",
-    "layouts/_default/未命名.md",
-    "content/posts/post.md",
-    "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md"
+    "layouts/_default/未命名.md"
   ]
 }
