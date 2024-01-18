@@ -7,8 +7,50 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gby.ai/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>vpn</title>
+      <link>https://gby.ai/tags/vpn/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>机场</title>
+      <link>https://gby.ai/tags/%E6%9C%BA%E5%9C%BA/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/%E6%9C%BA%E5%9C%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>API</title>
+      <link>https://gby.ai/tags/api/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ChatGPT</title>
+      <link>https://gby.ai/tags/chatgpt/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GPTs</title>
+      <link>https://gby.ai/tags/gpts/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/gpts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>译文</title>
+      <link>https://gby.ai/tags/%E8%AF%91%E6%96%87/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/%E8%AF%91%E6%96%87/</guid>
+      <description></description>
+    </item>
     <item>
       <title>github</title>
       <link>https://gby.ai/tags/github/</link>
@@ -38,13 +80,6 @@
       <description></description>
     </item>
     <item>
-      <title>chatgpt</title>
-      <link>https://gby.ai/tags/chatgpt/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://gby.ai/tags/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>chatgpt api</title>
       <link>https://gby.ai/tags/chatgpt-api/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
@@ -59,6 +94,13 @@
       <description></description>
     </item>
     <item>
+      <title>plus</title>
+      <link>https://gby.ai/tags/plus/</link>
+      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/plus/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>wildcard</title>
       <link>https://gby.ai/tags/wildcard/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
@@ -70,6 +112,27 @@
       <link>https://gby.ai/tags/%E8%99%9A%E6%8B%9F%E5%8D%A1/</link>
       <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://gby.ai/tags/%E8%99%9A%E6%8B%9F%E5%8D%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>python</title>
+      <link>https://gby.ai/tags/python/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>群消息</title>
+      <link>https://gby.ai/tags/%E7%BE%A4%E6%B6%88%E6%81%AF/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/%E7%BE%A4%E6%B6%88%E6%81%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>微信</title>
+      <link>https://gby.ai/tags/%E5%BE%AE%E4%BF%A1/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/tags/%E5%BE%AE%E4%BF%A1/</guid>
       <description></description>
     </item>
   </channel>

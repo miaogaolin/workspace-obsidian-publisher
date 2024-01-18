@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Thu, 21 Dec 2023 10:06:19 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gby.ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>手递手教你 Obsidian 笔记建站</title>
@@ -17,27 +17,29 @@
       <description>一、首先为什么是这个组合？ 回归写作：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求； 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈 数据沉淀：未来的 AI 时代，是数据无价的时代，沉淀自己的内容和数据越来越重要。Obsidian 的所有数据均为本地 md 文件，对比各种印象笔记、notion 等，更为方便存储和使用；多端同步和远程存储可以选择官方，也可以像我一样折腾到 GitHub； 知识传播：vercel + hugo + paperMod 这一套组合拳非常方便部署 二、相关工具汇总 Hugo + Paper Mod 主题 （主题很多，自己点菜，完全满足做博客或者门户网站等） Obsidian 编辑器 + Github Publisher 插件 + Image Converter 插件 Github + Vercel （老搭档了，对比 GitHub page 自由度更高更方便） dynadot.com （我用来购买 AI 域名，性价比较高而且可选中文界面&amp;amp;中文客服，服务相当周到。有一次出价点错了，跟客服说明之后，友好的帮我立刻取消了出价。我的推荐码： kW6Z6i9D8e6I9T 创建 Dynadot 帐户并在 48 小时内消费 9.99$ 会返还给你 5$，聊胜于无吧) 三、流程步骤 1. Hugo + PaperMod 使用我的仓库 fork 直接部署： hellloveyy/obsidian-GbyAi fork 自老苗，去掉了他自己的文章和关联的图片，下面 PaperMod 已经被引用到这个项目的子模块了，请看根目录文件 .</description>
     </item>
     <item>
-      <title>赞助</title>
-      <link>https://gby.ai/sponsor/</link>
-      <pubDate>Wed, 27 Dec 2023 14:38:19 +0800</pubDate>
-      <guid>https://gby.ai/sponsor/</guid>
-      <description>非常感谢每一个赞助者，不管赞助多少，都让我一点点明白我的创造与分享真的有用，也更加给予了我坚持的动力。
-也可以加入我的星球，会随时更新最新的随笔和行业信息。这里更多的会发一些敏感内容和长篇文章。
-如果遇到了什么问题，可以随时联系我，我很乐意和每一位朋友的沟通。
-微信扫码
-微信扫码</description>
+      <title>自用稳定快速ChatGPT翻墙VPN推荐-永久更新贴</title>
+      <link>https://gby.ai/vpn/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/vpn/</guid>
+      <description>前言 我目前使用的 VPN 会随时更新哈，只推荐我自己用过的。
+工作原因经常会使用到 VPN，甚至在 15 年前后自己搭了不少给身边的人用，当时还是用 shadowsocks + 锐速 + net-speeder，速度也不错，看 youtobe 2k 也是无压力的。
+但是随着围墙的增高，需要经常更换 IP，尤其是大会和节假日。后面考虑到个人精力实在有限，并且有一定的法律风险，就不在使用自己搭建的了。
+23 年随着 OpenAI ChatGPT 的爆火，到现在工作已经越来越离不开 GPT，相信不少人也有这种感觉，但是网络环境要求却是在逐步增加，唉。
+推荐两个我一直在用，速度稳定，账号一直是没问题的两个服务商。
+速子云 实时速率 可以看到 ping 值是非常低的，香港平均只有 100ms 出头！
+截图时间也是现在写文章的这个时间，实测！
+特点 大部分为住宅 ISP，较为纯净很安全。要知道网上随便一个推荐 ISP 的服务商基本月价格都在 50 起。 自定义不同的访问组，可以在截图里面看到，我的默认节点是 S2 日本，后面所有的功能组都会默认走这个节点，然后谷歌相关的节点会走到 S2 香港 客服随时会给与指导和沟通 OpenAI 免费 40 w token 稳定用了两年多了 不限制设备数！ 价格与套餐 速子云注册链接
+我一直是使用游刃有余这个套餐的 跟老板关系比较硬要了一个推荐码 6K8rMOPr 只到 1 月 31 号，从我这注册可以免费用一个月。要知道我一开始用的时候死活不给免费用一天都不行！
+使用方式如下，我觉得你可以体验一下然后再根据自己目前使用的再做决定。 AgentNeo 实时速率 实测速率要稍微高一些，不过如果是个人简单使用的情况下也足够使用了。
+特点 基本为机房 IP ，稳定性不如住宅IP 便宜！ 稳定用了四年多了 价格与套餐 AgentNeo注册链接</description>
     </item>
     <item>
-      <title>关于我</title>
-      <link>https://gby.ai/about/</link>
-      <pubDate>Tue, 19 Dec 2023 13:48:03 +0800</pubDate>
-      <guid>https://gby.ai/about/</guid>
-      <description>博客的死掉不是停止更新，而是无法访问 —— Randy Lu
-因为这句话，让我重新认识写博客的态度，为的不是马不停蹄，而是 “我一直在”。
-本人从事过8年的Golang、PHP高级研发工程师，leader小团队。
-在ChatGPT发布之后有感下一波浪潮即将到来，随即转为AI产品经理。目前负责公司的AI智能客服项目从0到1落地，目前取得不错的成果，已经商业化。
-每时每刻都在感受 AI 带给生活的变化，一直在学习中，未来也会 All in AI，欢迎交流👏🏻
-联系我 Email: hellloveyy@gmail.com 微信: 微信扫码</description>
+      <title>如何使用 API 操作和 Node.js 后端创建复杂的 GPTs（译）</title>
+      <link>https://gby.ai/trans-create-gpts-api/</link>
+      <pubDate>Wed, 17 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/trans-create-gpts-api/</guid>
+      <description>导言 您可以创建 4 种类型的 GPT：
+Basic GPT 它接收用户输入，根据指令进行处理并返回输出。它可以浏览互联网，使用代码解释器和 Dalle 执行 python 函数并生成图像。 GPT with knowledge 与基本 GPT 相同，但也会参考您附加的其他知识。如果您有一个特定的领域知识，而该知识要么是秘密的，要么由于其特殊性或新颖性不太可能包含在 LLMs 的训练数据中，那么它就会非常有用。 GPT with actions (API) 这些 GPT 可以使用操作与 API 交互。操作是 OpenAPI（原 Swagger）模式中描述的 HTTP 方法。这些 GPT 只能与认证方法与 OpenAi 兼容的 API 配合使用。例如：它们可以调用 Google Calendar API，因为 Google Oauth 与 OpenAi 兼容。但它们不能直接调用 Figma，因为后者期望的数据格式与 OpenAi 发送的数据格式不同。因此，要制作 Figma GPT，您需要编写一个适配器（后端中间件函数）来处理 OpenAi 发送的请求。这就引出了下一种 GPT。 GPT with actions and backend 这是最复杂的 GPT 类型，可调用后端的 API。它涉及以服务器或无服务器功能的形式构建后端，并在其中调用第三方 API。然后，您可以让 GPT 调用您的后端，而不是直接调用第三方 API。这样，您就可以在 GPT 和第三方 API 之间拦截数据，并根据您的用例对其进行处理、保存或执行其他操作。当需要集成的第三方服务使用 Oauth 2.</description>
     </item>
     <item>
       <title>如何使用虚拟卡升级 Chatgpt Plus 和 Api</title>
@@ -64,6 +66,17 @@
 OpenAI API 绑卡充值教程
 ChatGPT Plus 订阅图文教程
 ChatGPT Plus 订阅视频教程</description>
+    </item>
+    <item>
+      <title>py 自动抓取微信群消息</title>
+      <link>https://gby.ai/grap-wechat-group-message/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/grap-wechat-group-message/</guid>
+      <description>准备 准备一个 17 年之前的微信号，新账号有限制不可以登录网页微信扫码
+准备国内的域名和服务器
+过程 准备机器定时运行 py 脚本（可以用别的写） 本人微信自我检测时间验证最长为 1 天 12 个小时，最短几个小时，可以 crontab 设置10分钟检测登录状态，没有登录则发送微信或者邮件（免费 Mailgun）登录微信扫码图片，扫码登录即可
+检测脚本抓到的固定群里面的固定信息（自己定义群名和信息），自己处理即可，无论入库分析，还是实时发送指定消息,可自由发挥
+脚本例子 # 抓取所有加入“拼车”群名的群消息，找到包含“车找人”的消息，写入到wechat.log文件中 #!/usr/bin/python # coding:utf8 import logging,logging.handlers import itchat import time from itchat.content import * logging.basicConfig() myapp = logging.getLogger(&amp;#39;myapp&amp;#39;) myapp.setLevel(logging.INFO) filehandler = logging.handlers.TimedRotatingFileHandler(&amp;#34;./wechat.log&amp;#34;, when=&amp;#39;D&amp;#39;, interval=1) filehandler.suffix = &amp;#34;%Y-%m-%d.log&amp;#34; myapp.addHandler(filehandler) # 注册文字信息 设置为群聊信息 @itchat.msg_register([TEXT], isGroupChat=True) def group_reply_text(msg): if msg[&amp;#39;Type&amp;#39;] == TEXT: content = msg[&amp;#39;Content&amp;#39;] if &amp;#39;车找人&amp;#39; in content: myapp.info(&amp;#39;||%s&amp;#39; %content) itchat.auto_login(enableCmdQR=2) # 获取所有通讯录中的群聊 # 需要在微信中将需要同步的群聊都保存至通讯录 itchat.</description>
     </item>
   </channel>
 </rss>

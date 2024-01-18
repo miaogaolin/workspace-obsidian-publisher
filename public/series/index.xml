@@ -7,13 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Content under license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)</copyright>
-    <lastBuildDate>Fri, 15 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://gby.ai/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ChatGPT</title>
       <link>https://gby.ai/series/chatgpt/</link>
-      <pubDate>Fri, 15 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://gby.ai/series/chatgpt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>https://gby.ai/series/tools/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://gby.ai/series/tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Prompt</title>
+      <link>https://gby.ai/series/prompt/</link>
+      <pubDate>Thu, 21 Dec 2023 10:06:19 +0800</pubDate>
+      <guid>https://gby.ai/series/prompt/</guid>
       <description></description>
     </item>
   </channel>

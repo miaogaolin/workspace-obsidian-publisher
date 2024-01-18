@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/wildcard.md",
+                "file": "content/posts/trans-create-gpts-api.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/wildcard.md",
+                "file": "content/posts/trans-create-gpts-api.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/wildcard.md",
+                "file": "content/posts/trans-create-gpts-api.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/wildcard.md"
+                "file": "content/posts/trans-create-gpts-api.md"
               }
             }
           }
@@ -148,51 +148,50 @@
   },
   "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "content/posts/Obsidian-blog.md",
+    "content/posts/wildcard.md",
+    "content/posts/vpn.md",
+    "content/posts/trans-create-gpts-api.md",
+    "content/posts/grap-wechat-group-message.md",
+    "public/tags/译文/index.xml",
+    "public/tags/微信/index.xml",
     "public/tags/虚拟卡/index.xml",
     "public/tags/wildcard/index.xml",
-    "public/series/chatgpt/index.xml",
-    "public/tags/chatgpt/index.xml",
-    "public/tags/chatgpt-plus/index.xml",
-    "public/tags/chatgpt-api/index.xml",
-    "public/tags/虚拟卡/page/1/index.html",
-    "public/tags/虚拟卡/page/1",
-    "public/tags/虚拟卡/page",
-    "public/tags/虚拟卡/index.html",
-    "public/tags/虚拟卡",
+    "public/tags/机场/index.xml",
+    "public/tags/vpn/index.xml",
+    "public/tags/群消息/index.xml",
+    "public/tags/python/index.xml",
+    "public/tags/gpts/index.xml",
+    "public/tags/plus/index.xml",
     "public/images/wildcard-20240115195700027.webp",
     "public/images/wildcard-20240115191347234.webp",
     "public/images/wildcard-20240115191132126.webp",
-    "public/images/Obsidian-blog-20240114105009695.webp",
-    "content/posts/Obsidian-blog.md",
-    "content/posts/wildcard.md",
-    "static/images/wildcard-20240115195700027.webp",
-    "static/images/wildcard-20240115195442530.webp",
+    "public/images/vpn-20240118171752946.webp",
+    "public/images/vpn-20240118171034007.webp",
+    "public/images/vpn-20240118170305743.webp",
+    "public/images/vpn-20240118170036743.webp",
+    "public/images/vpn-20240118170029619.webp",
+    "public/images/vpn-20240118165710648.webp",
+    "public/images/vpn-20240118164622411.webp",
+    "content/关于我.md",
+    "content/赞助.md",
+    "themes/PaperMod/README.md",
+    "content/archives.md",
+    "content/posts/AI-customer.md",
+    "content/posts/OpenAI-Translator.md",
+    "content/posts/英译中 Prompt.md",
+    "content/posts/中译英 Prompt.md",
     "archetypes/post.md",
-    "static/images/wildcard-20240115191132126.webp",
-    "static/images/wildcard-20240115191347234.webp",
-    "static/images/wildcard-20240115193615736.webp",
+    "content/search.md",
+    "archetypes/default.md",
     "node_modules/@vercel/speed-insights/README.md",
-    "static/images/Obsidian-blog-20240114105009695.webp",
     "node_modules/@vercel/analytics/README.md",
     "post-20240111195047056.md",
     "content/posts/Obsidian-blog-bak.md",
-    "content/关于我.md",
-    "content/赞助.md",
-    "content/search.md",
-    "content/archives.md",
     "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
-    "archetypes/default.md",
     "未命名.md",
     "layouts/_default/未命名.md",
     "content/posts/post.md",
-    "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md",
-    "content/posts/(centos)svn服务器与客户端的搭建.md",
-    "content/posts/实现HTML元素垂直居中的六种方法.md",
-    "content/posts/WPF如何使用触发器.md",
-    "content/posts/Golang在线工具迁入Vercel.md",
-    "content/posts/“番茄工作法”你确定了解吗？.md",
-    "content/posts/跟我学习php数组常用函数-上篇.md",
-    "content/posts/认识css3伪元素.md",
-    "content/posts/那些经常使用的 CSS3属性.md"
+    "content/posts/2022 科学上网 Ubuntu & CFW 实现透明代理.md"
   ]
 }
