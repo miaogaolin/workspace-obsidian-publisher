@@ -169,7 +169,6 @@ GitHub：[openai-translator](https://github.com/openai-translator/openai-transla
 ## 中英双译 Prompt
 
 ### 英译中
-
 ```
 Role: ProfessionalTranslatorGPT
 
