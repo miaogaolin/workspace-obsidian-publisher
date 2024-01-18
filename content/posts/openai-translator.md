@@ -20,7 +20,10 @@ Cover:
   image: /images/openai-translator-20240118192750306.webp
 author: hellloveyy
 ---
-![[openai-translator-20240118192750306.webp]]
+
+
+{{< figure src="/images/openai-translator-20240118192750306.webp" caption="">}}
+
 **文尾提供专业中英互译 Prompt!**
 
 ## 简介
@@ -29,14 +32,17 @@ author: hellloveyy
 
 该工具是基于 GPT API 的划词翻译浏览器插件和跨平台桌面端应用，除了翻译，还支持润色和总结，甚至你可以自定义其他功能。
 
-GitHub：[openai-translator](https://github.com/openai-translator/openai-translator/blob/main/README-CN.md)
+GitHub：[openai-translator]({{< relref "https://github.com/openai-translator/openai-translator/blob/main/README-CN.md" >}})
+
 
 值得我推荐的原因是：开源免费且可创建自定义动作，意味着可以使用之前分享的翻译 Prompt，这功能是我在别的翻译工具上没找到的，有一些可能需要收费。
 
 另外当前我使用最多的翻译工具就是 GPT，在众多的翻译工具中，我心中的排名是这样：GPT > DeepL > Google，不知道有没有人跟我一样？
 
 好了，废话不多说，先给大家上一张使用该工具翻译效果图。
-![[openai-translator-20240118192355387.webp]]
+
+{{< figure src="/images/openai-translator-20240118192355387.webp" caption="">}}
+
 
 
 对此若感兴趣的，请继续往下看，手把手教你如何配置。
@@ -46,19 +52,20 @@ GitHub：[openai-translator](https://github.com/openai-translator/openai-transla
 首先下载该工具客户端，访问安装包[下载地址](https://github.com/openai-translator/openai-translator/releases)。
 
 看到如下界面，在最新的版本下，点击【Show all 23 assets】展开查看更多资源：
-![[openai-translator-20240118192407417.webp]]
+
+{{< figure src="/images/openai-translator-20240118192407417.webp" caption="">}}
 
 接着，找到匹配你电脑的安装包，点击即可下载：
-![[openai-translator-20240118192415961.webp]]
+{{< figure src="/images/openai-translator-20240118192415961.webp" caption="">}}
 
 工具安装完成，需要进行 OpenAI API Key 配置，下面由于用到专业翻译 Prompt，建议配置可使用 GPT-4 Turbo 的 API Key，详细的配置界面如下：
-![[openai-translator-20240118192422611.webp]]
+{{< figure src="/images/openai-translator-20240118192422611.webp" caption="">}}
 
 完成 API 密钥配置，你已经可以使用该工具了。下面继续来创作动作，配置自定义翻译 Prompt。回到主界面右上角图标，点击【动作管理器】：
-![[openai-translator-20240118192458738.webp]]
+{{< figure src="/images/openai-translator-20240118192458738.webp" caption="">}}
 
 接着，点击【创建】： 
-![[openai-translator-20240118192505065.webp]]
+{{< figure src="/images/openai-translator-20240118192505065.webp" caption="">}}
 
 填写相关信息，名称、图标自己定义，输出渲染格式选择 Markdown；
 
@@ -120,16 +127,18 @@ GitHub：[openai-translator](https://github.com/openai-translator/openai-transla
 ```
 
 完整的配置，如下图：
-![[openai-translator-20240118192514978.webp]]
+
+{{< figure src="/images/openai-translator-20240118192514978.webp" caption="">}}
 
 点击【提交】返回到列表上，我会将它放到首位置，你也可以像我这样：
-![[openai-translator-20240118192518632.webp]]
+{{< figure src="/images/openai-translator-20240118192518632.webp" caption="">}}
 
 回到主界面上，即可看到自定义的【专业翻译】图标了：
-![[openai-translator-20240118192523124.webp]]
+{{< figure src="/images/openai-translator-20240118192523124.webp" caption="">}}
 
 最后，试下效果，如下图：
-![[openai-translator-20240118192527011.webp]]
+{{< figure src="/images/openai-translator-20240118192527011.webp" caption="">}}
+
 
 至此关于该工具如何创建动作教程到此结束，另外该工具的浏览器插件暂时不支持创建动作。
 
@@ -158,6 +167,6 @@ GitHub：[openai-translator](https://github.com/openai-translator/openai-transla
 
 ## 中英双译 Prompt
 
-[[英译中 Prompt]]
+[英译中 Prompt]({{< relref "%E8%8B%B1%E8%AF%91%E4%B8%AD%20Prompt.md" >}})
 
-[[中译英 Prompt]]
+[中译英 Prompt]({{< relref "%E4%B8%AD%E8%AF%91%E8%8B%B1%20Prompt.md" >}})
