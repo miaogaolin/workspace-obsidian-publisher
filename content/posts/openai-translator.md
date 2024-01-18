@@ -33,7 +33,7 @@ author: hellloveyy
 
 该工具是基于 GPT API 的划词翻译浏览器插件和跨平台桌面端应用，除了翻译，还支持润色和总结，甚至你可以自定义其他功能。
 
-GitHub：[openai-translator](https://github.com/openai-translator/openai-translator/blob")
+GitHub：[openai-translator](https://github.com/openai-translator/openai-translator)
 
 
 值得我推荐的原因是：开源免费且可创建自定义动作，意味着可以使用之前分享的翻译 Prompt，这功能是我在别的翻译工具上没找到的，有一些可能需要收费。
