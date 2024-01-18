@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/editing-toolbar/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/editing-toolbar/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/editing-toolbar/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/editing-toolbar/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/archives.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/archives.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/openai-translator.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/openai-translator.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/中译英 Prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/英译中 Prompt.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/search.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/search.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/关于我.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/关于我.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/赞助.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/赞助.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +63,7 @@
       <workItem from="1705033099141" duration="22480000" />
       <workItem from="1705161036058" duration="7906000" />
       <workItem from="1705320428523" duration="105000" />
+      <workItem from="1705586411309" duration="18000" />
     </task>
     <servers />
   </component>

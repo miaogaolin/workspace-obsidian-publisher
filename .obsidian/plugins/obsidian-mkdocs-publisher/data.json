@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4998
+    "rateLimit": 4914
   },
   "upload": {
     "behavior": "yaml",
@@ -29,7 +29,7 @@
     "replaceTitle": [],
     "replacePath": [],
     "autoclean": {
-      "enable": false,
+      "enable": true,
       "excluded": []
     },
     "folderNote": {
@@ -105,5 +105,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "github-configuration"
+  "tabsID": "upload-configuration"
 }
