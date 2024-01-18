@@ -1,7 +1,9 @@
 ---
 date: 2023-12-09
 tags:
-  - 标签
+  - Translator
+  - OpenAI
+  - Prompt
 title: OpenAI Translator 介绍 + 两个中英互译 Prompt
 slug: openai-translator
 share: true
@@ -10,6 +12,8 @@ keywords:
 description: ""
 series:
   - Prompt
+  - ChatGPT
+  - Tools
 lastmod: 
 lang: cn
 Cover:
