@@ -22,6 +22,7 @@ author: hellloveyy
 ---
 
 
+
 {{< figure src="/images/openai-translator-20240118192750306.webp" caption="">}}
 
 **文尾提供专业中英互译 Prompt!**
@@ -32,7 +33,7 @@ author: hellloveyy
 
 该工具是基于 GPT API 的划词翻译浏览器插件和跨平台桌面端应用，除了翻译，还支持润色和总结，甚至你可以自定义其他功能。
 
-GitHub：[openai-translator]({{< relref "https://github.com/openai-translator/openai-translator/blob/main/README-CN.md" >}})
+GitHub：[openai-translator](https://github.com/openai-translator/openai-translator/blob")
 
 
 值得我推荐的原因是：开源免费且可创建自定义动作，意味着可以使用之前分享的翻译 Prompt，这功能是我在别的翻译工具上没找到的，有一些可能需要收费。
@@ -167,6 +168,6 @@ GitHub：[openai-translator]({{< relref "https://github.com/openai-translator/op
 
 ## 中英双译 Prompt
 
-[英译中 Prompt]({{< relref "%E8%8B%B1%E8%AF%91%E4%B8%AD%20Prompt.md" >}})
+[英译中 Prompt]({{< relref "{{< relref "%E8%8B%B1%E8%AF%91%E4%B8%AD%20Prompt.md" >}}" >}})
 
-[中译英 Prompt]({{< relref "%E4%B8%AD%E8%AF%91%E8%8B%B1%20Prompt.md" >}})
+[中译英 Prompt]({{< relref "{{< relref "%E4%B8%AD%E8%AF%91%E8%8B%B1%20Prompt.md" >}}" >}})
