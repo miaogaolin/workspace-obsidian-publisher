@@ -18,21 +18,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "c88e30c9c3706c6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/关于我.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/关于我.md",
+                "file": "content/posts/openai-translator.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/关于我.md",
+                "file": "content/posts/openai-translator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/关于我.md"
+                "file": "content/posts/openai-translator.md"
               }
             }
           }
@@ -159,12 +146,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c88e30c9c3706c6f",
+  "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "content/关于我.md",
+    "content/posts/关于我.md",
+    "content/posts/赞助.md",
     "content/赞助.md",
     "content/archives.md",
     "content/search.md",
-    "content/关于我.md",
     "content/posts/wildcard.md",
     "content/posts/openai-translator.md",
     "content/posts/中译英 Prompt.md",
@@ -204,8 +193,6 @@
     "node_modules/@vercel/speed-insights/README.md",
     "node_modules/@vercel/analytics/README.md",
     "post-20240111195047056.md",
-    "content/posts/Obsidian-blog-bak.md",
-    "content/posts/PaperMod 主题引用“霞鹜文楷”字体.md",
-    "layouts/_default/未命名.md"
+    "content/posts/Obsidian-blog-bak.md"
   ]
 }
