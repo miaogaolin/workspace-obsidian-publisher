@@ -15,12 +15,13 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/post-20240111195047056.webp
+  image: /images/vpn-20240118171752946.webp
 author: hellloveyy
 ---
 
 ## 前言
-> 我目前使用的 VPN 会一直更新哈
+{{< figure src="/images/vpn-20240118171752946.webp" caption="">}}
+> 我目前使用的 VPN 会随时更新哈，只推荐我自己用过的。
 
 工作原因经常会使用到 VPN，甚至在 15 年前后自己搭了不少给身边的人用，当时还是用 shadowsocks + 锐速  + net-speeder，速度也不错，看 youtobe 2k 也是无压力的。
 
