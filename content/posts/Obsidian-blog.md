@@ -20,7 +20,6 @@ keywords:
 description: 
 series:
   - Tools
-  - Prompt
 lastmod: 2023-12-27T16:32:00
 cover:
   image: /images/Obsidian-blog-20240113002109537.webp
