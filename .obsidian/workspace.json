@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "8ca44d0fab917f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/赞助.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/medical-beauty-aigc-agent.md",
+                "file": "content/赞助.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/medical-beauty-aigc-agent.md",
+                "file": "content/赞助.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/medical-beauty-aigc-agent.md"
+                "file": "content/赞助.md"
               }
             }
           }
@@ -146,11 +159,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1c01217c97c2fb1a",
+  "active": "8ca44d0fab917f52",
   "lastOpenFiles": [
-    "content/archives.md",
-    "content/search.md",
     "content/关于我.md",
+    "content/赞助.md",
+    "content/search.md",
+    "content/archives.md",
     "content/posts/medical-beauty-aigc-agent.md",
     "content/赞助.md",
     "static/images/medical-beauty-aigc-agent-20240119094227548.webp",
