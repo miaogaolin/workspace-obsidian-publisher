@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4938
+    "rateLimit": 4928
   },
   "upload": {
     "behavior": "yaml",
@@ -32,7 +32,7 @@
       "enable": true,
       "excluded": [
         "content/about.md",
-        "cpntent/sponsor.md",
+        "content/sponsor.md",
         "content/search.md",
         "content/archives.md"
       ]
@@ -110,5 +110,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "github-configuration"
+  "tabsID": "upload-configuration"
 }
