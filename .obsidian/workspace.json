@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/posts/medical-beauty-aigc-agent-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/posts/medical-beauty-aigc-agent-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/posts/medical-beauty-aigc-agent-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/sponsor.md"
+                "file": "content/posts/medical-beauty-aigc-agent-1.md"
               }
             }
           }
@@ -161,8 +161,8 @@
   },
   "active": "8ca44d0fab917f52",
   "lastOpenFiles": [
-    "content/about.md",
     "content/sponsor.md",
+    "content/about.md",
     "content/posts/medical-beauty-aigc-agent-1.md",
     "content/search.md",
     "content/archives.md",
