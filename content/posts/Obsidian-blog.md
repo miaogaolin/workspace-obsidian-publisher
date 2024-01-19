@@ -29,9 +29,9 @@ weight: "1"
 
 
 
+
 ## 一、首先为什么是这个组合？
 1. **回归写作**：Markdown 专注写作，obsidian 是一个值得去一直使用的好编辑器，该有的功能都有，丰富的插件系统，md 文件格式基本上所有的平台都能很优美的支持。尤其是我经常有写 md 或者 json 格式的 prompt 需求；
-	- 为什么不用飞书、语雀？因为我要做自己的 IP 哈哈哈
 2. **数据沉淀**：未来的 AI 时代，是数据无价的时代，沉淀自己的内容和数据越来越重要。Obsidian 的所有数据均为本地 md 文件，对比各种印象笔记、notion 等，更为方便存储和使用；多端同步和远程存储可以选择官方，也可以像我一样折腾到 GitHub；
 3. **知识传播**：vercel + hugo + paperMod 这一套组合拳非常方便部署
 
@@ -46,7 +46,7 @@ weight: "1"
 - 使用我的仓库 fork 直接部署：
 	- [hellloveyy/obsidian-GbyAi](https://github.com/hellloveyy/obsidian-GbyAi) fork 自老苗，去掉了他自己的文章和关联的图片，下面 PaperMod 已经被引用到这个项目的子模块了，请看根目录文件 `.gitmodules`
 	- [hellloveyy/hugo-PaperMod](https://github.com/hellloveyy/hugo-PaperMod) 稍微改了点官方主题，添加了首页图&标签云
-	- `git clone XX你自己的项目XX && git submodule update --init && brew install hugo && hugo server  
+	- `git clone XX你自己的项目XX && git submodule update --init && brew install hugo && hugo server`
 	- 至此你本地已经有了一个网站 `http://localhost:1313/`
 	- 记得如果你也自己改动了原模板，那么 `.gitmodules` 这个文件里面的你的项目的引用需要使用 http！![](/images/Obsidian-blog-20240114012841616.webp)
 - 使用 hugo 初始化一个网站 `hugo init`，自己选择好你喜欢的主题，并发布到 Github 上，这块具体怎么弄就不展开介绍了，和上面是类似的。
