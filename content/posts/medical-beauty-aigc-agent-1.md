@@ -6,7 +6,7 @@ tags:
   - 智能客服
   - ToB
 title: 垂直领域医美智能客服agent体搭建产品流程（第一期）
-slug: medical-beauty-aigc-agent
+slug: medical-beauty-aigc-agent-1
 share: true
 canonicalURL: ""
 keywords: 

@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4998
+    "rateLimit": 4973
   },
   "upload": {
     "behavior": "yaml",
@@ -31,8 +31,8 @@
     "autoclean": {
       "enable": true,
       "excluded": [
-        "content/关于我",
-        "cpntent/赞助",
+        "content/about",
+        "cpntent/sponsor",
         "content/search",
         "content/archives"
       ]
