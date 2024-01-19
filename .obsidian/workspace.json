@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/posts/medical-beauty-aigc-agent-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/posts/medical-beauty-aigc-agent-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/sponsor.md"
+                "file": "content/posts/medical-beauty-aigc-agent-1.md"
               }
             }
           }
@@ -159,11 +158,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8ca44d0fab917f52",
+  "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
+    "content/sponsor.md",
     "content/posts/medical-beauty-aigc-agent-1.md",
-    "content/sponsor.md",
-    "content/sponsor.md",
     "content/about.md",
     "content/posts/grap-wechat-group-message.md",
     "content/archives.md",

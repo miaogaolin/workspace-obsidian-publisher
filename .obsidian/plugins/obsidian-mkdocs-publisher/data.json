@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4949
+    "rateLimit": 4938
   },
   "upload": {
     "behavior": "yaml",
@@ -32,7 +32,7 @@
       "enable": true,
       "excluded": [
         "content/about.md",
-        "content/sponsor.md",
+        "cpntent/sponsor.md",
         "content/search.md",
         "content/archives.md"
       ]
