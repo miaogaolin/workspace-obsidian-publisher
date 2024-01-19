@@ -1,6 +1,6 @@
 ---
 date: 2023-12-27 T14:38:19+08:00
-Tags: 
+tags: 
 Title: 赞助
 Slug: sponsor
 Share: true
@@ -11,7 +11,7 @@ Series:
 Lastmod: 
 Cover:
   Image: 
-Author: 
+Author:
 ---
 
 非常感谢每一个赞助者，不管赞助多少，都让我一点点明白我的创造与分享真的有用，也更加给予了我坚持的动力。  
