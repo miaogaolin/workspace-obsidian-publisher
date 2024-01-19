@@ -15,7 +15,7 @@
     },
     "otherRepo": [],
     "verifiedRepo": true,
-    "rateLimit": 4914
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "yaml",
@@ -30,7 +30,12 @@
     "replacePath": [],
     "autoclean": {
       "enable": true,
-      "excluded": []
+      "excluded": [
+        "content/关于我",
+        "cpntent/赞助",
+        "content/search",
+        "content/archives"
+      ]
     },
     "folderNote": {
       "enable": false,

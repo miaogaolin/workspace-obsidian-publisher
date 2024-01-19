@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/关于我.md",
+                "file": "content/posts/medical-beauty-aigc-agent.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/关于我.md",
+                "file": "content/posts/medical-beauty-aigc-agent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/关于我.md",
+                "file": "content/posts/medical-beauty-aigc-agent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/关于我.md"
+                "file": "content/posts/medical-beauty-aigc-agent.md"
               }
             }
           }
@@ -146,15 +146,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ecfe3fe68bdb8054",
+  "active": "1c01217c97c2fb1a",
   "lastOpenFiles": [
-    "content/posts/openai-translator.md",
-    "content/关于我.md",
-    "content/关于我.md",
-    "content/赞助.md",
-    "content/赞助.md",
     "content/archives.md",
     "content/search.md",
+    "content/关于我.md",
+    "content/posts/medical-beauty-aigc-agent.md",
+    "content/赞助.md",
+    "static/images/medical-beauty-aigc-agent-20240119094227548.webp",
+    "archetypes/post.md",
+    "archetypes/default.md",
+    "content/posts/openai-translator.md",
     "content/posts/wildcard.md",
     "content/posts/中译英 Prompt.md",
     "content/posts/英译中 Prompt.md",
@@ -169,7 +171,6 @@
     "static/images/openai-translator-20240118192458738.webp",
     "static/images/openai-translator-20240118192422611.webp",
     "static/images/openai-translator-20240118192415961.webp",
-    "static/images/openai-translator-20240118192407417.webp",
     "OpenAI-Translator-20240117003747599.webp.md",
     "content/posts/Obsidian-blog.md",
     "英译中 Prompt.md",
@@ -188,11 +189,8 @@
     "themes/PaperMod/README.md",
     "content/posts/AI-customer.md",
     "content/posts/OpenAI-Translator.md",
-    "archetypes/post.md",
-    "archetypes/default.md",
     "node_modules/@vercel/speed-insights/README.md",
     "node_modules/@vercel/analytics/README.md",
-    "post-20240111195047056.md",
-    "content/posts/Obsidian-blog-bak.md"
+    "post-20240111195047056.md"
   ]
 }
