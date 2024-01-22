@@ -5,7 +5,7 @@ tags:
   - GPTs
   - API
   - 译文
-title: 如何使用 API 操作和 Node.js 后端创建复杂的 GPTs（译）
+title: 使用 API 和 Node 创建带有复杂后端逻辑的 GPTs（译）
 slug: trans-create-gpts-api
 share: true
 canonicalURL: 
@@ -19,6 +19,7 @@ Cover:
   image: /images/trans-create-gpts-api-20240117225800116.webp
 author: hellloveyy
 ---
+
 
 
 {{< figure src="/images/trans-create-gpts-api-20240117225800116.webp" caption="">}}
