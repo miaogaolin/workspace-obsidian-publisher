@@ -18,6 +18,7 @@ Cover:
 author: 李想
 ---
 
+{{< figure src="/images/lixiang-product-20240122095935662.webp" caption="">}}
 {{< figure src="/images/lixiang-product-20240122095909350.webp" caption="">}}
 
 # 01 | 导论：回归本质做产品
