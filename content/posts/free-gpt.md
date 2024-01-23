@@ -4,7 +4,7 @@ tags:
   - 免费ChatGPT
   - chatgpt
   - vercel
-title: 提供免费使用的ChatGPT所有版本工具
+title: 提供免费使用的ChatGPT
 slug: free-gpt
 share: true
 canonicalURL: ""
