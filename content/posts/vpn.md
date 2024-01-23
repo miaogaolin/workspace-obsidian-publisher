@@ -55,10 +55,10 @@ author: hellloveyy
 
 我一直是使用游刃有余这个套餐的 {{< figure src="/images/vpn-20240118165710648.webp" caption="">}}
 
-1. 第一步，注册 [速子云注册链接](https://solutions.tachvip.com/#/register?code=OuVS654d)
-2. 第二步，跟老板关系比较硬要了一个优惠码 `6K8rMOPr` 只到 1 月 31 号，从我这注册可以免费用一个月。要知道我一开始用的时候死活不给免费用一天都不行！优惠码的使用见下方截图
+1. 第一步，直接点击注册 [速子云注册链接](https://solutions.tachvip.com/#/register?code=OuVS654d)，正常填写邮箱验证码即可。
+2. 第二步，跟老板关系比较硬要了一个优惠码 `6K8rMOPr` 只到 1 月 31 号，从我这注册可以免费用一个月。要知道我一开始用的时候死活不给免费用一天都不行！
 
-使用方式如下，我觉得你可以体验一下然后再根据自己目前使用的再做决定。
+优惠码使用方式如下，我觉得你可以体验一下然后再根据自己目前使用的再做决定。
 {{< figure src="/images/vpn-20240118170029619.webp" caption="">}}
 {{< figure src="/images/vpn-20240118170036743.webp" caption="">}}
 
