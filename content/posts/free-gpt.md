@@ -4,7 +4,7 @@ tags:
   - 免费ChatGPT
   - chatgpt
   - vercel
-title: 提供免费使用的ChatGPT
+title: 本站提供免费使用的ChatGPT
 slug: free-gpt
 share: true
 canonicalURL: ""
@@ -20,6 +20,7 @@ Cover:
 author: hellloveyy
 Weight: "2"
 ---
+
 
 {{< figure src="/images/free-gpt-20240123123933042.webp" caption="">}}
 ## 目的
