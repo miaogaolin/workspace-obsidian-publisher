@@ -18,6 +18,7 @@ lang: cn
 Cover:
   image: /images/free-gpt-20240123123933042.webp
 author: hellloveyy
+Weight: "2"
 ---
 
 {{< figure src="/images/free-gpt-20240123123933042.webp" caption="">}}
