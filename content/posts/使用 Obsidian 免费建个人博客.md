@@ -87,8 +87,7 @@ dir: # 搭配 Github Publisher 插件设置文章上传的目录
 ---  
 ```  
 - dir 属性：不用设置这个默认会上传到 content/posts 目录下，如果设置了会以 content 为根目录，例如：[关于我]({{< relref "%E5%85%B3%E4%BA%8E%E6%88%91.md" >}})、[赞助]({{< relref "%E8%B5%9E%E5%8A%A9.md" >}}) 这两篇文章，我设置的就是 `dir: ./`  
-- cover:  
-    image：设置封面，在使用 Github Publisher 后会转化为二级 key。  
+- `cover.image`：设置封面，在使用 Github Publisher 后会转化为二级 key。  
 ## 发布  
   
 ### Obsidian 命令  
@@ -133,8 +132,7 @@ dir: # 搭配 Github Publisher 插件设置文章上传的目录
 - Obsidian Linter 插件,我只用了在英文两边加空格的设置。  
 - Image Converter 转化图片格式，我统一转为 webp，并设置了图片分辨率大小。  
 - Unique attachments 用于将附件的文件名统一为 “字母 + 数字”的格式,记着在配置里加入 webp 图片格式  
-- Image Inserter 用于找图片，我用于设置文章封面，即设置 cover:  
-    image 属性。  
+- Image Inserter 用于找图片，我用于设置文章封面，即设置 `cover.image` 属性。  
 ## 总结  
 重点学会了 Github Publisher 插件如何将 Obsidian 中的文章格式适配成你最终想要的内容格式即可。  
   
