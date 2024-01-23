@@ -28,7 +28,7 @@ Weight: "2"
 
 ## 使用方式
 
-1. 直接点击链接  `freegpt.gby.ai`
+1. 直接点击链接  [freegpt.gby.ai](https://freegpt.gby.ai)
 2. 直接使用，在访问码中输入  `gbyai`
 {{< figure src="/images/free-gpt-20240123120727665.webp" caption="">}}
 {{< figure src="/images/free-gpt-20240123120802064.webp" caption="">}}
