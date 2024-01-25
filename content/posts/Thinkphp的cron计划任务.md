@@ -9,7 +9,7 @@ keywords:
 description:   
 series:   
 cover:  
-  image: https://images.unsplash.com/photo-1667064098336-8578c2db7354?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxM3x8Y3JvbnxlbnwwfDB8fHwxNzAzMzA1OTYxfDA&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1667064098336-8578c2db7354?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxM3x8Y3JvbnxlbnwwfDB8fHwxNzAzMzA1OTYxfDA&ixlib=rb-4.0.3&q=80&w=720  
 ---  
   
   

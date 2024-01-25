@@ -26,7 +26,8 @@ params:
   DateFormat: "2006-01-02"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-
+  # 给图片增加 CDN 前缀
+  ImageCDN: "https://cdn.jsdelivr.net/gh/miaogaolin/workspace-obsidian-publisher/static" 
   ShowReadingTime: false
   ShowShareButtons: true
   # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
@@ -110,7 +111,7 @@ params:
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: true # hide on single page
     # 在列表默认显示的图片
-    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
+    defaultImage: https://images.unsplash.com/photo-1594193316420-74562b321032?w=400&fm=webp&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdyYWRpZW50JTIwYmxhY2t8ZW58MHwwfDB8fHwy
 
   editPost:
     URL: "https://github.com/miaogaolin/workspace-obisidian-publisher/tree/main/content"

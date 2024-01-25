@@ -14,7 +14,7 @@ tags:
   - program_golang  
 slug: golang-install  
 cover:  
-  image: https://images.unsplash.com/photo-1544257002-830226587caa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyMnx8ZW52aXJvbWVudHxlbnwwfDB8fHwxNzAzMzAwOTIzfDA&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1544257002-830226587caa?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyMnx8ZW52aXJvbWVudHxlbnwwfDB8fHwxNzAzMzAwOTIzfDA&ixlib=rb-4.0.3&q=80&w=720  
 ---  
   
   

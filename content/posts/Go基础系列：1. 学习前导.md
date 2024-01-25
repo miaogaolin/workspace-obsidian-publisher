@@ -14,7 +14,7 @@ series:
 slug: golang-start  
 share: true  
 cover:  
-  image: https://images.unsplash.com/photo-1492052722242-2554d0e99e3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyOHx8c3R1ZHl8ZW58MHwwfHx8MTcwMjg4MDAzMHww&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1492052722242-2554d0e99e3a?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyOHx8c3R1ZHl8ZW58MHwwfHx8MTcwMjg4MDAzMHww&ixlib=rb-4.0.3&q=80&w=720  
 ---  
   
   

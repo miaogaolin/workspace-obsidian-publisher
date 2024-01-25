@@ -10,7 +10,7 @@ description:
 series:   
 lastmod:   
 cover:  
-  image: https://images.unsplash.com/photo-1549810029-947c46bc3a5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyNHx8c3RhdGljfGVufDB8MHx8fDE3MDMzMzgzMjR8MA&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1549810029-947c46bc3a5c?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwyNHx8c3RhdGljfGVufDB8MHx8fDE3MDMzMzgzMjR8MA&ixlib=rb-4.0.3&q=80&w=720  
 author:   
 ---  
   

@@ -12,7 +12,7 @@ series:
   - Go基础系列  
 slug: golang-array  
 cover:  
-  image: https://images.unsplash.com/photo-1526640803687-dacd5168c0ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwzNXx8YXJyYXl8ZW58MHwwfHx8MTcwMzMwMjA2MXww&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1526640803687-dacd5168c0ed?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwzNXx8YXJyYXl8ZW58MHwwfHx8MTcwMzMwMjA2MXww&ixlib=rb-4.0.3&q=80&w=720  
 ---  
   
   

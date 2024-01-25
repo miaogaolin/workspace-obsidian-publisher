@@ -84,10 +84,12 @@
 .entry-cover {
     margin-bottom: var(--gap);
     text-align: center;
+    background-color: var(--content);
+    border-radius: var(--radius);
+    overflow: hidden;
 }
 
 .entry-cover img {
-    border-radius: var(--radius);
     pointer-events: none;
     width: 100%;
     height: 100%;

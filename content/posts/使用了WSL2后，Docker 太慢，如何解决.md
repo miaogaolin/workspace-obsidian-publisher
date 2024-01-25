@@ -9,7 +9,7 @@ keywords:
 description: docker开启了WSL2，运行时太慢、Vscode 配置 WSL  
 slug: docker-wsl2  
 cover:  
-  image: https://images.unsplash.com/photo-1595236754046-2da8684b47da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxMDZ8fHNwZWVkfGVufDB8MHx8fDE3MDI5NjczNjR8MA&ixlib=rb-4.0.3&q=80&w=400  
+  image: https://images.unsplash.com/photo-1595236754046-2da8684b47da?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxMDZ8fHNwZWVkfGVufDB8MHx8fDE3MDI5NjczNjR8MA&ixlib=rb-4.0.3&q=80&w=720  
 ---  
   
   
