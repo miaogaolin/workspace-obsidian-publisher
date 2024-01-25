@@ -15,12 +15,6 @@
 }
 
 
-/* 设置图片比例 */
-.article-container img {
-    aspect-ratio: 4 / 3;
-}
-
-
 
 .comment-head {
     font-size: 14px;
