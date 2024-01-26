@@ -186,4 +186,4 @@ author: hellloveyy
 - 弱化对于机器的标准，增强对于人的标准，因为LLM的自由度更高了。
 
 
-[medical-beauty-aigc-agent]({{< relref "medical-beauty-aigc-agent.md" >}})
+[medical-beauty-aigc-agent-1]({{< relref "medical-beauty-aigc-agent-1.md" >}})
