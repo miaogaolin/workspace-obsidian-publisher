@@ -41,7 +41,7 @@ author:
 > 所有体验都基于免费基础上，希望在免费基础上有很好的体验
 > 
 
-该个人网站基于该项目 [[nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit)]([https://github.com/transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit))，使用 Vercel 发布，但在使用中出现了如下问题：
+该个人网站基于该项目 [nextjs-notion-starter-kit]([https://github.com/transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit))，使用 Vercel 发布，但在使用中出现了如下问题：
 
 - 该项目访问太慢，尤其大图片的影响
 - nextjs-notion-starter-kit 出现问题不能及时解决，当然自己也可以修改，但是难度比较大（是我太笨了）
