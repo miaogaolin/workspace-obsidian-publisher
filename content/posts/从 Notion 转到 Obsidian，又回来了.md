@@ -104,6 +104,7 @@ title: "111"
 ## 快捷方式
 
 方法一，命令行：cmd/ctrl + p -> Templates: insert ...
+
 方法二，绑定快捷键：Settings -> Hotkeys -> Insert templates
 
 # 网站发布
