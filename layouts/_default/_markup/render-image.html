@@ -1,10 +1,2 @@
-{{ $imgDest := .Destination }}
-{{- with site.Params.ImageCDN }}
-<!-- 文件不以 http 开头 -->
-{{ if not (hasPrefix $imgDest "http") }}
-<!-- ImageCDN + /path/image.png -->
-{{ $imgDest = (print . (path.Join $imgDest)) }}
-{{ end }}
-{{- end }}
-
-<img loading="lazy" src="{{ $imgDest | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+<img loading="lazy" src="{{partial `image_cdn.html` .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}}
+    title="{{ . }}" {{ end }} />

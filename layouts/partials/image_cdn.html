@@ -1,0 +1,10 @@
+{{ $imgDest := . }}
+{{- with site.Params.ImageCDN }}
+<!-- 文件不以 http 开头 -->
+{{ if not (hasPrefix $imgDest "http") }}
+<!-- ImageCDN + /path/image.png -->
+{{ $imgDest = (print . (path.Join $imgDest)) }}
+{{ end }}
+{{- end }}
+
+{{ return $imgDest}}

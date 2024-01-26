@@ -1,5 +1,5 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
-{{- $image := (.Params.cover.image | default (.Param "cover.defaultImage"))}}
+{{- $image := partial `image_cdn.html` (.Params.cover.image | default (.Param "cover.defaultImage"))}}
 {{- if (and $image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
 <figure class="entry-cover">
