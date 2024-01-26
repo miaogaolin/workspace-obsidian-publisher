@@ -101,8 +101,6 @@ title: "111"
 
 ![6bd5a2013a1fb978ab8747d8e6953915.webp](/images/6bd5a2013a1fb978ab8747d8e6953915.webp)
 
-设置模板路径时，如果出现 `Failed to list templates...`，[解决办法]({{< relref "https://www.notion.so/laomiao/Obsidian(win)%E8%AE%BE%E7%BD%AE%E6%A8%A1%E6%9D%BF%E6%8A%A5%E9%94%99%20Failed%20to%20list%20templates.md" >}})。
-
 ## 快捷方式
 
 方法一，命令行：cmd/ctrl + p -> Templates: insert ...
