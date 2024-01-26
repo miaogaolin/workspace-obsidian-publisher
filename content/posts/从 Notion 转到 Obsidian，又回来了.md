@@ -39,7 +39,6 @@ author:
 我其实一直在使用 Notion，也使用 Notion 建立起了自己的个人网站，[LaoMiao.site](https://laomiao.site/)。
 
 > 所有体验都基于免费基础上，希望在免费基础上有很好的体验
-> 
 
 该个人网站基于该项目 [nextjs-notion-starter-kit]([https://github.com/transitive-bullshit/nextjs-notion-starter-kit](https://github.com/transitive-bullshit/nextjs-notion-starter-kit))，使用 Vercel 发布，但在使用中出现了如下问题：
 
@@ -104,6 +103,7 @@ title: "111"
 ## 快捷方式
 
 方法一，命令行：cmd/ctrl + p -> Templates: insert ...
+
 方法二，绑定快捷键：Settings -> Hotkeys -> Insert templates
 
 # 网站发布
