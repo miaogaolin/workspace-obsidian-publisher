@@ -5,8 +5,8 @@ tags:
   - 医美行业
   - 智能客服
   - ToB
-title: 垂直领域医美售前智能客服agent体搭建产品流程
-slug: medical-beauty-aigc-agent-1
+title: 垂直领域医美售前智能客服agent体搭建产品流程（未完结）
+slug: medical-beauty-aigc-agent
 share: true
 canonicalURL: 
 keywords: 
