@@ -15,7 +15,7 @@ lastmod:
 lang: cn
 Cover:
   image: /images/llm-pk-tradition-20240126152916580.webp
-author: hellloveyy
+author: 共识粉碎机
 ---
 
 
@@ -184,3 +184,5 @@ author: hellloveyy
 - 过去的主要评价标准是意图覆盖率、识别是否准确，归纳到最终指标是解决率。
 - **LLM客服的标准应该夹在人类客服和传统AI客服质检，更多考核其服务态度怎么样，是否有给客户过度承诺。**
 - 弱化对于机器的标准，增强对于人的标准，因为LLM的自由度更高了。
+
+[medical-beauty-aigc-agent]({{< relref "medical-beauty-aigc-agent.md" >}})
