@@ -18,6 +18,6 @@ author: hellloveyy
 ---
 
 ## 原文 
-![王慧文清华产品课Allen修订版-20210104.pdf](王慧文清华产品课Allen修订版-20210104.pdf)
+![王慧文清华产品课 Allen 修订版-20210104. Pdf](file:///images/王慧文清华产品课Allen修订版-20210104.pdf)
 
 ## 读后感
