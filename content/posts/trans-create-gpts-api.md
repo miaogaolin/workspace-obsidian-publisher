@@ -52,7 +52,7 @@ The number of use cases for GPTs with backend is huge. That’s why it appears t
 - GPT with actions and backend is when you build an infrastructure (backend) and connect your GPT to it as the user acquisition point. The know how is stored largely on the backend, not GPT.  
     带有操作和后台的 GPT 是指建立一个基础设施（后台），并将 GPT 连接到它作为用户获取点。知识主要存储在后台，而不是 GPT 上。
 
-## **Building a GPT with a backend****创建带后台的 GPT**
+## **Building a GPT with a backend 创建带后台的 GPT** 
 
 Let’s look at how to create a GPT with actions and backend in detail. This will cover everything that is also applicable to the simpler types of GPTs.  
 让我们详细了解如何创建带操作和后台的 GPT。这将涵盖同样适用于简单类型 GPT 的所有内容。
