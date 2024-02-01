@@ -3,7 +3,7 @@ date: 2024-01-18
 tags:
   - vpn
   - 机场
-title: 自用稳定快速ChatGPT翻墙VPN推荐-永久更新贴
+title: 自用稳定快速ChatGPT翻墙VPN推荐
 slug: vpn
 share: true
 canonicalURL: 
