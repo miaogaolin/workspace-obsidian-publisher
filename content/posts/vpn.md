@@ -3,7 +3,7 @@ date: 2024-01-18
 tags:
   - vpn
   - 机场
-title: 自用稳定快速ChatGPT翻墙VPN推荐
+title: 自用稳定快速ChatGPT VPN
 slug: vpn
 share: true
 canonicalURL: 
@@ -47,7 +47,7 @@ author: hellloveyy
 1. 大部分为住宅 ISP，较为纯净很安全。要知道网上随便一个推荐 ISP 的服务商基本月价格都在 50 起。
 2. 自定义不同的访问组，可以在截图里面看到，我的默认节点是 `S2 日本`，后面所有的功能组都会默认走这个节点，然后谷歌相关的节点会走到 `S2 香港`
 3. 客服随时会给与指导和沟通
-4. OpenAI 免费 40 w token
+4. OpenAI 4.0 免费 40w api token
 5. 稳定用了两年多了
 6. 不限制设备数！
 
@@ -56,9 +56,10 @@ author: hellloveyy
 我一直是使用游刃有余这个套餐的 {{< figure src="/images/vpn-20240118165710648.webp" caption="">}}
 
 1. 第一步，直接点击注册 [速子云注册链接](https://solutions.tachvip.com/#/register?code=OuVS654d)，正常填写邮箱验证码即可。
-2. 第二步，跟老板关系比较硬要了一个优惠码 `6K8rMOPr`，随时失效!!!从我这注册可以免费用一个月。要知道我一开始用的时候死活不给免费用一天都不行！
+2. 第二步，跟老板关系比较硬要了一个优惠码 `6K8rMOPr`，随时失效。 说从我这注册可以免费用一个月。要知道我一开始用的时候死活不给免费用一天都不行！
 
 优惠码使用方式如下，我觉得你可以体验一下然后再根据自己目前使用的再做决定。
+
 {{< figure src="/images/vpn-20240118170029619.webp" caption="">}}
 {{< figure src="/images/vpn-20240118170036743.webp" caption="">}}
 
@@ -85,5 +86,7 @@ author: hellloveyy
 
 基本上一分价钱一分货，不过上面两个都基本无跑路风险，两者使用 OpenAI 都无问题。
 
-重度用户建议速子云，我基本上以速子云为主力，然后 agentneo 辅助。
+重度用户建议速子云，我基本上以速子云为主力，然后 AgentNeo 辅助。
+
+再大的梯子厂商也有跑路风险，建议一次性不要买太久。
 
