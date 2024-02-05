@@ -3,7 +3,7 @@ date: 2024-02-05
 tags:
   - 论文
   - agent
-title: 人工智能 agent 勘测多模态交互的前景
+title: 读《人工智能 agent 勘测多模态交互的前景》
 slug: 2024-01-agent-paper
 share: true
 canonicalURL: ""
@@ -20,7 +20,7 @@ author: hellloveyy
 
 ## 原文
 
-[人工智能 agent 论文研读](/images/2401.03568-1-30.pdf)
+[人工智能 agent 勘测多模态交互的前景](/images/2401.03568-1-30.pdf)
 
 ![2401.03568-1-30.pdf](2401.03568-1-30.pdf)
 
