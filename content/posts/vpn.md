@@ -81,10 +81,9 @@ author: hellloveyy
 
 {{< figure src="/images/vpn-20240118171034007.webp" caption="">}}
 
-
 ## 总结
 
-基本上一分价钱一分货，不过上面两个都基本无跑路风险，两者使用 OpenAI 都无问题。
+基本上一分价钱一分货，两者使用 OpenAI 都无问题。
 
 重度用户建议速子云，我基本上以速子云为主力，然后 AgentNeo 辅助。
 
