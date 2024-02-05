@@ -8,15 +8,28 @@ canonicalURL:
 keywords: 
 description: 
 series: 
-lastmod: 2024-01-23T10:17:00
-cover:
-  image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=webp&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=720
+lastmod: 2024-02-05T09:35:00
+cover.image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 author: 
 ---
-
+---
+date: 2024-01-14T18:14:22+08:00
+tags: 
+title: Github Publisher 插件适配 Hugo 的配置
+slug: github-publisher-hugo
+share: true
+canonicalURL: 
+keywords: 
+description: 
+series: 
+lastmod: 2024-02-05T09:35:00
+cover:
+    image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
+author:
+---
 先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
 
-本文基于 Obsidian 的 Github Publisher 插件，版本：v6.15.5，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
+本文基于 Obsidian 的 Github Publisher 插件，版本：v6.14.1，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
 
 下面我会对重要的配置进行讲解，如果你暂时不想看了，可以使用我提供的[默认配置](https://github.com/miaogaolin/obsidian-github-publisher-hugo)。
 
@@ -69,7 +82,7 @@ Property key 可以通过文章的属性设置上传的目录，例如我这配�
 
 Text replacer 正则：
 ```
-匹配内容：/\]\((.+?)\.md/
+匹配内容：/\]\(([^)\.]+)\.md/
 替换：]({{</* relref "$1".md */>}}
 箭头：↓
 ```
@@ -78,8 +91,8 @@ Text replacer 正则：
 
 ### 文章锚点
 
-如果文章链接中出现了锚点跳转，则记着开启这个配置：
-![Github Publisher 插件适配 Hugo 的配置-20240114213533916.webp](/images/Github%20Publisher%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE-20240114213533916.webp)
+如果文章链接中出现了锚点跳转，则记着下拉框选择 Lower：
+![6eb9e895a11107c864eeb7a31509946a.webp](/images/6eb9e895a11107c864eeb7a31509946a.webp)
 
 > 锚点跳转就是跳转到文章的某个标题处，在 Obsidian 的格式为 `[[文章#标题]]`
 
@@ -88,6 +101,7 @@ Text replacer 正则：
 2. 空格转化减号 (`-`)
 
 只有转化才能正常访问锚点。
+
 ### 属性一级转二级
 在 Obsidian 中如果属性是二级的话，展示效果就非常不友好直观，所以我会在 Obsidian 里这样写需要转二级的属性：
 ```
@@ -109,10 +123,14 @@ Text replacer 正则：
 在 Obsidian 里是支持 `/` 方式渲染多级标签的，在 Hugo 中是不支持的，所以需要开启将 `/` 转位 `_`。
 ![3c3e40b83ac5be7799d55696eadc7218.webp](/images/3c3e40b83ac5be7799d55696eadc7218.webp)
 
-### 遇到的问题
+### 踩的坑
 Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。
 
 ## Attachment & embed note config
 默认 Transfer attachments 会开启附件上传的，重点是需要使用 Default attachment folder 设置附近的上传目录。
 
 ![18c2e020cbb2bb6142ea0611c3eb62da.webp](/images/18c2e020cbb2bb6142ea0611c3eb62da.webp)
+## Issues
+这是我给作者提交的问题，现在都已经修复。
+- [正则表达式替换内容不支持转义字符](https://github.com/ObsidianPublisher/obsidian-github-publisher/issues/254)
+- [锚点不支持中文](https://github.com/ObsidianPublisher/obsidian-github-publisher/issues/285)
