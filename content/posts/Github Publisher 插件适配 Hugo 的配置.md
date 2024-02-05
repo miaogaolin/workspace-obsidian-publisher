@@ -9,20 +9,6 @@ keywords:
 description: 
 series: 
 lastmod: 2024-02-05T09:35:00
-cover.image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
-author: 
----
----
-date: 2024-01-14T18:14:22+08:00
-tags: 
-title: Github Publisher 插件适配 Hugo 的配置
-slug: github-publisher-hugo
-share: true
-canonicalURL: 
-keywords: 
-description: 
-series: 
-lastmod: 2024-02-05T09:35:00
 cover:
     image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 author:
