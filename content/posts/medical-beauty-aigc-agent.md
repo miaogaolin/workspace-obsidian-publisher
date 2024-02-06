@@ -59,9 +59,9 @@ AI 正在掀起第四次工业革命，AI 大模型的竞争是下一代信息�
 
 > ***它山之石可以攻玉***
 
-上面提到的背景，那么既然大家都能想到智能客服，那么为什么到现在能够成功商业化的 AI 智能客服还没有批量涌现？
+那么既然大家都能想到智能客服，那么为什么到现在能够成功商业化的 AI 智能客服还没有批量涌现？
 
-我的亲身拙见，以当前 ChatGPT4.0 的能力，大致会遇到不止这些问题：
+亲身拙见，以当前 ChatGPT4.0 的能力，大致会遇到不止这些问题：
 
 ### 1.ToB 的包容性和严谨性
 
@@ -543,7 +543,7 @@ MidJourney 的数据飞轮做的就非常好，在 4 选 1 的过程中，用户
 
 **②知识库存储&搜索方案**
 
-**>方案一：**
+**方案一：**
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240205160143655.webp" caption="">}}
 
@@ -555,7 +555,7 @@ MidJourney 的数据飞轮做的就非常好，在 4 选 1 的过程中，用户
 2. 缺少语义理解能力，基于实体容易漏召回、错召回。
 3. 接入知识工作量大，每类知识单独流程，比较耗时间。
 
-**>方案二：**
+**方案二：**
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240205155949362.webp" caption="">}}
 
@@ -567,7 +567,7 @@ MidJourney 的数据飞轮做的就非常好，在 4 选 1 的过程中，用户
 缺点：
 1. 相关性，效果待评估，如果相关性不好，可能会召回无关内容、漏召回。
 
-**>方案三：**
+**方案三：**
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240205160220196.webp" caption="">}}
 
@@ -604,7 +604,9 @@ Prompt 是不断更新的，以便更符合业务的发展。并且随着 Prompt
 
 在详细了解过云中江树的 LangGPT 之后，尤其是 workflow 的 CoT 思想真的收益良多，对于模型的能力有很大激发。
 
-***一直以为，最好的提示词永远来自于深入业务的人！*** 我们从别人的提示词里面要学习的是技巧，融入自己对于业务的深入理解，而不是照本宣科。
+***一直以为，最好的提示词永远来自于深入业务的人！*** 
+
+我们从别人的提示词里面要学习的是技巧，融入自己对于业务的深入理解，而不是照本宣科。
 
 附简化版夜间智能客服提示词：
 
@@ -809,7 +811,7 @@ MECE 中文是「Mutually Exclusive Collectively Exhaustive （相互独立，�
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240129144244280.webp" caption="">}}
 
-大厦不是一天建成的，每一个能力必定不会一开始就全面覆盖，并且其实每一个能力都有其难度梯度，根据不同的能力难度，设置了不同的角色级别，中间也提前考虑到了后续商业化的区分😄。
+每一个能力都会逐渐全面覆盖，并且其实每个能力都有其难度梯度，根据不同的能力难度，设置了不同的角色级别，中间也提前考虑到了后续商业化的区分😄。
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240129162808819.webp" caption="">}}
 
@@ -965,6 +967,10 @@ MECE 中文是「Mutually Exclusive Collectively Exhaustive （相互独立，�
 
 做一个全身心投入的产品真的太有意思啦~
 
+***PS:***
+
 以上的流程图生成大部分使用 GPTs : [Diagram Professional（流程图专家）](https://chat.openai.com/g/g-cfTEswDnh-diagram-professional-liu-cheng-tu-zhuan-jia) 
+
 平时使用过比较好用的 json 编辑：[jsongrid](https://jsongrid.com/)
+
 相关文章： [llm-pk-tradition]({{< relref "llm-pk-tradition.md" >}})
