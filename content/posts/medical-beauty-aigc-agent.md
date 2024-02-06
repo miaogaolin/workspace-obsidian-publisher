@@ -212,7 +212,9 @@ AI 正在掀起第四次工业革命，AI 大模型的竞争是下一代信息�
 
 需要持续更新的 XMind 源文件可以私聊 😄
 
-{{< figure src="/images/medical-beauty-aigc-agent-20240205172450427.webp" caption="">}}
+{{< figure src="/images/智能客服落地脑图梳理.xmind]]
+
+![[medical-beauty-aigc-agent-20240205172450427.webp" caption="">}}
 
 ### 2.AI 相关调研
 
