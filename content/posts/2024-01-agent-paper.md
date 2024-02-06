@@ -20,7 +20,9 @@ author: hellloveyy
 
 ## 原文
 
-[人工智能 agent 勘测多模态交互的前景](/images/2401.03568-1-30.pdf)
+论文地址：[arxiv](https://arxiv.org/abs/2401.03568)
+
+译文：[人工智能 agent 勘测多模态交互的前景](/images/2401.03568-1-30.pdf)
 
 ![2401.03568-1-30.pdf](2401.03568-1-30.pdf)
 
