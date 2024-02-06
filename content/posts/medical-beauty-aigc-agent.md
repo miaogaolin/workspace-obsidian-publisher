@@ -210,9 +210,7 @@ AI 正在掀起第四次工业革命，AI 大模型的竞争是下一代信息�
 ## 六、Agent 搭建详述
 ### 1.全部脑图
 
-需要持续更新的 XMind 源文件可以私聊 😄
-
-[智能客服落地脑图梳理](/images/智能客服落地脑图梳理.xmind)
+需要持续更新的 XMind 源文件可以私聊，这里上传的 XMind 不能下载 🥲
 
 {{< figure src="/images/medical-beauty-aigc-agent-20240205172450427.webp" caption="">}}
 
