@@ -11,21 +11,6 @@ series:
 lastmod: 2024-02-05T09:35:00
 cover:
     image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
-author: 
----
----
-date: 2024-01-14T18:14:22+08:00
-tags: 
-title: Github Publisher 插件适配 Hugo 的配置
-slug: github-publisher-hugo
-share: true
-canonicalURL: 
-keywords: 
-description: 
-series: 
-lastmod: 2024-02-05T09:35:00
-cover:
-    image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 author:
 ---
 先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
