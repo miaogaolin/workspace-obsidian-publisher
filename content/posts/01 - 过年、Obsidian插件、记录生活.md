@@ -77,7 +77,7 @@ dir: posts
 ### 勃艮第
 2023 年第一次知道勃艮第这个地方是通过一个桌游，它也“叫勃艮第城堡”。
 
-这次通过这篇 [X文](https://twitter.com/royxy/status/1751155048237690977?t=F2vd1GSGioNjCB6VwLipNA&s=19) 看到了勃艮第着地方还挺美。
+这次通过这篇 [X文](https://twitter.com/royxy/status/1751155048237690977?t=F2vd1GSGioNjCB6VwLipNA&s=19) 看到了勃艮第这地方还挺美。
 {{< figure src="/images/79260c9370f238d99b0b1be946e3b374.webp" caption="X友截图" width="" height="">}}
 
 ### 荷兰
