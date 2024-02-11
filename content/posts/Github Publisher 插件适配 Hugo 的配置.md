@@ -11,11 +11,26 @@ series:
 lastmod: 2024-02-05T09:35:00
 cover:
     image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
+author: 
+---
+---
+date: 2024-01-14T18:14:22+08:00
+tags: 
+title: Github Publisher 插件适配 Hugo 的配置
+slug: github-publisher-hugo
+share: true
+canonicalURL: 
+keywords: 
+description: 
+series: 
+lastmod: 2024-02-05T09:35:00
+cover:
+    image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 author:
 ---
 先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
 
-本文基于 Obsidian 的 Github Publisher 插件，版本：v6.14.1，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
+本文基于 Obsidian 的 Github Publisher 插件，版本：v6.14.2，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
 
 下面我会对重要的配置进行讲解，如果你暂时不想看了，可以使用我提供的[默认配置](https://github.com/miaogaolin/obsidian-github-publisher-hugo)。
 
@@ -120,3 +135,4 @@ Markdown hard line break 最好关闭，我这边开启造成了空行变多，�
 这是我给作者提交的问题，现在都已经修复。
 - [正则表达式替换内容不支持转义字符](https://github.com/ObsidianPublisher/obsidian-github-publisher/issues/254)
 - [锚点不支持中文](https://github.com/ObsidianPublisher/obsidian-github-publisher/issues/285)
+- [Obsidian属性或FrontMatter重复](https://github.com/ObsidianPublisher/obsidian-github-publisher)
