@@ -13,6 +13,8 @@ keywords:
   - 荷兰
   - 避孕
   - 赚钱
+  - 二手书
+  - 多抓鱼
 description: 
 series: 
 lastmod: 
@@ -104,11 +106,9 @@ dir: posts
 	- 《强风吹拂》和《考研政治通关优题库》：这两本是和新手没有任何区别，才保持了下单的价格
 	- 《C#高级编程 (第 8 版)》：破碎我觉得还行呀，但还是看不上
 - 卖的钱需要从多抓鱼再提出来，不过留在里面可以 8.8 折再买书
-	
-{{< figure src="/images/2bbe1210747c89443cfe2c5ad0d28637.webp]]
-
+![2bbe1210747c89443cfe2c5ad0d28637.webp](/images/2bbe1210747c89443cfe2c5ad0d28637.webp)
 ![4eae513d2f7145444aff5a0f720ca092.webp](/images/4eae513d2f7145444aff5a0f720ca092.webp)
-![[8282159b3ddcc51b670ad2c7fe4e6996.webp" caption="我不服" width="" height="">}}
+{{< figure src="/images/8282159b3ddcc51b670ad2c7fe4e6996.webp" caption="我不服" width="" height="">}}
 
 ## 技术
 开始了解 Obsidian 的插件开发，也拿我正在用的 [插件](https://github.com/ObsidianPublisher/obsidian-github-publisher) 试了试看如何编译测试，以后这个插件有啥问题，我也就能快速修改和测试了，最好提个 PR。
