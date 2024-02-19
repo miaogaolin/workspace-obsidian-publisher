@@ -908,7 +908,7 @@ MECE 中文是「Mutually Exclusive Collectively Exhaustive （相互独立，�
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | minimax | 0.449832776 | 0.444210526 | 0.498327759 | 0.05 | 0.794314381 | 598 |
 | chatgpt3.5 | 0.359531773 | 0.347457627 | 0.339464883 | 0.02 |  | 598 |
-| chatglm | 0.277591973 | 0.258947368 | 0.259197324 | 0.02 |  | 598 |
+| chatglm2 | 0.277591973 | 0.258947368 | 0.259197324 | 0.02 |  | 598 |
 | gpt4 | 0.571906355 | 0.573248408 | 0.553511706 | 0.02 |  | 598 |
 | 文心一言 | 0.317725753 | 0.305263158 | 0.322742475 | 0.005 |  | 598 |
 
@@ -959,6 +959,7 @@ MECE 中文是「Mutually Exclusive Collectively Exhaustive （相互独立，�
 
 以上的流程图生成大部分使用 GPTs : [Diagram Professional（流程图专家）](https://chat.openai.com/g/g-cfTEswDnh-diagram-professional-liu-cheng-tu-zhuan-jia) 
 
-平时使用过比较好用的 json 编辑：[jsongrid](https://jsongrid.com/)
+平时使用过比较好用的 json 编辑：谷歌插件里面还有好多常用功能 [FE前端助手](https://chromewebstore.google.com/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad?utm_source=ext_app_menu)
+{{< figure src="/images/medical-beauty-aigc-agent-20240219101719874.webp" caption="">}}
 
 相关文章： [llm-pk-tradition]({{< relref "llm-pk-tradition.md" >}})
