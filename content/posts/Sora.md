@@ -18,14 +18,14 @@ Cover:
 author: hellloveyy
 ---
 
-> 持续记录一些自 Sora 发布以来的一些思考
-
-{{< figure src="/images/Sora-20240221151126452.webp" caption="">}}
-
 
 {{< figure src="/images/Sora-20240221151018148.webp" caption="">}}
 
-官方网址：[OpenAI Sora](https://openai.com/sora)
+> 持续记录一些自 Sora 发布以来的一些思考
+> 官方网址：[OpenAI Sora](https://openai.com/sora)
+
+
+---
 
 ## 2024-02-21
 
