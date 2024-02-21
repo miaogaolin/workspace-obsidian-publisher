@@ -13,7 +13,7 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/post-20240111195047056.webp
+  image: /images/26-prompt-skills-20240206161632772.webp
 author: hellloveyy
 ---
 
