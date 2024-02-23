@@ -38,7 +38,7 @@ author: hellloveyy
 ### 实时速率
 {{< figure src="/images/vpn-20240118164622411.webp" caption="">}}
 
-可以看到 ping 值是非常低的，香港平均只有 100ms 出头！
+可以看到 ping 值是非常低的，香港平均只有 100ms 出头！如果是 ios 的小飞机 ping 值大概只有不到 50ms! youtobe 4K 视频秒加载无延迟！
 
 截图时间也是现在写文章的这个时间，实测！
 
