@@ -16,7 +16,8 @@ keywords:
   - 二手书
   - 多抓鱼
 description: 
-series: 
+series:
+  - 周报
 lastmod: 
 cover:
     image: /images/b185d04292db935475bcfb6092c7024b.webp
