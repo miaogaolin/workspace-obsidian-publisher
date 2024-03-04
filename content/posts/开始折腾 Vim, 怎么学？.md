@@ -2,7 +2,7 @@
 date: 2024-03-04T12:00:03+08:00
 tags:
   - app_vim
-title: 2024 年开始折腾 Vim, 怎么学？
+title: 开始折腾 Vim, 怎么学？
 slug: vim-study
 share: true
 canonicalURL: 
