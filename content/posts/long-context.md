@@ -16,12 +16,11 @@ series:
 lastmod: 
 lang: cn
 Cover:
-  image: /images/longer-token-20240307124436672.webp
+  image: /images/long-context-20240307152429837.webp
 author: hellloveyy
 ---
 
-
-{{< figure src="/images/longer-token-20240307124436672.webp" caption="">}}
+{{< figure src="/images/long-context-20240307152429837.webp" caption="">}}
 
 最近发布的 claude 3 支持 200 k 的上下文，简单回顾了一下到 2024 年 3 月 7 号为止超过 100 k 上下文窗口的大模型。
 
