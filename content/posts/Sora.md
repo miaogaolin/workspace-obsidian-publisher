@@ -29,6 +29,7 @@ author: hellloveyy
 ---
 
 ## 2024-02-21
+{{< figure src="/images/Sora-20240307162331911.webp" caption="">}}
 
 ### **1.视频压缩网络**：
 
