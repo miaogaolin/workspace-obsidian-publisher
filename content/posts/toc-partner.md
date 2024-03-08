@@ -40,12 +40,13 @@ author: hellloveyy
 {{< figure src="/images/toc-partner-20240308142708466.webp" caption="">}}
 
 
-### 三、业务流程图SOP
+## 三、业务流程图 SOP
+
 {{< figure src="/images/toc-partner-20240308142716841.webp" caption="">}}
 
 ## 四、功能详述
 
-### 企微部分
+### 一、企微部分
 
 1. 公众号：
     
@@ -89,7 +90,7 @@ author: hellloveyy
                 
             - LinkAI
 
-### 微信交互
+### 二、微信交互
 
 1. 用户输入发送内容
     
@@ -141,13 +142,13 @@ author: hellloveyy
             
 5. 聊天数据存储
 
-### 意图识别
+### 三、意图识别
 
 {{< figure src="/images/toc-partner-20240308142732164.webp" caption="">}}
 
-### 工具模块
+### 四、工具模块
 
-### 记忆模块
+### 五、记忆模块
 
-### Prompt 构建
+### 六、Prompt 构建
 
