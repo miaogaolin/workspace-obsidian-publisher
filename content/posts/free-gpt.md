@@ -18,7 +18,6 @@ lang: cn
 Cover:
   image: /images/free-gpt-20240123123933042.webp
 author: hellloveyy
-weight: "3"
 ---
 
 
