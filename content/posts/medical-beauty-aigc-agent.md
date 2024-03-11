@@ -20,6 +20,7 @@ lang: cn
 Cover:
   image: /images/medical-beauty-aigc-agent-20240119094227548.webp
 author: hellloveyy
+weight: "1"
 ---
 
 
