@@ -445,6 +445,8 @@ AI 正在掀起第四次工业革命，AI 大模型的竞争是下一代信息�
 {{< figure src="/images/medical-beauty-aigc-agent-20240201193722242.webp" caption="">}}
 {{< figure src="/images/medical-beauty-aigc-agent-20240201193733996.webp" caption="">}}
 
+{{< figure src="/images/medical-beauty-aigc-agent-20240329164649483.webp" caption="">}}
+
 管理 agent 需要保证整体私信方向，检验重复发出内容，违规内容，用户情绪检测等后置处理。
 
 简而言之。理解问题，回复问题交给医生 agent，转化提升交给销售 agent，整体私信走向与前后置处理交给管理者 agent。
