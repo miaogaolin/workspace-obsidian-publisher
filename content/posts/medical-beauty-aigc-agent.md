@@ -177,7 +177,11 @@ AI 正在掀起第四次工业革命，AI 大模型的竞争是下一代信息�
 
 在当时 Agent 的概念还没大火的时候，其实已经按照这个架构去行进了。
 
-思路太杂，下面由简入繁讲述：
+除了单一 Agent 体的设计，目前还加入了平台的概念，形成全部的公司 AI 系统架构。
+{{< figure src="/images/medical-beauty-aigc-agent-20240401195237666.webp" caption="">}}
+
+
+下面先由简入繁讲述单一 agent 体：
 
 ### 1.简化版单次智能客服回复 SOP
 {{< figure src="/images/medical-beauty-aigc-agent-20240126180030252.webp" caption="">}}
