@@ -84,7 +84,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi! I'm Evan Miao \U0001F44B"
-    Content: "一名想热爱生活的程序员 - **[进一步了解我](/about)**"
+    Content: "还在路上不知道在干什么的人 - **[进一步了解我](/about)**"
 
   socialIcons:
     - name: x
