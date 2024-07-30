@@ -47,6 +47,7 @@ GitHub 文件地址： https://github.com/hellloveyy/AIPM-Skills-Tree
 
 语雀实时更新链接：[AI 产品技能树]( https://www.yuque.com/gbyai/enltfn/hmzh5f3msehsvokb?singleDoc# 《AIPM_Skills》)
 
+[AI PM Skills Tree]({{< relref "AI%20PM%20Skills%20Tree.canvas.md" >}})
 
 
 
