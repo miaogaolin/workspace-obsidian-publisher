@@ -24,7 +24,6 @@ author: hellloveyy
 
 
 {{< figure src="/images/medical-beauty-agent-review-20240730171108389.webp" caption="">}}
-{{< figure src="/images/medical-beauty-agent-review-20240730173417791.webp" caption="">}}
 
 
 - “屎上雕花“ 是必不可少的，快速达到 80%的预期效果，剩下的 20%就需要沉下心来，深入到业务场景，不要觉得很细碎，好与不好就在这细碎之间，所有做的事情做好归类，最后来看的时候会发现，这也不少啊，而且多数经验在以后的 AI 项目中都可以用到。
@@ -55,13 +54,10 @@ author: hellloveyy
 	- 最后一个问题应该被重写为：“上次注射的 20 U 单位的伊婉 C 现在多少钱”
 
 ```
-方式一：
+方式一直接在当前prompt中增加一个工作流提示词节点：
 Query 改写： rephrase an improved and expanded version of user question. Ensure that it provides more nuanced context and details while reducing potential ambiguities  
 
-方式二：
+方式二单独调用对话，单独模型重写query：
 给定以下对话，重写最后一个用户输入以反映用户实际在问什么。
 【历史对话】
 ```
-
-
-
