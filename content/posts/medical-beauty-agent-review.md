@@ -27,7 +27,7 @@ author: hellloveyy
 
 > 有一些动作在规划中没有实际动作，因为后期智能客服项目有交接，不过作为一个真心喜欢 AI 行业的 PM，思考是不能停的，时刻保持空杯的心态
 
-老规矩先总结：
+老规矩先总结：效果还是不错的嘿😁
 {{< figure src="/images/medical-beauty-agent-review-20240801171614782.webp" caption="">}}
 {{< figure src="/images/medical-beauty-agent-review-20240801171655478.webp" caption="">}}
 {{< figure src="/images/medical-beauty-agent-review-20240801171924357.webp" caption="">}}
