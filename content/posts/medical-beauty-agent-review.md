@@ -25,9 +25,12 @@ author: hellloveyy
 
 {{< figure src="/images/medical-beauty-agent-review-20240730171108389.webp" caption="">}}
 
-
 > 有一些动作在规划中没有实际动作，因为后期智能客服项目有交接，不过作为一个真心喜欢 AI 行业的 PM，思考是不能停的，时刻保持空杯的心态
 
+老规矩先总结：
+{{< figure src="/images/medical-beauty-agent-review-20240801171614782.webp" caption="">}}
+{{< figure src="/images/medical-beauty-agent-review-20240801171655478.webp" caption="">}}
+{{< figure src="/images/medical-beauty-agent-review-20240801171924357.webp" caption="">}}
 
 - “屎上雕花“ 是必不可少的，快速达到 80%的预期效果，剩下的 20%就需要沉下心来，深入到业务场景，不要觉得很细碎，好与不好就在这细碎之间，所有做的事情做好归类，最后来看的时候会发现，这也不少啊，而且多数经验在以后的 AI 项目中都可以用到。
 - 非常小且快速的意图识别分类模型，用来做什么呢？
