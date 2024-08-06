@@ -19,8 +19,6 @@ Cover:
 author: hellloveyy
 ---
 
-{{< figure src="/images/share-rss-20240806103119246.webp" caption="">}}
-
 {{< figure src="/images/share-rss-20240806103127096.webp" caption="">}}
 
 软件: [NetNewsWire](https://netnewswire.com/)
