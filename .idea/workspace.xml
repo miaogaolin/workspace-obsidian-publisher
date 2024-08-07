@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00330d0-0665-4f04-be1a-4e8a7f8f994c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/posts/lixiang-product.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122095909350.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122095935662.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100050198.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100113285.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100127658.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100140219.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100202974.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100218296.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100231992.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/lixiang-product-20240122100238103.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-mkdocs-publisher/env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/Obsidian-blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Obsidian-blog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/medical-beauty-aigc-agent-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/medical-beauty-aigc-agent-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/trans-create-gpts-api.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/trans-create-gpts-api.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +64,7 @@
       <workItem from="1705033099141" duration="22480000" />
       <workItem from="1705161036058" duration="7906000" />
       <workItem from="1705320428523" duration="105000" />
-      <workItem from="1705586411309" duration="1117000" />
+      <workItem from="1705586411309" duration="1883000" />
     </task>
     <servers />
   </component>

@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "1f38786214413008",
+        "id": "817c42975a8b819d",
         "type": "tabs",
         "children": [
           {
-            "id": "1c01217c97c2fb1a",
+            "id": "84218ea45a406441",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/medical-beauty-aigc-agent-1.md",
+                "file": "content/posts/aipm-skills.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "8ca44d0fab917f52",
+            "id": "9b32b03d410cf1e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.5
+    "width": 383.5
   },
   "right": {
     "id": "8dddf73d0921827c",
@@ -98,8 +98,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/sponsor.md",
-                "collapseAll": false,
+                "file": "content/about.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/sponsor.md",
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/sponsor.md"
+                "file": "content/about.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -159,52 +160,54 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "8ca44d0fab917f52",
+  "active": "9b32b03d410cf1e9",
   "lastOpenFiles": [
-    "content/posts/medical-beauty-aigc-agent-1.md",
-    "content/sponsor.md",
-    "content/sponsor.md",
+    "content/posts/aipm-skills.md",
     "content/about.md",
-    "content/posts/grap-wechat-group-message.md",
-    "content/archives.md",
-    "content/search.md",
-    "static/images/medical-beauty-aigc-agent-20240119094227548.webp",
+    "static/images/aipm-skills-20240319102243305.webp",
+    "static/images/aipm-skills-20240807112708178.webp",
+    "static/images/aipm-skills-20240319162118403.webp",
+    "static/images/AIPM_Skills 技能展开.jpg",
+    "content/posts/llm-pk-tradition.md",
+    "content/posts/long-context.md",
+    "content/posts/share-rss.md",
+    "static/images/share-rss-20240806105748140.webp",
+    "static/images/share-rss-20240806105603100.webp",
+    "static/images/share-rss-20240806103127096.webp",
+    "static/images/share-rss-20240806103119246.webp",
+    "content/posts/medical-beauty-agent-review.md",
+    "static/images/medical-beauty-agent-review-20240801171924357.webp",
+    "static/images/medical-beauty-agent-review-20240801171817431.webp",
+    "content/posts/medical-beauty-aigc-agent.md",
+    "content/posts/linkedin-agent.md",
     "archetypes/post.md",
     "archetypes/default.md",
+    "AI PM Skills Tree.canvas",
+    "content/posts/vpn.md",
+    "未命名.md",
+    "content/posts/26-prompt-skills.md",
+    "static/images/AI人工智能产品经理技能知识工作流程（全面值得收藏）.xmind",
+    "未命名.canvas",
+    "content/posts/mysterious-art.md",
+    "content/posts/agent-platform.md",
+    "content/posts/2024-01-agent-paper.md",
+    "content/posts/Sora.md",
+    "content/posts/wang-hui-wen.md",
     "content/posts/openai-translator.md",
-    "content/posts/wildcard.md",
-    "content/posts/中译英 Prompt.md",
-    "content/posts/英译中 Prompt.md",
-    "{{<.md",
-    "content/posts/trans-create-gpts-api.md",
-    "static/images/openai-translator-20240118192750306.webp",
-    "static/images/openai-translator-20240118192527011.webp",
-    "static/images/openai-translator-20240118192523124.webp",
-    "static/images/openai-translator-20240118192518632.webp",
-    "static/images/openai-translator-20240118192514978.webp",
-    "static/images/openai-translator-20240118192505065.webp",
-    "static/images/openai-translator-20240118192458738.webp",
-    "static/images/openai-translator-20240118192422611.webp",
-    "static/images/openai-translator-20240118192415961.webp",
-    "OpenAI-Translator-20240117003747599.webp.md",
     "content/posts/Obsidian-blog.md",
-    "英译中 Prompt.md",
+    "content/posts/lixiang-product.md",
+    "content/posts/grap-wechat-group-message.md",
+    "content/posts/free-gpt.md",
+    "content/posts/toc-partner.md",
+    "content/posts/wildcard.md",
+    "content/posts/未命名",
+    "static/images/智能客服落地脑图梳理.xmind",
+    "images",
+    "static/images/2401.03568-1-30.pdf",
+    "static/images/王慧文清华产品课Allen修订版-20210104.pdf",
+    "static/images/suggest系统.xmind",
     "public/tags/vercel/page/1/index.html",
     "public/tags/vercel/page/1",
-    "public/tags/vercel/page",
-    "public/tags/vercel/index.xml",
-    "public/tags/vercel/index.html",
-    "public/tags/vercel",
-    "public/tags/obsidian/page/1/index.html",
-    "public/tags/obsidian/page/1",
-    "public/tags/obsidian/page",
-    "public/tags/obsidian/index.xml",
-    "content/posts/vpn.md",
-    "themes/PaperMod/README.md",
-    "content/posts/AI-customer.md",
-    "content/posts/OpenAI-Translator.md",
-    "node_modules/@vercel/speed-insights/README.md",
-    "node_modules/@vercel/analytics/README.md",
-    "post-20240111195047056.md"
+    "public/tags/vercel/page"
   ]
 }
