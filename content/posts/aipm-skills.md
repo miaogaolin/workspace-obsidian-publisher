@@ -59,11 +59,11 @@ AI 产品通常涉及复杂的算法、大数据处理等技术,同时又需要�
 {{< figure src="/images/aipm-skills-20240807112708178.webp" caption="">}}
 
 - 展开部分翅膀
-{{< figure src="/images/AIPM_Skills 技能展开.jpg" caption="">}}[aipm-skills-20240319162118403.webp]]
-[aipm-skills-20240722141742050.webp]]
-GitHub 文件地址（欢迎star）： https://github.com/hellloveyy/AIPM-Skills-Tree
+{{< figure src="/images/AIPM_Skills 技能展开.jpg" caption="">}}
 
-语雀实时更新链接 (啊，迁移到飞书太难了)：[AI 产品技能树]( https://www.yuque.com/gbyai/enltfn/hmzh5f3msehsvokb?singleDoc# 《AIPM_Skills》)
+- GitHub 文件地址（欢迎 star）： https://github.com/hellloveyy/AIPM-Skills-Tree
+
+- 语雀实时更新链接 (啊，迁移到飞书太难了)：[AI 产品技能树]( https://www.yuque.com/gbyai/enltfn/hmzh5f3msehsvokb?singleDoc# 《AIPM_Skills》)
 
 
 
