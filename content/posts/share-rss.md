@@ -27,6 +27,7 @@ author: hellloveyy
 - 1. 在本地生成一个 opml 后缀的文件{{< figure src="/images/share-rss-20240806105603100.webp" caption="">}}
 - 2. 把下面订阅源复制到文件里面（订阅源我会不定时更新在文章里）
 - 3. 点击导入选择 opml 文件 {{< figure src="/images/share-rss-20240806105748140.webp" caption="">}}
+- 4. 建议在看的时候先看重点自己关注的 rss, 然后有时间再把别的扫一遍，时间资源合理分配
 
 AIPM 聚焦订阅源：
 ```
