@@ -20,7 +20,7 @@ series:
   - 周报
 lastmod: 
 cover:
-    image: /images/b185d04292db935475bcfb6092c7024b.webp
+  image: /images/b185d04292db935475bcfb6092c7024b.webp
 author: 
 dir: posts
 ---
@@ -114,9 +114,10 @@ dir: posts
 ## 技术
 开始了解 Obsidian 的插件开发，也拿我正在用的 [插件](https://github.com/ObsidianPublisher/obsidian-github-publisher) 试了试看如何编译测试，以后这个插件有啥问题，我也就能快速修改和测试了，最好提个 PR。
 
-目前我只是给这个插件提了三个 [Issue]({{< relref "Github%20Publisher%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}}#issues)。
+目前我只是给这个插件提了三个 [Issue]({{< relref "Enveloppe%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}}#issues)。
 
 也在尝试写一个 "Obsidian 拷贝到微信公众号 " 的一个插件，不知道是否可行。
+
 
 
 
