@@ -13,6 +13,7 @@ keywords:
   - hugo
   - vercel
   - Github
+  - enveloppe
 description: 
 series: 
 lastmod: 2023-01-15T10:00:00
@@ -30,7 +31,7 @@ weight: 1
 3. Obsidian 写好文章，然后使用插件将指定的文章 (md 格式) 上传到第 2 步的仓库,插件的作用就是将 Obsidian 中的 markdown 内容适配成 Hugo 需要的内容；
 4. 部署仓库，配置域名。
 ## 相关工具
-1. Obsidian + Github Publisher 插件，必须
+1. Obsidian + Enveloppe 插件，必须
 2. Hugo + Paper Mod 主题，可选择其它
 3. Github，必须
 4. Vercel，可选择其它
@@ -43,8 +44,8 @@ weight: 1
 - 官方主题文档：[PaperMod](https://adityatelange.github.io/hugo-PaperMod/)
 - 我的仓库：[miaogaolin/workspace-obsidian-publisher](https://github.com/miaogaolin/workspace-obsidian-publisher) 稍微改了点官方主题
 
-## Github Publisher
-给 Obsidian 安装 Github Publisher 插件，该插件的作用是将 Obsidian 中的文章和本地附件上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。
+## Enveloppe
+给 Obsidian 安装 [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) 插件，该插件的作用是将 Obsidian 中的文章和本地附件上传到 Github 仓库，上传前可以指定文件目录、自定义内容替换等操作。
 
 
 ### Github config
@@ -56,7 +57,7 @@ weight: 1
 
 ### 默认配置
 
-根据我的使用情况，我保存了一份设置，你可以直接使用，如果想了解为何这样，可以看看： [Github Publisher 插件适配 Hugo 的配置]({{< relref "Github%20Publisher%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}})。
+根据我的使用情况，我保存了一份设置，你可以直接使用，如果想了解为何这样，可以看看： [Enveloppe 插件适配 Hugo 的配置]({{< relref "Enveloppe%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}})。
 
 前往 [miaogaolin/obsidian-github-publisher-hugo](https://github.com/miaogaolin/obsidian-github-publisher-hugo) 拷贝 settings.json 设置，然后粘贴导入插件：
 {{< figure src="/images/e391eb4a6c68184f665340c112cffe98.webp" caption="Import settings" width="" height="">}}
@@ -73,7 +74,7 @@ tags:
 	- 标签2
 title: "{{title}}"
 slug: "{{time}}" # 自定义 URL 中文章的访问名称，默认用时间戳填充模板格式为X
-share: false  # 配合 Github Publisher插件用的,true表示 obsidian 的文章可以发布
+share: false  # 配合 Enveloppe插件用的,true表示 obsidian 的文章可以发布
 canonicalURL: "" # 之前文章在其他地方被发布的地址，避免搜索引擎重复，设置了该属性会优先展示 canonicalURL 执行的文章
 keywords:   # 用于 SEO 优化，也可以不配置该内容默认会使用 tags 的内容
 	- 关键字1
@@ -84,17 +85,17 @@ lastmod:  # 文章最后更新的时间
 lang: "cn" # 默认不用写，配置文件会设置默认 cn 中文，en 英文等等
 cover.image: "" # 文章封面图片地址
 author: # 作者名称
-dir: "posts" # 搭配 Github Publisher 插件设置文章上传的目录
+dir: "posts" # 搭配 Enveloppe 插件设置文章上传的目录
 ---
 ```
 - dir 属性：设置文章的上传目录，以 `content/` 为根目录，默认上传到 `content/posts` 目录，如果不想在网站页面展示出来选择其它目录即可，例如：[关于我]({{< relref "%E5%85%B3%E4%BA%8E%E6%88%91.md" >}})、[赞助]({{< relref "%E8%B5%9E%E5%8A%A9.md" >}}) 这两篇文章，我设置的就是 `dir: ./`
-- `cover.image`：设置封面，在使用 Github Publisher 后会转化为二级 key。
+- `cover.image`：设置封面，在使用 Enveloppe 后会转化为二级 key。
 ## 发布
 
 ### Obsidian 命令
 当然插件的配置也支持菜单模式，配置前往：Plugin settings -> Menu。
 
-先使用命令行发布，输入 active，然后选择 Github Publisher 即可，记着文章的 share 属性要开启，即 true。
+先使用命令行发布，输入 active，然后选择 Enveloppe 即可，记着文章的 share 属性要开启，即 true。
 {{< figure src="/images/01bd34047086ccab150386a9fbee2e6a.webp" caption="上传文章命令" width="" height="">}}
 
 右下角会提示上传的进度，如果完成了右上角有提示：
@@ -135,6 +136,6 @@ dir: "posts" # 搭配 Github Publisher 插件设置文章上传的目录
 - Unique attachments 用于将附件的文件名统一为 “字母 + 数字”的格式,记着在配置里加入 webp 图片格式
 - Image Inserter 用于找图片，我用于设置文章封面，即设置 `cover.image` 属性。
 ## 总结
-重点学会了 Github Publisher 插件如何将 Obsidian 中的文章格式适配成你最终想要的内容格式即可。
+重点学会了 Enveloppe 插件如何将 Obsidian 中的文章格式适配成你最终想要的内容格式即可。
 
 至于你选择 Hugo 静态网站生成器，还是 Hexo 都是可以的。 
