@@ -16,7 +16,7 @@ keywords:
   - enveloppe
 description: 
 series: 
-lastmod: 2023-01-15T10:00:00
+lastmod: 2024-12-17T10:00:00
 cover:
   image: https://images.unsplash.com/photo-1682687220211-c471118c9e92?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 author: 
@@ -131,9 +131,8 @@ dir: "posts" # 搭配 Enveloppe 插件设置文章上传的目录
 ## 优化内容的相关插件
 
 这些 Obsidian 插件对于发布网站不是必要的，但是对于优化内容格式还是很有必要的：
-- Obsidian Linter 插件,我只用了在英文两边加空格的设置。
-- Image Converter 转化图片格式，我统一转为 webp，并设置了图片分辨率大小。
-- Unique attachments 用于将附件的文件名统一为 “字母 + 数字”的格式,记着在配置里加入 webp 图片格式
+- Obsidian Linter 插件，我只用了在英文两边加空格的设置。
+- Image Converter 自动统一图片格式和重命名，并设置了图片分辨率大小。
 - Image Inserter 用于找图片，我用于设置文章封面，即设置 `cover.image` 属性。
 ## 总结
 重点学会了 Enveloppe 插件如何将 Obsidian 中的文章格式适配成你最终想要的内容格式即可。
