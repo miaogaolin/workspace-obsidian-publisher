@@ -11,11 +11,11 @@ keywords:
   - enveloppe
 description: 
 series: 
-lastmod: 2024-11-14T09:35:00
+lastmod: 2025-03-31T15:50:00
 cover:
   image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 ---
-> 2024-11-14 发现插件名称修改成了 Enveloppe，以前叫 Github Publisher
+> 2025-03-31 支持 avif 图片格式
 
 先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
 
@@ -50,19 +50,19 @@ Property key 可以通过文章的属性设置上传的目录，例如我这配�
 
 支持 `![]()` 的图片格式，箭头 ↓ 表示会等 `![[]]` 转化成 `![]()` 之后执行：
 ```
-匹配内容：/\]\(([^/\)]+?)\.(png|jpg|jpeg|webp|gif)/
+匹配内容：/\]\(([^/\)]+?)\.(png|jpg|jpeg|webp|gif|avif)/
 替换：](/images/$1.$2
 箭头：↓
 ```
 支持 `![[]]` 的图片格式，且增加了 caption 和 size 的支持，分两种情况：
 ```
 情况一，支持 ![[filename.png|size]] 
-匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif)\|(\d+)(x(\d+))?\]\]/
+匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif|avif)\|(\d+)(x(\d+))?\]\]/
 替换：{{</* figure src="/images/$1.$2"  width="$3" height="$5"*/>}}
 箭头：↑
 
 情况二，支持 ![[filename.png|caption|size]]
-匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif)\|([^\|]*?)(\|(\d+)(x(\d+))?)?\]\]/
+匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif|avif)\|([^\|]*?)(\|(\d+)(x(\d+))?)?\]\]/
 替换：{{</* figure src="/images/$1.$2" caption="$3" width="$5" height="$7"*/>}}
 箭头：↑
 ```
