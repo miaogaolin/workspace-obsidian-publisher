@@ -27,7 +27,8 @@ params:
   defaultTheme: auto # dark, light
   disableThemeToggle: false
   # 给图片增加 CDN 前缀
-  ImageCDN: "https://cdn.jsdelivr.net/gh/miaogaolin/workspace-obsidian-publisher/static" 
+  # ImageCDN: "https://cdn.jsdelivr.net/gh/miaogaolin/workspace-obsidian-publisher/static" 
+  ImageCDN:
   ShowReadingTime: false
   ShowShareButtons: true
   # 支持分享的平台 X / facebook / reddit / telegram / whatsapp / ycombinator / linkedin
