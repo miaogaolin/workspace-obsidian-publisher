@@ -24,7 +24,6 @@ cover:
 author: 
 dir: posts
 ---
-
 记录时间 2024-02-05 至 2024-02-11，一切平平淡淡。
 {{< figure src="/images/b185d04292db935475bcfb6092c7024b.webp" caption="女朋友家的口袋" width="" height="">}}
 ## 过年
@@ -117,6 +116,7 @@ dir: posts
 目前我只是给这个插件提了三个 [Issue]({{< relref "Enveloppe%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}}#issues)。
 
 也在尝试写一个 "Obsidian 拷贝到微信公众号 " 的一个插件，不知道是否可行。
+> 2025-04-02 决定放下这个插件的想法，因为现在没有什么想法在公众号写，并且自己产出内容的想法也不多。
 
 
 
