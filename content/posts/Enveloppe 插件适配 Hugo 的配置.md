@@ -1,6 +1,8 @@
 ---
 date: 2024-01-14T18:14:22+08:00
-tags: 
+tags:
+  - app_hugo
+  - app_obsidian
 title: Enveloppe 插件适配 Hugo 的配置
 slug: github-publisher-hugo
 share: true
@@ -11,13 +13,13 @@ keywords:
   - enveloppe
 description: 
 series: 
-lastmod: 2025-03-31T15:50:00
+lastmod: 2025-04-02T15:50:00
 cover:
   image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 ---
-> 2025-03-31 支持 avif 图片格式
+> 2025-04-02 更新了 Text Replacer 配置中箭头上下的含义
 
-先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
+先写了 [使用 Obsidian 免费建个人博客](%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
 
 本文基于 Obsidian 的 Enveloppe 插件，版本：v6.15.7，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
 
@@ -31,9 +33,8 @@ Property key 可以通过文章的属性设置上传的目录，例如我这配�
 
 
 ## Content
-
-{{< figure src="/images/6e71367e83816e828e0f2bb80c43bf11.webp" caption="Text replacer" width="" height="">}}
-每行后面都有个箭头，↑箭头表示插件应用其它配置之前替换，↓箭头表示之后替换。
+{{< figure src="/images/1743586825588.avif" caption="Text replacer" width="" height="">}}
+每行后面都有个箭头，↓箭头表示插件应用其它配置之前替换，↑箭头表示之后替换。
 ### `[[Wikilinks]]` 转 `[MDlinks](links)`
 开启 Content -> `[[Wikilinks]]` 转 `[MDlinks](links)` 菜单。
 
@@ -48,23 +49,23 @@ Property key 可以通过文章的属性设置上传的目录，例如我这配�
 
 现在要做的就是给 Obsidian 的本地图片路径增加 /images 前缀，使用到了 Text replacer 正则。
 
-支持 `![]()` 的图片格式，箭头 ↓ 表示会等 `![[]]` 转化成 `![]()` 之后执行：
+支持 `![]()` 的图片格式，箭头 ↑ 表示会等 `![[]]` 转化成 `![]()` 之后执行：
 ```
 匹配内容：/\]\(([^/\)]+?)\.(png|jpg|jpeg|webp|gif|avif)/
 替换：](/images/$1.$2
-箭头：↓
+箭头：↑
 ```
 支持 `![[]]` 的图片格式，且增加了 caption 和 size 的支持，分两种情况：
 ```
 情况一，支持 ![[filename.png|size]] 
 匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif|avif)\|(\d+)(x(\d+))?\]\]/
 替换：{{</* figure src="/images/$1.$2"  width="$3" height="$5"*/>}}
-箭头：↑
+箭头：↓
 
 情况二，支持 ![[filename.png|caption|size]]
 匹配内容：/\!\[\[([^/\]]+?)\.(png|jpg|jpeg|webp|gif|avif)\|([^\|]*?)(\|(\d+)(x(\d+))?)?\]\]/
 替换：{{</* figure src="/images/$1.$2" caption="$3" width="$5" height="$7"*/>}}
-箭头：↑
+箭头：↓
 ```
 上面的两种图片格式都支持，区别就是 `![[]]` 格式会支持图片的 caption 和 size。
 ### 内部文章引用
@@ -74,7 +75,7 @@ Text replacer 正则：
 ```
 匹配内容：/\]\(([^)\.]+)\.md/
 替换：]({{</* relref "$1".md */>}}
-箭头：↓
+箭头：↑
 ```
 
 在 Obsidian 文章之间引用是没有 md 后缀的，因此执行该替换的时间是等文章使用插件转化后再执行，据此后箭头向下。
