@@ -6,20 +6,20 @@ tags:
 title: Enveloppe 插件适配 Hugo 的配置
 slug: github-publisher-hugo
 share: true
-canonicalURL: 
+canonicalURL:
 keywords:
   - obsidian
   - hugo
   - enveloppe
-description: 
-series: 
+description:
+series:
 lastmod: 2025-04-02T15:50:00
 cover:
   image: https://images.unsplash.com/photo-1653402438643-b230db019d27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHw0NHx8aHVnb3xlbnwwfDB8fHwxNzA1MjI3MjkzfDA&ixlib=rb-4.0.3&q=80&w=400
 ---
 > 2025-04-02 更新了 Text Replacer 配置中箭头上下的含义
 
-先写了 [使用 Obsidian 免费建个人博客]({{< relref "%E4%BD%BF%E7%94%A8%20Obsidian%20%E5%85%8D%E8%B4%B9%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
+先写了 [使用 Obsidian 免费建个人博客]({{< relref "使用-obsidian-免费建个人博客.md" >}}) 这篇文章，但是发现枯燥的讲解这个插件的配置不适合初学者，所以索性在这篇文章中统一整理下，对于想更深入了解的人可以选择性看看这篇。
 
 本文基于 Obsidian 的 Enveloppe 插件，版本：v6.15.7，版本不同可能略有差异，如果差异影响使用了，我就会更新该篇文章，及时收到通知可以关注[我的频道](https://t.me/evan_share)。
 
@@ -33,7 +33,7 @@ Property key 可以通过文章的属性设置上传的目录，例如我这配�
 
 
 ## Content
-{{< figure src="/images/1743586825588.avif" caption="Text replacer" width="" height="">}}
+{{< figure src="/images/1743586825588.avif" caption="Text replacer" width="312" height="270">}}
 每行后面都有个箭头，↓箭头表示插件应用其它配置之前替换，↑箭头表示之后替换。
 ### `[[Wikilinks]]` 转 `[MDlinks](links)`
 开启 Content -> `[[Wikilinks]]` 转 `[MDlinks](links)` 菜单。
@@ -134,11 +134,22 @@ LIST todo WHERE todo != null and share
 ###  标签
 在 Obsidian 里是支持 `/` 方式渲染多级标签的，在 Hugo 中是不支持的，所以需要开启将 `/` 转位 `_`。
 ![3c3e40b83ac5be7799d55696eadc7218.webp](/images/3c3e40b83ac5be7799d55696eadc7218.webp)
+### Dataview
+> 每个人的情况不一样，所以该配置不通用。
 
+如果你的内容中使用到了 Dataview 语法，并且想把内容渲染出来，可以开启该配置：
+{{< figure src="/images/1743642636065.avif" caption="dataview" width="" height="">}}
+我的 Dataview 语法中有很多未发布的文章，所以发布时，我会将这些文章的链接选择去除掉，只留下简单的文本。
+增加 Text replacer 配置：
+```
+匹配内容：/\[([^\[\]]+)\]\((1\-Literature|2-Permanent|\d{1,2}\.{1,2}).+?md\)/
+替换：$1
+箭头：↑
+```
 ### 踩的坑
 Markdown hard line break 最好关闭，我这边开启造成了空行变多，使代码难看、表格无法渲染。
 
-## Attachment & embed note config
+## Attachment & embeds
 默认 Transfer attachments 会开启附件上传的，重点是需要使用 Default attachment folder 设置附近的上传目录。
 
 ![18c2e020cbb2bb6142ea0611c3eb62da.webp](/images/18c2e020cbb2bb6142ea0611c3eb62da.webp)
