@@ -1,17 +1,17 @@
 ---
 date: 2021-12-17T11:58:02+08:00
-tags: 
+tags:
 title: Vercel + Notion 建个人博客
 slug: vercel-notion
 share: true
-canonicalURL: 
-keywords: 
-description: 
-series: 
-lastmod: 
+canonicalURL:
+keywords:
+description:
+series:
+lastmod:
 cover:
   image: https://images.unsplash.com/photo-1663813251302-e5d2c7199e86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzNjAwOTd8MHwxfHNlYXJjaHwxNHx8bm90aW9ufGVufDB8MHx8fDE3MDM1MTUyOTd8MA&ixlib=rb-4.0.3&q=80&w=400
-author: 
+author:
 ---
 
 大家好，我是 “潇洒哥老苗”。
