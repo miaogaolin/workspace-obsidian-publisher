@@ -5,7 +5,7 @@ tags:
 title: 使用 Obsidian 免费建个人博客
 slug: obsidian-blog
 share: true
-canonicalURL: 
+canonicalURL:
 keywords:
   - obsidian
   - blog
@@ -14,16 +14,16 @@ keywords:
   - vercel
   - Github
   - enveloppe
-description: 
-series: 
+description:
+series:
 lastmod: 2024-12-17T10:00:00
 cover:
   image: https://images.unsplash.com/photo-1682687220211-c471118c9e92?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-author: 
+author:
 dir: posts
 weight: 1
 ---
-目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "Vercel%20+%20Notion%20%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2.md" >}}) 。
+目前我的网站发布流程就是使用该篇文章技术，如果你使用的 Notion 写文章，可以看看这篇 [Vercel + Notion 建个人博客]({{< relref "vercel-+-notion-建个人博客.md" >}}) 。
 
 流程简介：
 1. 选择自己的静态网站生成工具，我选择 Hugo；
@@ -62,7 +62,7 @@ weight: 1
 
 ### 默认配置
 
-根据我的使用情况，我保存了一份设置，你可以直接使用，如果想了解为何这样，可以看看： [Enveloppe 插件适配 Hugo 的配置]({{< relref "Enveloppe%20%E6%8F%92%E4%BB%B6%E9%80%82%E9%85%8D%20Hugo%20%E7%9A%84%E9%85%8D%E7%BD%AE.md" >}})。
+根据我的使用情况，我保存了一份设置，你可以直接使用，如果想了解为何这样，可以看看： [Enveloppe 插件适配 Hugo 的配置]({{< relref "enveloppe-插件适配-hugo-的配置.md" >}})。
 
 前往 [miaogaolin/obsidian-github-publisher-hugo](https://github.com/miaogaolin/obsidian-github-publisher-hugo) 拷贝 settings.json 设置，然后粘贴导入插件：
 {{< figure src="/images/e391eb4a6c68184f665340c112cffe98.webp" caption="Import settings" width="" height="">}}
@@ -93,7 +93,7 @@ author: # 作者名称
 dir: "posts" # 搭配 Enveloppe 插件设置文章上传的目录
 ---
 ```
-- dir 属性：设置文章的上传目录，如果不设置，则以 `content/` 为根目录。`dir:"posts"` 表示上传到 `content/posts` 目录，也只有在 posts 目录下才会在网页上直接显示。
+- dir 属性：设置文章的上传目录，以 `content` 为根目录 (Enveloppe 配置)，模板设置 `dir: "posts"` 表示上传到 `content/posts` 目录。如果不想在网站页面展示出来选择其它目录即可，例如：[关于我]({{< relref "关于我.md" >}})、[赞助]({{< relref "赞助.md" >}}) 这两篇文章，我设置的就是 `dir: /`，即上传到 `content` 目录。
 - `cover.image`：设置封面，在使用 Enveloppe 后会转化为二级 key。
 
 ## 发布
